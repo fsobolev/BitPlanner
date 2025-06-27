@@ -190,7 +190,7 @@ public partial class CraftPage : PanelContainer, IPage
             var quantityString = RecipeTab.GetQuantityString(minQuantity, maxQuantity);
             treeItem.SetText(1, quantityString);
 
-            dataForCopying.Add(craftingItem.Name, [Skill.GetName(skill), quantityString]);
+            dataForCopying.Add(craftingItem.Name, [$"{craftingItem.GenericName} — T{craftingItem.Tier}", Skill.GetName(skill), quantityString]);
         }
         foreach (var skillTreeItem in skillTreeItems.Values)
         {
@@ -257,17 +257,17 @@ public partial class CraftPage : PanelContainer, IPage
     private void OnBaseIngredientsCopyPlainRequested()
     {
         var unsortedData = _baseIngredientsTree.GetRoot().GetMetadata(0).AsGodotDictionary<string, Godot.Collections.Array<string>>();
-        var data = unsortedData.OrderBy(pair => pair.Value[0]);
+        var data = unsortedData.OrderBy(pair => pair.Value[1]);
         var text = new StringBuilder();
         var skill = "";
         foreach (var item in data)
         {
-            if (skill != item.Value[0])
+            if (skill != item.Value[1])
             {
-                skill = item.Value[0];
+                skill = item.Value[1];
                 text.Append($"\n{skill}\n");
             }
-            text.Append($"{item.Key}: {item.Value[1]}\n");
+            text.Append($"{item.Key}: {item.Value[2]}\n");
         }
         DisplayServer.ClipboardSet(text.ToString().Trim());
     }
@@ -275,12 +275,12 @@ public partial class CraftPage : PanelContainer, IPage
     private void OnBaseIngredientsCopyCsvRequested()
     {
         var unsortedData = _baseIngredientsTree.GetRoot().GetMetadata(0).AsGodotDictionary<string, Godot.Collections.Array<string>>();
-        var data = unsortedData.OrderBy(pair => pair.Value[0]);
+        var data = unsortedData.OrderBy(pair => pair.Value[1]);
         var text = new StringBuilder();
-        text.Append("Item Name,Profession/Skill,Quantity\n");
+        text.Append("Item Name,Generic Name,Profession/Skill,Quantity,In Stock\n");
         foreach (var item in data)
         {
-            text.Append($"{item.Key},{item.Value[0]},{item.Value[1]}\n");
+            text.Append($"{item.Key},{item.Value[0]},{item.Value[1]},{item.Value[2]},0\n");
         }
         DisplayServer.ClipboardSet(text.ToString());
     }
