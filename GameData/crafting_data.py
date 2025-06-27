@@ -11,7 +11,28 @@ cargos = json.load(open(f'{root}/cargo_desc.json'))
 enemies = json.load(open(f'{root}/enemy_desc.json'))
 
 cargo_offset = 0xffffffff
+recipes_order_overrides = {
+	# Fertilizer: from berries, from flowers, from fish, from waste
+	1100001: [1130004, 1130005, 1110020, 1582847061],
+	2100001: [2130004, 2130005, 2110020, 1974958555],
+	3100001: [3130004, 3130005, 3110020, 2127360112],
+	4100001: [4130004, 4130005, 4110020, 1788612243],
+	5100001: [5130004, 5130005, 5110020, 2083052337],
+	6100001: [6130004, 6130005, 6110020, 1110458355],
+	18012337: [1695618883, 418805707, 981574528, 2059094272],
+	1895003720: [1971526319, 1935440864, 126302392, 1800829536],
+	1329815128: [1608154701, 1359045035, 1831764501, 1357296296],
+	52170614: [51716987, 1879591029, 1588421618],
+	# Study Journal: from carvings, from diagrams
+	1210004: [1210037, 1210038],
+	2210004: [2210037, 2210038],
+	3210004: [3210037, 3210038],
+	4210004: [4210037, 4210038],
+	5210004: [5210037, 5210038],
+	6210004: [6210037, 6210038],
+}
 crafting_data = {}
+
 
 def find_recipes(id, is_cargo = False):
 	recipes = []
@@ -73,6 +94,15 @@ def find_extraction_skill(id, is_cargo = False):
 		if found:
 			break
 	return skill
+
+def get_recipe_priority(target_id, recipe):
+	if target_id in recipes_order_overrides.keys():
+		for item in recipe['consumed_items']:
+			if item['id'] in recipes_order_overrides[target_id]:
+				return recipes_order_overrides[target_id].index(item['id'])
+	item = recipe['consumed_items'][0]
+	return (item['quantity'] + (1000 if item['id'] > cargo_offset else 0)) * crafting_data[item['id']]['rarity'] * 100 / recipe['output_quantity']
+
 
 print('Collecting items...')
 for item in items:
@@ -163,12 +193,12 @@ for item in items:
 				crafting_data[target_id]['extraction_skill'] = skill
 		break
 
-print('Cleanup...')
-for item in crafting_data.values():
-	recipes = item['recipes']
+print('Cleanup and sort recipes...')
+for key, value in crafting_data.items():
+	recipes = value['recipes']
 	deduplicated_recipes = {json.dumps(r, sort_keys=True) for r in recipes}
 	recipes = [json.loads(r) for r in deduplicated_recipes]
-	recipes.sort(key=lambda recipe: recipe['consumed_items'][0]['quantity'])
-	item['recipes'] = recipes
+	recipes.sort(key=lambda recipe: get_recipe_priority(key, recipe))
+	value['recipes'] = recipes
 
 json.dump(crafting_data, open('../BitPlanner/crafting_data.json', 'w'), indent=2)
