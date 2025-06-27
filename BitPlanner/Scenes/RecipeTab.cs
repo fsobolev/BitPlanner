@@ -52,6 +52,7 @@ public partial class RecipeTab : VBoxContainer
         _recipeLoopLabel = _recipeLoopPopup.GetNode<Label>("MarginContainer/Label");
 
         ThemeChanged += OnThemeChanged;
+        OnThemeChanged();
     }
 
     public void ShowRecipe(ulong id, uint quantity = 1)
