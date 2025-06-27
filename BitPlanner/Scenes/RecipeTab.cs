@@ -323,7 +323,9 @@ public partial class RecipeTab : VBoxContainer
             shownIds.Add(shownId.AsUInt64());
         }
         var quantityMeta = treeItem.GetMetadata(2).AsGodotArray();
+        var collapsed = treeItem.Collapsed;
         BuildTree(id, treeItem, shownIds, newRecipeIndex, quantityMeta[0].AsUInt32(), quantityMeta[1].AsUInt32());
+        treeItem.Collapsed = collapsed;
     }
 
     private void OnRecipeTreeButtonClicked(TreeItem item, long column, long it, long mouseButtonIndex)
