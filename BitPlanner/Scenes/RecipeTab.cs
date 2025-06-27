@@ -69,7 +69,7 @@ public partial class RecipeTab : VBoxContainer
             }
         }
         _recipeName.Text = craftingItem.Name;
-        _recipeTier.Text = $"Tier {Math.Max(craftingItem.Tier, 0)}";
+        _recipeTier.Text = $"Tier {craftingItem.Tier}";
         _recipeRarity.Text = Rarity.GetName(craftingItem.Rarity);
         _recipeRarity.AddThemeColorOverride("font_color", Rarity.GetColor(craftingItem.Rarity));
 

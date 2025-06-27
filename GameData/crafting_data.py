@@ -113,7 +113,7 @@ for item in items:
 
 	crafting_data[id] = {
 		'name': item['name'],
-		'tier': item['tier'],
+		'tier': max(item['tier'], 0),
 		'rarity': item['rarity'][0],
 		'icon': item['icon_asset_name'].replace('GeneratedIcons/', ''),
 		'recipes': find_recipes(id),
