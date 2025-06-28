@@ -68,3 +68,39 @@ size_flags_vertical = 10
 text = "This application uses assets from the BitCraft Online videogame for non-commercial informational purposes. It is believed that this constitutes a \"fair use\" of such copyrighted materials. BitCraft Online is developed by Clockwork Labs, Inc. All BitCraft Online trademarks and assets belong to their respective owners."
 horizontal_alignment = 1
 autowrap_mode = 3
+
+[node name="Label" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "The application also uses:"
+horizontal_alignment = 1
+
+[node name="MarginContainer3" type="MarginContainer" parent="ScrollContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Licenses" type="GridContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/MarginContainer3"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/h_separation = 16
+theme_override_constants/v_separation = 8
+columns = 2
+
+[node name="Godot" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/MarginContainer3/Licenses"]
+layout_mode = 2
+text = "Godot Engine"
+
+[node name="LinkButton" type="LinkButton" parent="ScrollContainer/MarginContainer/VBoxContainer/MarginContainer3/Licenses"]
+layout_mode = 2
+size_flags_vertical = 4
+text = "License"
+uri = "https://godotengine.org/license/"
+
+[node name="Josefin" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/MarginContainer3/Licenses"]
+layout_mode = 2
+text = "Josefin Sans Font"
+
+[node name="LinkButton2" type="LinkButton" parent="ScrollContainer/MarginContainer/VBoxContainer/MarginContainer3/Licenses"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+text = "License"
+uri = "https://github.com/fsobolev/BitPlanner/blob/main/BitPlanner/Assets/Font/LICENSE.OFL"
