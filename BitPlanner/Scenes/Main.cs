@@ -222,6 +222,21 @@ public partial class Main : Control
         _craftPage.ShowOverview();
     }
 
+    public override void _Input(InputEvent ev)
+    {
+        if (ev.IsActionReleased("fullscreen"))
+        {
+            if (DisplayServer.WindowGetMode() == DisplayServer.WindowMode.Fullscreen)
+            {
+                DisplayServer.WindowSetMode(DisplayServer.WindowMode.Windowed);
+            }
+            else
+            {
+                DisplayServer.WindowSetMode(DisplayServer.WindowMode.Fullscreen);
+            }
+        }
+    }
+
     private void ChangeTheme()
     {
         var isDark = Config.Theme == Config.ThemeVariant.Dark;
