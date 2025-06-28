@@ -6,6 +6,7 @@ public partial class CraftOverview : MarginContainer
 {
     private readonly GameData _data = GameData.Instance;
     private LineEdit _searchEntry;
+    private OptionButton _skillSelection;
     private OptionButton _tierSelection;
     private FlowContainer _items;
 
@@ -15,6 +16,12 @@ public partial class CraftOverview : MarginContainer
     {
         _searchEntry = GetNode<LineEdit>("VBoxContainer/HBoxContainer/SearchEntry");
         _searchEntry.TextChanged += (_) => OnOverviewFilterChanged();
+        _skillSelection = GetNode<OptionButton>("VBoxContainer/HBoxContainer/SkillSelection");
+        foreach (var skill in Skill.All.Where(s => s < 15))
+        {
+            _skillSelection.AddItem(Skill.GetName(skill));
+        }
+        _skillSelection.ItemSelected += (_) => OnOverviewFilterChanged();
         _tierSelection = GetNode<OptionButton>("VBoxContainer/HBoxContainer/TierSelection");
         _tierSelection.ItemSelected += (_) => OnOverviewFilterChanged();
         _items = GetNode<FlowContainer>("VBoxContainer/ScrollContainer/Items");
@@ -30,6 +37,7 @@ public partial class CraftOverview : MarginContainer
             var button = new Button();
             _items.AddChild(button);
             button.Text = data.Name;
+            button.SetMeta("Skill", data.Recipes[0].LevelRequirements[0]);
             button.SetMeta("Tier", data.Tier);
             button.TooltipText = $"{data.Name} ({Rarity.GetName(data.Rarity)})";
             if (!string.IsNullOrEmpty(data.Icon))
@@ -60,11 +68,12 @@ public partial class CraftOverview : MarginContainer
     private void OnOverviewFilterChanged()
     {
         var text = _searchEntry.Text;
+        var skill = _skillSelection.Selected > 0 ? Skill.All[_skillSelection.Selected - 1] : -1;
         var tier = _tierSelection.Selected;
         foreach (var node in _items.GetChildren())
         {
             var item = node as Button;
-            item.Visible = item.Text.IndexOf(text, StringComparison.InvariantCultureIgnoreCase) > -1 && (tier <= 0 || item.GetMeta("Tier", 1).AsInt32() == tier);
+            item.Visible = item.Text.IndexOf(text, StringComparison.InvariantCultureIgnoreCase) > -1 && (skill < 0 || item.GetMeta("Skill", 0).AsInt32() == skill) && (tier < 1 || item.GetMeta("Tier", 1).AsInt32() == tier);
         }
     }
 
