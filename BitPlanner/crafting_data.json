@@ -651,14 +651,6 @@
       {
         "consumed_items": [
           {
-            "id": 7,
-            "quantity": 3
-          },
-          {
-            "id": 6,
-            "quantity": 2
-          },
-          {
             "id": 1325036828,
             "quantity": 2
           },
@@ -689,14 +681,6 @@
     "recipes": [
       {
         "consumed_items": [
-          {
-            "id": 10,
-            "quantity": 3
-          },
-          {
-            "id": 9,
-            "quantity": 2
-          },
           {
             "id": 1344950671,
             "quantity": 2
@@ -1967,7 +1951,7 @@
       {
         "consumed_items": [
           {
-            "id": 6010005,
+            "id": 4010005,
             "quantity": 1
           }
         ],
@@ -1995,7 +1979,7 @@
       {
         "consumed_items": [
           {
-            "id": 4010005,
+            "id": 6010005,
             "quantity": 1
           }
         ],
@@ -9581,7 +9565,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967299,
+            "id": 4294967298,
             "quantity": 1
           }
         ],
@@ -9597,7 +9581,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967298,
+            "id": 4294967299,
             "quantity": 1
           }
         ],
@@ -9720,7 +9704,7 @@
         "consumed_items": [
           {
             "id": 989485035,
-            "quantity": 2
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -12346,7 +12330,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967300,
+            "id": 4294967304,
             "quantity": 1
           }
         ],
@@ -12394,7 +12378,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967304,
+            "id": 4294967300,
             "quantity": 1
           }
         ],
@@ -12419,7 +12403,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967304,
+            "id": 4294967301,
             "quantity": 1
           }
         ],
@@ -12451,7 +12435,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967303,
+            "id": 4294967304,
             "quantity": 1
           }
         ],
@@ -12467,7 +12451,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967301,
+            "id": 4294967303,
             "quantity": 1
           }
         ],
@@ -12590,7 +12574,7 @@
         "consumed_items": [
           {
             "id": 1442354536,
-            "quantity": 2
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -15462,7 +15446,7 @@
         "consumed_items": [
           {
             "id": 1481097878,
-            "quantity": 3
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -16308,7 +16292,7 @@
     "rarity": 1,
     "icon": "Items/Berries",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 14
   },
   "5130005": {
     "name": "Exquisite Flower",
@@ -18125,7 +18109,7 @@
         "consumed_items": [
           {
             "id": 487923809,
-            "quantity": 3
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -20435,6 +20419,14 @@
         "possibilities": {}
       }
     ],
+    "extraction_skill": -1
+  },
+  "16914575": {
+    "name": "Cook's Endurance Training X",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "17840106": {
@@ -23807,6 +23799,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "79658143": {
+    "name": "Construction Power Training V",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "80827832": {
@@ -28527,7 +28527,7 @@
     "rarity": 3,
     "icon": "Items/CitricBerry",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 14
   },
   "175586168": {
     "name": "Exquisite Leather Shirt",
@@ -28836,7 +28836,7 @@
       {
         "consumed_items": [
           {
-            "id": 4100010,
+            "id": 4130002,
             "quantity": 10
           }
         ],
@@ -28852,7 +28852,7 @@
       {
         "consumed_items": [
           {
-            "id": 4130002,
+            "id": 4100010,
             "quantity": 10
           }
         ],
@@ -32796,6 +32796,14 @@
     "recipes": [],
     "extraction_skill": -1
   },
+  "255980691": {
+    "name": "Cooking Power Training I",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
+    "extraction_skill": -1
+  },
   "256269483": {
     "name": "Elenvar Hoe",
     "tier": 4,
@@ -34532,6 +34540,14 @@
         "possibilities": {}
       }
     ],
+    "extraction_skill": -1
+  },
+  "294428145": {
+    "name": "Cook's Endurance Training VIII",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "294983155": {
@@ -38014,6 +38030,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "363369490": {
+    "name": "Construction Power Training X",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "364072139": {
@@ -43387,7 +43411,7 @@
         "consumed_items": [
           {
             "id": 2065775136,
-            "quantity": 5
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -43398,6 +43422,14 @@
         "possibilities": {}
       }
     ],
+    "extraction_skill": -1
+  },
+  "472672268": {
+    "name": "Cook's Endurance Training IV",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "473356292": {
@@ -44090,6 +44122,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "484791099": {
+    "name": "Cook's Endurance Training II",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "485050532": {
@@ -45064,6 +45104,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "504777617": {
+    "name": "Cooking Power Training II",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "504956910": {
@@ -47733,7 +47781,7 @@
         "consumed_items": [
           {
             "id": 1836205414,
-            "quantity": 5
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -50499,14 +50547,6 @@
       {
         "consumed_items": [
           {
-            "id": 11,
-            "quantity": 3
-          },
-          {
-            "id": 9,
-            "quantity": 2
-          },
-          {
             "id": 1930690543,
             "quantity": 2
           },
@@ -51402,7 +51442,7 @@
         "consumed_items": [
           {
             "id": 2049788179,
-            "quantity": 4
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -51876,6 +51916,14 @@
     "tier": 0,
     "rarity": 1,
     "icon": "Items/AncientDeed",
+    "recipes": [],
+    "extraction_skill": -1
+  },
+  "636401551": {
+    "name": "Construction Power Training VII",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
     "recipes": [],
     "extraction_skill": -1
   },
@@ -53897,6 +53945,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "677257844": {
+    "name": "Cooking Power Training VIII",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "677354685": {
@@ -66652,6 +66708,22 @@
       {
         "consumed_items": [
           {
+            "id": 4294967301,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          9,
+          40
+        ],
+        "output_quantity": 1,
+        "possibilities": {
+          "1": 0.25
+        }
+      },
+      {
+        "consumed_items": [
+          {
             "id": 4294967304,
             "quantity": 1
           }
@@ -66669,22 +66741,6 @@
         "consumed_items": [
           {
             "id": 4294967300,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          9,
-          40
-        ],
-        "output_quantity": 1,
-        "possibilities": {
-          "1": 0.25
-        }
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 4294967301,
             "quantity": 1
           }
         ],
@@ -67432,6 +67488,14 @@
     ],
     "extraction_skill": -1
   },
+  "938610077": {
+    "name": "Cooking Power Training X",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
+    "extraction_skill": -1
+  },
   "938917821": {
     "name": "Luminite Saw",
     "tier": 5,
@@ -68112,6 +68176,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "950152350": {
+    "name": "Construction Power Training VI",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "954353788": {
@@ -70205,6 +70277,14 @@
     ],
     "extraction_skill": -1
   },
+  "1000062472": {
+    "name": "Construction Power Training IV",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
+    "extraction_skill": -1
+  },
   "1000704189": {
     "name": "Flawless Sapphire Ring",
     "tier": 10,
@@ -70237,6 +70317,14 @@
     "tier": 0,
     "rarity": 1,
     "icon": "Items/AncientDeed",
+    "recipes": [],
+    "extraction_skill": -1
+  },
+  "1000905267": {
+    "name": "Alesi Business Voucher",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Other/Travelers/Tamer",
     "recipes": [],
     "extraction_skill": -1
   },
@@ -70696,6 +70784,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "1011319265": {
+    "name": "Construction Power Training IX",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "1011692227": {
@@ -73711,7 +73807,7 @@
       {
         "consumed_items": [
           {
-            "id": 5100010,
+            "id": 5130002,
             "quantity": 10
           }
         ],
@@ -73727,7 +73823,7 @@
       {
         "consumed_items": [
           {
-            "id": 5130002,
+            "id": 5100010,
             "quantity": 10
           }
         ],
@@ -76915,6 +77011,14 @@
     ],
     "extraction_skill": -1
   },
+  "1130585781": {
+    "name": "Construction Power Training VIII",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
+    "extraction_skill": -1
+  },
   "1132116949": {
     "name": "Deed: Pet Owl Black",
     "tier": 0,
@@ -79061,6 +79165,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "1168774134": {
+    "name": "Cook's Endurance Training I",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "1169350160": {
@@ -82149,6 +82261,14 @@
     ],
     "extraction_skill": -1
   },
+  "1223618233": {
+    "name": "Construction Power Training I",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
+    "extraction_skill": -1
+  },
   "1224328894": {
     "name": "Pristine Rope",
     "tier": 8,
@@ -82159,7 +82279,7 @@
         "consumed_items": [
           {
             "id": 1568797710,
-            "quantity": 4
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -86130,6 +86250,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "1307942768": {
+    "name": "Cook's Endurance Training V",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "1309362162": {
@@ -94839,6 +94967,14 @@
     ],
     "extraction_skill": -1
   },
+  "1480966810": {
+    "name": "Cooking Power Training V",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
+    "extraction_skill": -1
+  },
   "1481097878": {
     "name": "Exquisite Cloth Strip",
     "tier": 5,
@@ -94911,6 +95047,14 @@
     ],
     "extraction_skill": -1
   },
+  "1481975980": {
+    "name": "Cook's Endurance Training VI",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
+    "extraction_skill": -1
+  },
   "1486054968": {
     "name": "Emarium Axe",
     "tier": 3,
@@ -94981,6 +95125,14 @@
         "possibilities": {}
       }
     ],
+    "extraction_skill": -1
+  },
+  "1486899324": {
+    "name": "Cooking Power Training IV",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "1488876546": {
@@ -100997,6 +101149,14 @@
     "recipes": [],
     "extraction_skill": -1
   },
+  "1585016044": {
+    "name": "Cooking Power Training IX",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
+    "extraction_skill": -1
+  },
   "1585923186": {
     "name": "Flawless Sapphire",
     "tier": 10,
@@ -104146,6 +104306,14 @@
     ],
     "extraction_skill": -1
   },
+  "1639947725": {
+    "name": "Construction Power Training III",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
+    "extraction_skill": -1
+  },
   "1640149934": {
     "name": "Flawless Leather Boots",
     "tier": 10,
@@ -106206,6 +106374,14 @@
     ],
     "extraction_skill": -1
   },
+  "1685784429": {
+    "name": "Cook's Endurance Training III",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
+    "extraction_skill": -1
+  },
   "1686060207": {
     "name": "Writ of Settlement Foundation",
     "tier": 0,
@@ -106530,6 +106706,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "1692160990": {
+    "name": "Cooking Power Training III",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "1692470724": {
@@ -114842,6 +115026,14 @@
     ],
     "extraction_skill": -1
   },
+  "1847577629": {
+    "name": "Cook's Endurance Training VII",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
+    "extraction_skill": -1
+  },
   "1849205716": {
     "name": "Umbracite Bow",
     "tier": 9,
@@ -115559,6 +115751,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "1852463482": {
+    "name": "Construction Power Training II",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "1852924005": {
@@ -117390,6 +117590,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "1885566540": {
+    "name": "Cook's Endurance Training IX",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
     "extraction_skill": -1
   },
   "1885677267": {
@@ -120225,6 +120433,14 @@
     ],
     "extraction_skill": -1
   },
+  "1927761865": {
+    "name": "Cooking Power Training VII",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
+    "extraction_skill": -1
+  },
   "1928031113": {
     "name": "Recipe: Plain Ocean Fish Sticks",
     "tier": 1,
@@ -121417,6 +121633,14 @@
     "tier": 1,
     "rarity": 1,
     "icon": "Items/LargeCart",
+    "recipes": [],
+    "extraction_skill": -1
+  },
+  "1948497957": {
+    "name": "Cooking Power Training VI",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
     "recipes": [],
     "extraction_skill": -1
   },
@@ -124839,6 +125063,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "2009471267": {
+    "name": "Ramparte Business Voucher",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Other/Travelers/Slayer",
+    "recipes": [],
     "extraction_skill": -1
   },
   "2009995357": {
@@ -132972,6 +133204,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "2141453790": {
+    "name": "Svim Business Voucher",
+    "tier": 0,
+    "rarity": 1,
+    "icon": "Other/Travelers/Svim",
+    "recipes": [],
     "extraction_skill": -1
   },
   "2141891034": {
