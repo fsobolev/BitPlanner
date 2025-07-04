@@ -22,7 +22,7 @@ public class CraftingItem
                 "Basic", "Infused", "Magnificient", "Automata's"
             })
             {
-                var index = Name.IndexOf(prefix);
+                var index = Name.IndexOf($"{prefix} ");
                 if (index > -1)
                 {
                     return Name.Remove(index, prefix.Length + 1);
