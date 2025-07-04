@@ -16,8 +16,10 @@ public class CraftingItem
         {
             foreach (var prefix in new string[]{
                 "Rough", "Simple", "Sturdy", "Fine", "Exquisite", "Peerless", "Ornate", "Pristine", "Magnificent", "Flawless",
-                "Ferralith", "Pyrelite", "Emarium", "Elenvar", "Luminite", "Rathium", "Aurumite", "Celestium", "Umbracite", "Astralite",
-                "Automata's", "Basic", "Infused", "Magnificient"
+                "Flint", "Ferralith", "Pyrelite", "Emarium", "Elenvar", "Luminite", "Rathium", "Aurumite", "Celestium", "Umbracite", "Astralite",
+                "Beginner's", "Novice's", "Novice", "Essential", "Proficient", "Advanced", "Comprehensive",
+                "Plain", "Savory", "Zesty", "Succulent", "Ambrosial",
+                "Basic", "Infused", "Magnificient", "Automata's"
             })
             {
                 var index = Name.IndexOf(prefix);
