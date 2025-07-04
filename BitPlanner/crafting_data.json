@@ -1,7 +1,7 @@
 {
   "1": {
     "name": "Hex Coin",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/HexCoin[,3,10,500]",
     "recipes": [],
@@ -9,7 +9,7 @@
   },
   "5": {
     "name": "Damaged Ancient Gear",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientGear",
     "recipes": [],
@@ -17,7 +17,7 @@
   },
   "6": {
     "name": "Damaged Ancient Wires",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/AncientWire",
     "recipes": [],
@@ -25,7 +25,7 @@
   },
   "7": {
     "name": "Damaged Ancient Spring",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/AncientSpring",
     "recipes": [],
@@ -33,7 +33,7 @@
   },
   "9": {
     "name": "Damaged Ancient Mechanism",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/AncientMechanism",
     "recipes": [],
@@ -41,7 +41,7 @@
   },
   "10": {
     "name": "Damaged Ancient Resistor",
-    "tier": 0,
+    "tier": -1,
     "rarity": 5,
     "icon": "Items/AncientResistor",
     "recipes": [],
@@ -49,7 +49,7 @@
   },
   "11": {
     "name": "Damaged Ancient Connector",
-    "tier": 0,
+    "tier": -1,
     "rarity": 6,
     "icon": "Items/AncientConnector",
     "recipes": [],
@@ -57,7 +57,7 @@
   },
   "33": {
     "name": "T3 Ancient Components",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/AncientGear",
     "recipes": [],
@@ -65,7 +65,7 @@
   },
   "34": {
     "name": "Ancient Components",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientGear",
     "recipes": [],
@@ -73,7 +73,7 @@
   },
   "35": {
     "name": "Mask Fragment",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/MaskFragment",
     "recipes": [],
@@ -81,7 +81,7 @@
   },
   "36": {
     "name": "Ancient Nails",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientNail",
     "recipes": [],
@@ -89,7 +89,7 @@
   },
   "40": {
     "name": "Black Cobblestone Road Recipe",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -97,7 +97,7 @@
   },
   "41": {
     "name": "Red Cobblestone Road Recipe",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -105,7 +105,7 @@
   },
   "42": {
     "name": "Blue Cobblestone Road Recipe",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -113,7 +113,7 @@
   },
   "43": {
     "name": "Teal Cobblestone Road Recipe",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -121,7 +121,7 @@
   },
   "44": {
     "name": "Dark Plank Road Recipe",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -129,7 +129,7 @@
   },
   "45": {
     "name": "Red Plank Road Recipe",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -137,7 +137,7 @@
   },
   "46": {
     "name": "Purple Plank Road Recipe",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -145,7 +145,7 @@
   },
   "47": {
     "name": "Blue Plank Road Recipe",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -153,7 +153,7 @@
   },
   "99": {
     "name": "Deed: Dev",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -161,7 +161,7 @@
   },
   "100": {
     "name": "Deed: Blank",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -169,7 +169,7 @@
   },
   "101": {
     "name": "Deed: Hairstyle - High Ponytail",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -177,7 +177,7 @@
   },
   "102": {
     "name": "Deed: Hairstyle - Trailer Handband",
-    "tier": 0,
+    "tier": -1,
     "rarity": 5,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -185,7 +185,7 @@
   },
   "103": {
     "name": "Deed: Hairstyle - Full Mohawk",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -193,7 +193,7 @@
   },
   "104": {
     "name": "Deed: Hairstyle - Side Undercut",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -201,7 +201,7 @@
   },
   "105": {
     "name": "Deed: Mask - Pointed Ear Mask",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -209,7 +209,7 @@
   },
   "106": {
     "name": "Deed: Mask - Feline Mask",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -217,7 +217,7 @@
   },
   "107": {
     "name": "Deed: Mask - Stub Horn Mask",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -225,7 +225,7 @@
   },
   "108": {
     "name": "Deed: Mask - Four Points Mask",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -233,7 +233,7 @@
   },
   "109": {
     "name": "Deed: Mask - Demon Horn Mask",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -241,7 +241,7 @@
   },
   "110": {
     "name": "Deed: Mask - Uneven Horn Mask",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -249,7 +249,7 @@
   },
   "111": {
     "name": "Deed: Mask - Unihorn Mask",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -257,7 +257,7 @@
   },
   "112": {
     "name": "Deed: Mask - Drooping Ear Mask",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -265,7 +265,7 @@
   },
   "113": {
     "name": "Deed: Mask - Bug Mask",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -273,7 +273,7 @@
   },
   "114": {
     "name": "Deed: Mask Pattern - Arch Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -281,7 +281,7 @@
   },
   "115": {
     "name": "Deed: Mask Pattern - Arch Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -289,7 +289,7 @@
   },
   "116": {
     "name": "Deed: Mask Pattern - Runic Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -297,7 +297,7 @@
   },
   "117": {
     "name": "Deed: Mask Pattern - Runic Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -305,7 +305,7 @@
   },
   "118": {
     "name": "Deed: Mask Pattern - Flower Crown Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -313,7 +313,7 @@
   },
   "119": {
     "name": "Deed: Mask Pattern - Sun Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -321,7 +321,7 @@
   },
   "120": {
     "name": "Deed: Mask Pattern - Arrows Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -329,7 +329,7 @@
   },
   "121": {
     "name": "Deed: Mask Pattern - Waves Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -337,7 +337,7 @@
   },
   "122": {
     "name": "Deed: Mask Pattern - Waves Pink",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -345,7 +345,7 @@
   },
   "123": {
     "name": "Deed: Hair Color - Hexite",
-    "tier": 0,
+    "tier": -1,
     "rarity": 6,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -353,7 +353,7 @@
   },
   "124": {
     "name": "Deed: Hair Color - White",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -361,7 +361,7 @@
   },
   "125": {
     "name": "Deed: Hair Color - Charcoal",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -369,7 +369,7 @@
   },
   "126": {
     "name": "Deed: Hair Color - Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -377,7 +377,7 @@
   },
   "127": {
     "name": "Deed: Rideable Deer",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Other/Animals/DeerMale",
     "recipes": [],
@@ -444,7 +444,7 @@
   },
   "133": {
     "name": "Deed: Cheater's Boat",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/Skiff",
     "recipes": [],
@@ -452,7 +452,7 @@
   },
   "502": {
     "name": "Ancient Adventurer's Letter #1",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -460,7 +460,7 @@
   },
   "503": {
     "name": "Ancient Adventurer's Letter #2",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -468,7 +468,7 @@
   },
   "504": {
     "name": "Ancient Trapsmith's Journal Page #1",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -476,7 +476,7 @@
   },
   "505": {
     "name": "Ancient Trapsmith's Journal Page #2",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -484,7 +484,7 @@
   },
   "506": {
     "name": "Baffled Adventurer's Note",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -492,7 +492,7 @@
   },
   "507": {
     "name": "Apprehensive Adventurer's Note",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -500,7 +500,7 @@
   },
   "508": {
     "name": "Helpful Adventurer's Note",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -508,7 +508,7 @@
   },
   "509": {
     "name": "Ancient Adventurer's Note",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -516,7 +516,7 @@
   },
   "601": {
     "name": "Ancient Cloth",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/GlowingPristineLinen",
     "recipes": [],
@@ -524,7 +524,7 @@
   },
   "602": {
     "name": "Ancient Research",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientLorePage",
     "recipes": [],
@@ -532,7 +532,7 @@
   },
   "603": {
     "name": "Mark of Heimlich",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/MarkOfHeimlich",
     "recipes": [],
@@ -540,7 +540,7 @@
   },
   "604": {
     "name": "Mark of Brico",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/MarkOfBrico",
     "recipes": [],
@@ -548,7 +548,7 @@
   },
   "605": {
     "name": "Mark of the Twins",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/MarkOfTheTwins",
     "recipes": [],
@@ -556,7 +556,7 @@
   },
   "3000": {
     "name": "Ancient Journal Page #1",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientLorePage",
     "recipes": [],
@@ -564,7 +564,7 @@
   },
   "3001": {
     "name": "Ancient Journal Page #2",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientLorePage",
     "recipes": [],
@@ -572,7 +572,7 @@
   },
   "3002": {
     "name": "Ancient Journal Page #3",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientLorePage",
     "recipes": [],
@@ -580,7 +580,7 @@
   },
   "3003": {
     "name": "Ancient Journal Page #4",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientLorePage",
     "recipes": [],
@@ -588,7 +588,7 @@
   },
   "3004": {
     "name": "Ancient Journal Page #5",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientLorePage",
     "recipes": [],
@@ -596,7 +596,7 @@
   },
   "3005": {
     "name": "Ancient Journal Page #6",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientLorePage",
     "recipes": [],
@@ -604,7 +604,7 @@
   },
   "4000": {
     "name": "Cooling Energy",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/CoolingEnergy",
     "recipes": [],
@@ -612,7 +612,7 @@
   },
   "4001": {
     "name": "Warming Energy",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/WarmingEnergy",
     "recipes": [],
@@ -620,7 +620,7 @@
   },
   "4002": {
     "name": "Ripped Notes",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/RippedNote",
     "recipes": [],
@@ -628,7 +628,7 @@
   },
   "4003": {
     "name": "Shredded Notes",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/ShreddedNote",
     "recipes": [],
@@ -636,7 +636,7 @@
   },
   "4004": {
     "name": "Energy or Notes",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -644,7 +644,7 @@
   },
   "4100": {
     "name": "Cooling Capacitor",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/CoolingCapacitor",
     "recipes": [
@@ -675,7 +675,7 @@
   },
   "4101": {
     "name": "Heated Capacitor",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/HeatedCapacitor",
     "recipes": [
@@ -706,7 +706,7 @@
   },
   "4102": {
     "name": "Schematic: Cooling Capacitor",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/SchematicGeneric",
     "recipes": [
@@ -733,7 +733,7 @@
   },
   "4103": {
     "name": "Schematic: Heated Capacitor",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/SchematicGeneric",
     "recipes": [
@@ -760,7 +760,7 @@
   },
   "4104": {
     "name": "Schematic: Heimlich's House",
-    "tier": 0,
+    "tier": -1,
     "rarity": 6,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -768,7 +768,7 @@
   },
   "5000": {
     "name": "Ancient Key Mold",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/KeyMold",
     "recipes": [],
@@ -776,7 +776,7 @@
   },
   "5001": {
     "name": "Ancient Enadarite",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/EnadariteIngot",
     "recipes": [],
@@ -784,7 +784,7 @@
   },
   "5002": {
     "name": "Ancient Enadarite Key",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/Key",
     "recipes": [
@@ -835,7 +835,7 @@
   },
   "11001": {
     "name": "Stick",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/Stick",
     "recipes": [],
@@ -843,7 +843,7 @@
   },
   "11002": {
     "name": "Knapped Flint",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/Flint",
     "recipes": [],
@@ -867,7 +867,7 @@
   },
   "11006": {
     "name": "Empty Bucket",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/BucketEmpty",
     "recipes": [
@@ -890,7 +890,7 @@
   },
   "11007": {
     "name": "Water Bucket",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/BucketWater",
     "recipes": [
@@ -913,7 +913,7 @@
   },
   "11009": {
     "name": "Pitch",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/Pitch",
     "recipes": [
@@ -936,7 +936,7 @@
   },
   "11010": {
     "name": "Bone Glue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/BoneGlue",
     "recipes": [
@@ -959,7 +959,7 @@
   },
   "11011": {
     "name": "Animal Fat",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/Fat",
     "recipes": [],
@@ -967,7 +967,7 @@
   },
   "11012": {
     "name": "Tree Sap",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/Sap",
     "recipes": [],
@@ -1353,7 +1353,7 @@
   },
   "60000": {
     "name": "Small Piece of Argent Ore",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/CopperOrePiece",
     "recipes": [],
@@ -1361,7 +1361,7 @@
   },
   "60001": {
     "name": "Small Piece of Auric Ore",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/CopperOrePiece",
     "recipes": [],
@@ -1369,7 +1369,7 @@
   },
   "61000": {
     "name": "Crushed Piece of Argent Ore",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/CrushedCopperOre",
     "recipes": [
@@ -1392,7 +1392,7 @@
   },
   "61001": {
     "name": "Crushed Piece of Auric Ore",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/CrushedCopperOre",
     "recipes": [
@@ -1415,7 +1415,7 @@
   },
   "62000": {
     "name": "Argent Ore Concentrate",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/TinOreConcentrate",
     "recipes": [
@@ -1438,7 +1438,7 @@
   },
   "62001": {
     "name": "Auric Ore Concentrate",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/TinOreConcentrate",
     "recipes": [
@@ -1461,7 +1461,7 @@
   },
   "63000": {
     "name": "Argent Nugget",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/ShalePebbles",
     "recipes": [
@@ -1488,7 +1488,7 @@
   },
   "63001": {
     "name": "Auric Nugget",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/ShalePebbles",
     "recipes": [
@@ -1515,7 +1515,7 @@
   },
   "64000": {
     "name": "Argent Ingot",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/TinIngot",
     "recipes": [
@@ -1538,7 +1538,7 @@
   },
   "64001": {
     "name": "Auric Ingot",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/CopperIngot",
     "recipes": [
@@ -1944,7 +1944,7 @@
   },
   "1010007": {
     "name": "Ash",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/Charcoal",
     "recipes": [
@@ -1952,6 +1952,48 @@
         "consumed_items": [
           {
             "id": 4010005,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          2,
+          1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1010005,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          2,
+          1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 3010005,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          2,
+          1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 2010005,
             "quantity": 1
           }
         ],
@@ -1980,48 +2022,6 @@
         "consumed_items": [
           {
             "id": 6010005,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          2,
-          1
-        ],
-        "output_quantity": 1,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 3010005,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          2,
-          1
-        ],
-        "output_quantity": 1,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 1010005,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          2,
-          1
-        ],
-        "output_quantity": 1,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 2010005,
             "quantity": 1
           }
         ],
@@ -2782,7 +2782,7 @@
   },
   "1075000": {
     "name": "Silken Hexmoth",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Resources/SilkenHexmoth",
     "recipes": [],
@@ -2790,7 +2790,7 @@
   },
   "1075001": {
     "name": "Hexmoth Cocoon",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Resources/HexmothCocoon",
     "recipes": [],
@@ -2848,7 +2848,7 @@
   },
   "1080003": {
     "name": "Animal Bones",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/Bones",
     "recipes": [],
@@ -3003,7 +3003,7 @@
   },
   "1095000": {
     "name": "Hexmoth Silk Cloth",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/SilkCloth",
     "recipes": [
@@ -3253,7 +3253,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.68,
+          "1": 0.8,
           "2": 0.2,
           "3": 0.2
         }
@@ -3325,7 +3325,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "5": 0.08,
+          "5": 0.2,
           "6": 0.2,
           "7": 0.2,
           "8": 0.2,
@@ -3766,7 +3766,7 @@
   "1120006": {
     "name": "Basic Crop Oil",
     "tier": 1,
-    "rarity": 2,
+    "rarity": 3,
     "icon": "Items/VegetableOil",
     "recipes": [
       {
@@ -3782,7 +3782,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.08
+          "1": 0.2
         }
       },
       {
@@ -6881,7 +6881,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.68,
+          "1": 0.8,
           "2": 0.2,
           "3": 0.2
         }
@@ -6957,7 +6957,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "5": 0.08,
+          "5": 0.2,
           "6": 0.2,
           "7": 0.2,
           "8": 0.2,
@@ -7386,7 +7386,7 @@
   "2120006": {
     "name": "Simple Crop Oil",
     "tier": 2,
-    "rarity": 2,
+    "rarity": 3,
     "icon": "Items/VegetableOil",
     "recipes": [
       {
@@ -7402,7 +7402,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.08
+          "1": 0.2
         }
       },
       {
@@ -9524,7 +9524,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967298,
+            "id": 4294967299,
             "quantity": 1
           }
         ],
@@ -9540,7 +9540,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967299,
+            "id": 4294967298,
             "quantity": 1
           }
         ],
@@ -9965,7 +9965,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.68,
+          "1": 0.8,
           "2": 0.2,
           "3": 0.2
         }
@@ -10041,7 +10041,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "5": 0.08,
+          "5": 0.2,
           "6": 0.2,
           "7": 0.2,
           "8": 0.2,
@@ -10470,7 +10470,7 @@
   "3120006": {
     "name": "Infused Crop Oil",
     "tier": 3,
-    "rarity": 2,
+    "rarity": 3,
     "icon": "Items/VegetableOil",
     "recipes": [
       {
@@ -10486,7 +10486,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.08
+          "1": 0.2
         }
       },
       {
@@ -12330,7 +12330,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967304,
+            "id": 4294967300,
             "quantity": 1
           }
         ],
@@ -12362,7 +12362,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967301,
+            "id": 4294967304,
             "quantity": 1
           }
         ],
@@ -12378,7 +12378,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967300,
+            "id": 4294967301,
             "quantity": 1
           }
         ],
@@ -12403,6 +12403,22 @@
       {
         "consumed_items": [
           {
+            "id": 4294967303,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          9,
+          40
+        ],
+        "output_quantity": 1,
+        "possibilities": {
+          "4": 1.0
+        }
+      },
+      {
+        "consumed_items": [
+          {
             "id": 4294967301,
             "quantity": 1
           }
@@ -12436,22 +12452,6 @@
         "consumed_items": [
           {
             "id": 4294967304,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          9,
-          40
-        ],
-        "output_quantity": 1,
-        "possibilities": {
-          "4": 1.0
-        }
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 4294967303,
             "quantity": 1
           }
         ],
@@ -12870,7 +12870,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.68,
+          "1": 0.8,
           "2": 0.2,
           "3": 0.2
         }
@@ -12946,7 +12946,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "5": 0.08,
+          "5": 0.2,
           "6": 0.2,
           "7": 0.2,
           "8": 0.2,
@@ -13375,7 +13375,7 @@
   "4120006": {
     "name": "Fine Crop Oil",
     "tier": 4,
-    "rarity": 2,
+    "rarity": 3,
     "icon": "Items/VegetableOil",
     "recipes": [
       {
@@ -13391,7 +13391,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.08
+          "1": 0.2
         }
       },
       {
@@ -15307,7 +15307,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967305,
+            "id": 4436837136,
             "quantity": 1
           }
         ],
@@ -15323,7 +15323,7 @@
       {
         "consumed_items": [
           {
-            "id": 4436837136,
+            "id": 4294967305,
             "quantity": 1
           }
         ],
@@ -15707,7 +15707,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.68,
+          "1": 0.8,
           "2": 0.2,
           "3": 0.2
         }
@@ -15783,7 +15783,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "5": 0.08,
+          "5": 0.2,
           "6": 0.2,
           "7": 0.2,
           "8": 0.2,
@@ -16211,7 +16211,7 @@
   "5120006": {
     "name": "Exquisite Crop Oil",
     "tier": 5,
-    "rarity": 2,
+    "rarity": 3,
     "icon": "Items/VegetableOil",
     "recipes": [
       {
@@ -16227,7 +16227,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.08
+          "1": 0.2
         }
       },
       {
@@ -18342,7 +18342,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.68,
+          "1": 0.8,
           "2": 0.2,
           "3": 0.2
         }
@@ -18418,7 +18418,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "5": 0.08,
+          "5": 0.2,
           "6": 0.2,
           "7": 0.2,
           "8": 0.2,
@@ -18803,7 +18803,7 @@
   "6120006": {
     "name": "Peerless Crop Oil",
     "tier": 6,
-    "rarity": 2,
+    "rarity": 3,
     "icon": "Items/VegetableOil",
     "recipes": [
       {
@@ -18819,7 +18819,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.08
+          "1": 0.2
         }
       }
     ],
@@ -19918,7 +19918,7 @@
   },
   "6304239": {
     "name": "Player House Deed 6",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -20302,7 +20302,7 @@
   },
   "13338385": {
     "name": "Deer Riding Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -20423,7 +20423,7 @@
   },
   "16914575": {
     "name": "Cook's Endurance Training X",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -21414,7 +21414,7 @@
   },
   "31460175": {
     "name": "Player Housing 2",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -21806,7 +21806,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967299,
+            "id": 4294967298,
             "quantity": 1
           }
         ],
@@ -21822,7 +21822,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967298,
+            "id": 4294967299,
             "quantity": 1
           }
         ],
@@ -22042,7 +22042,7 @@
   },
   "47963846": {
     "name": "Deed: Fingerless Cloth Gloves - Beige",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -22164,7 +22164,7 @@
   },
   "50608705": {
     "name": "Deed: Burlap Vest - Stylish Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -22713,8 +22713,8 @@
             "quantity": 5
           },
           {
-            "id": 4130002,
-            "quantity": 5
+            "id": 98643046,
+            "quantity": 1
           },
           {
             "id": 817475417,
@@ -22726,14 +22726,14 @@
           },
           {
             "id": 253606511,
-            "quantity": 3
+            "quantity": 1
           }
         ],
         "level_requirements": [
           7,
           40
         ],
-        "output_quantity": 1,
+        "output_quantity": 5,
         "possibilities": {}
       }
     ],
@@ -23079,7 +23079,7 @@
   },
   "68880272": {
     "name": "Deed: Ragged Shorts - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -23348,7 +23348,7 @@
   },
   "70774567": {
     "name": "Deed: Dress Shirt - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -23413,7 +23413,7 @@
   },
   "72162559": {
     "name": "Deed: Burlap Dress - Beige",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -23421,7 +23421,7 @@
   },
   "72520590": {
     "name": "Tattered Automata's Heart Wiring",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/DamagedInsulatingWires",
     "recipes": [],
@@ -23803,7 +23803,7 @@
   },
   "79658143": {
     "name": "Construction Power Training V",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -23811,7 +23811,7 @@
   },
   "80827832": {
     "name": "Deed: Short Sleeved Rough Shirt - Light Gray",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -23819,7 +23819,7 @@
   },
   "81429358": {
     "name": "Deed: Leather Dress - Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -24041,7 +24041,7 @@
   },
   "83461776": {
     "name": "Deed: Simple Rough Armwraps - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -24408,7 +24408,7 @@
   },
   "91116690": {
     "name": "Clipper Sailing Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -24880,6 +24880,69 @@
     ],
     "extraction_skill": -1
   },
+  "98643046": {
+    "name": "Fine Chemical Catalyst",
+    "tier": 4,
+    "rarity": 0,
+    "icon": "Items/GemDust",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 4110010,
+            "quantity": 2
+          },
+          {
+            "id": 4100008,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          40
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 4110010,
+            "quantity": 2
+          },
+          {
+            "id": 4100005,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          40
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 4110010,
+            "quantity": 2
+          },
+          {
+            "id": 4100015,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          40
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "99339018": {
     "name": "Celestium Plated Armor",
     "tier": 8,
@@ -25014,7 +25077,7 @@
   },
   "100426475": {
     "name": "Deed: Rough Bonnet - Stylish Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -25175,7 +25238,7 @@
   },
   "102133684": {
     "name": "Expanded Automata's Heart VI",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/HandMetal",
     "recipes": [],
@@ -25579,7 +25642,7 @@
   },
   "112730927": {
     "name": "Deed: Rough Shorts - Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -26559,7 +26622,7 @@
   },
   "127537823": {
     "name": "Reinforced Frame Knowledge Scroll",
-    "tier": 0,
+    "tier": -1,
     "rarity": 0,
     "icon": "",
     "recipes": [],
@@ -26602,7 +26665,7 @@
   },
   "130542853": {
     "name": "Mace Weapon Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -26752,7 +26815,7 @@
   },
   "134858107": {
     "name": "Deed: Rough Pants - Refined Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -27080,7 +27143,7 @@
   "140455581": {
     "name": "Magnificient Crop Oil",
     "tier": 9,
-    "rarity": 2,
+    "rarity": 3,
     "icon": "Items/VegetableOil",
     "recipes": [
       {
@@ -27096,7 +27159,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.08
+          "1": 0.2
         }
       }
     ],
@@ -27635,7 +27698,7 @@
   },
   "148829439": {
     "name": "Owl Egg",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/OwlEgg",
     "recipes": [],
@@ -27654,8 +27717,8 @@
             "quantity": 5
           },
           {
-            "id": 6130002,
-            "quantity": 5
+            "id": 389773215,
+            "quantity": 1
           },
           {
             "id": 987565502,
@@ -27667,14 +27730,14 @@
           },
           {
             "id": 253606511,
-            "quantity": 3
+            "quantity": 1
           }
         ],
         "level_requirements": [
           7,
           60
         ],
-        "output_quantity": 1,
+        "output_quantity": 5,
         "possibilities": {}
       }
     ],
@@ -27749,6 +27812,45 @@
         "possibilities": {
           "1": 0.925
         }
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "152720213": {
+    "name": "Magnificient Crafting Elixir",
+    "tier": 9,
+    "rarity": 1,
+    "icon": "Other/Items/CraftingSpeedPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 892842742,
+            "quantity": 5
+          },
+          {
+            "id": 1527038072,
+            "quantity": 1
+          },
+          {
+            "id": 624936134,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          90
+        ],
+        "output_quantity": 3,
+        "possibilities": {}
       }
     ],
     "extraction_skill": -1
@@ -27997,7 +28099,7 @@
   },
   "161377262": {
     "name": "Deed: Ragged Dress - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -28005,7 +28107,7 @@
   },
   "162370266": {
     "name": "Charged Automata's Heart IV",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/FeetMetal",
     "recipes": [],
@@ -28070,7 +28172,7 @@
   },
   "164359825": {
     "name": "Expanded Automata's Heart I",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/HandMetal",
     "recipes": [
@@ -28090,6 +28192,45 @@
           20
         ],
         "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "166627524": {
+    "name": "Ornate Stamina Potion",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Items/StaminaPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1695618883,
+            "quantity": 5
+          },
+          {
+            "id": 1569513170,
+            "quantity": 1
+          },
+          {
+            "id": 1569789324,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          70
+        ],
+        "output_quantity": 5,
         "possibilities": {}
       }
     ],
@@ -28197,7 +28338,7 @@
   },
   "168453660": {
     "name": "Deed: Elegant Shirt - Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -28691,7 +28832,7 @@
   },
   "181402733": {
     "name": "Depleted Automata's Heart",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/HeadMetal",
     "recipes": [
@@ -28794,7 +28935,7 @@
   },
   "181929064": {
     "name": "Deed: Ragged Dress - Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -29150,7 +29291,7 @@
   },
   "190771871": {
     "name": "Deed: Well Stitched Long Shorts - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -29441,7 +29582,7 @@
   },
   "195549179": {
     "name": "Deed: Well Made Long Shorts - Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -29522,7 +29663,7 @@
   },
   "196785944": {
     "name": "Deed: Rough Trousers - Olive",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -29717,7 +29858,7 @@
   },
   "200135323": {
     "name": "Deed: Rough Long Skirt - Refined Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -29725,7 +29866,7 @@
   },
   "200191640": {
     "name": "Deed: Burlap Dress - Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -29862,7 +30003,7 @@
   },
   "202336959": {
     "name": "Deed: Long Cloth Gloves - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -29870,7 +30011,7 @@
   },
   "204364387": {
     "name": "Deed: Long Cloth Gloves - Dark Teal",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -29903,7 +30044,7 @@
   },
   "207257682": {
     "name": "Deed: Cloth Armwraps - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -30019,7 +30160,7 @@
   },
   "209860372": {
     "name": "Hardened Shell",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/Bones",
     "recipes": [],
@@ -30909,7 +31050,7 @@
   },
   "225094001": {
     "name": "Jakyl Fang",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/Bones",
     "recipes": [],
@@ -30966,7 +31107,7 @@
   },
   "227964665": {
     "name": "Deed: Rough Short Skirt - Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -31307,8 +31448,8 @@
             "quantity": 5
           },
           {
-            "id": 2130002,
-            "quantity": 5
+            "id": 283591176,
+            "quantity": 1
           },
           {
             "id": 726306536,
@@ -31320,14 +31461,14 @@
           },
           {
             "id": 253606511,
-            "quantity": 3
+            "quantity": 1
           }
         ],
         "level_requirements": [
           7,
           20
         ],
-        "output_quantity": 1,
+        "output_quantity": 5,
         "possibilities": {}
       }
     ],
@@ -32202,7 +32343,7 @@
   },
   "244281069": {
     "name": "Skiff Sailing Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -32305,6 +32446,45 @@
     "icon": "Items/Sand",
     "recipes": [],
     "extraction_skill": 14
+  },
+  "247162618": {
+    "name": "Flawless Crafting Elixir",
+    "tier": 10,
+    "rarity": 1,
+    "icon": "Other/Items/CraftingSpeedPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 699985609,
+            "quantity": 5
+          },
+          {
+            "id": 391105297,
+            "quantity": 1
+          },
+          {
+            "id": 133674104,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          100
+        ],
+        "output_quantity": 3,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
   },
   "247800929": {
     "name": "Celestium Chisel",
@@ -32790,7 +32970,7 @@
   },
   "255350911": {
     "name": "Charged Automata's Heart II",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/FeetMetal",
     "recipes": [],
@@ -32798,7 +32978,7 @@
   },
   "255980691": {
     "name": "Cooking Power Training I",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -32910,7 +33090,7 @@
   },
   "257460811": {
     "name": "Settlements",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -32918,7 +33098,7 @@
   },
   "258543324": {
     "name": "Deed: Pointed Cap - Gray",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -33387,7 +33567,7 @@
   },
   "267639993": {
     "name": "Deed: Ragged Shorts - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -33534,7 +33714,7 @@
   },
   "270523026": {
     "name": "Player Housing 6",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -33691,7 +33871,7 @@
   },
   "277992146": {
     "name": "Deed: Rideable Ox",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Other/Other/Animals/Bison",
     "recipes": [],
@@ -34025,6 +34205,69 @@
     "recipes": [],
     "extraction_skill": -1
   },
+  "283591176": {
+    "name": "Simple Chemical Catalyst",
+    "tier": 2,
+    "rarity": 0,
+    "icon": "Items/GemDust",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 2110010,
+            "quantity": 2
+          },
+          {
+            "id": 2100008,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          20
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 2110010,
+            "quantity": 2
+          },
+          {
+            "id": 2100005,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          20
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 2110010,
+            "quantity": 2
+          },
+          {
+            "id": 2100015,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          20
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "284733480": {
     "name": "Umbracite Nails",
     "tier": 9,
@@ -34050,7 +34293,7 @@
   },
   "287726152": {
     "name": "Deed: Loose Rough Pants - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -34220,7 +34463,7 @@
   },
   "289610683": {
     "name": "Deed: Rough Pants - Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -34544,7 +34787,7 @@
   },
   "294428145": {
     "name": "Cook's Endurance Training VIII",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -34601,7 +34844,7 @@
   },
   "294999751": {
     "name": "Deed: Elegant Shirt - Stylish Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -35059,6 +35302,45 @@
     ],
     "extraction_skill": -1
   },
+  "304989025": {
+    "name": "Infused Stamina Potion",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Items/StaminaPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 3130004,
+            "quantity": 5
+          },
+          {
+            "id": 1020188259,
+            "quantity": 1
+          },
+          {
+            "id": 1458853832,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          30
+        ],
+        "output_quantity": 5,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "305103688": {
     "name": "Aurumite Plated Bracers",
     "tier": 7,
@@ -35458,7 +35740,7 @@
   },
   "310903418": {
     "name": "Deed: Burlap Dress - Light Pink",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -35466,7 +35748,7 @@
   },
   "312332257": {
     "name": "Deed: Shirt and Suspenders - Light Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -35918,7 +36200,7 @@
   },
   "324734363": {
     "name": "Expanded Automata's Heart IV",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/HandMetal",
     "recipes": [
@@ -37080,7 +37362,7 @@
   },
   "344122023": {
     "name": "Deadly Stinger",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/Bones",
     "recipes": [],
@@ -37498,8 +37780,8 @@
             "quantity": 5
           },
           {
-            "id": 5130002,
-            "quantity": 5
+            "id": 1030159712,
+            "quantity": 1
           },
           {
             "id": 1686620338,
@@ -37511,14 +37793,14 @@
           },
           {
             "id": 253606511,
-            "quantity": 3
+            "quantity": 1
           }
         ],
         "level_requirements": [
           7,
           50
         ],
-        "output_quantity": 1,
+        "output_quantity": 5,
         "possibilities": {}
       }
     ],
@@ -37985,7 +38267,7 @@
   },
   "363095402": {
     "name": "Deed: Jacket - Teal",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -38034,7 +38316,7 @@
   },
   "363369490": {
     "name": "Construction Power Training X",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -38311,7 +38593,7 @@
   },
   "366935041": {
     "name": "Deed: Rope Belt - Dark Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -38319,7 +38601,7 @@
   },
   "367604785": {
     "name": "Deed: Tattered Cap - Forest Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -38762,7 +39044,7 @@
   },
   "383280923": {
     "name": "Wagon Logistics Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -38972,6 +39254,69 @@
     ],
     "extraction_skill": -1
   },
+  "389773215": {
+    "name": "Peerless Chemical Catalyst",
+    "tier": 6,
+    "rarity": 0,
+    "icon": "Items/GemDust",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 6110010,
+            "quantity": 2
+          },
+          {
+            "id": 6100008,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          60
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 6110010,
+            "quantity": 2
+          },
+          {
+            "id": 6100015,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          60
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 6110010,
+            "quantity": 2
+          },
+          {
+            "id": 6100005,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          60
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "390845943": {
     "name": "Magnificient Potter's Mix",
     "tier": 9,
@@ -39006,6 +39351,69 @@
     "icon": "Items/CitricBerry",
     "recipes": [],
     "extraction_skill": 14
+  },
+  "391105297": {
+    "name": "Flawless Chemical Catalyst",
+    "tier": 10,
+    "rarity": 0,
+    "icon": "Items/GemDust",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1096168904,
+            "quantity": 2
+          },
+          {
+            "id": 21938971,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          100
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1096168904,
+            "quantity": 2
+          },
+          {
+            "id": 1239830729,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          100
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1096168904,
+            "quantity": 2
+          },
+          {
+            "id": 1181587439,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          100
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
   },
   "391332160": {
     "name": "Ornate Leather Gloves",
@@ -39058,7 +39466,7 @@
   },
   "391398508": {
     "name": "WaystonesAndTravel",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -39066,7 +39474,7 @@
   },
   "393062194": {
     "name": "Deed: Burlap Vest - Teal",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -40112,7 +40520,7 @@
   },
   "409686668": {
     "name": "Deed: Mini Jakyl",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Other/Other/Animals/AlphaJakyl",
     "recipes": [],
@@ -40251,7 +40659,7 @@
   },
   "413161826": {
     "name": "Deed: Burlap Dress - White",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -40259,7 +40667,7 @@
   },
   "413653001": {
     "name": "Deed: Strapped Leather Boots - Reddish Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -40308,7 +40716,7 @@
   },
   "413872281": {
     "name": "Deed: Cloth Armwraps - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -40833,7 +41241,7 @@
   },
   "420722386": {
     "name": "Deed: Fingerless Long Cloth Gloves - Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -40849,7 +41257,7 @@
   },
   "420864423": {
     "name": "Glittering Junk",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Other/Items/GlitteringJunk",
     "recipes": [],
@@ -40857,7 +41265,7 @@
   },
   "422370665": {
     "name": "Deed: Elegant Shirt - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -40919,7 +41327,7 @@
   },
   "422814781": {
     "name": "Deed: Rideable Bird",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Other/Other/Animals/Terrorbird",
     "recipes": [],
@@ -40927,7 +41335,7 @@
   },
   "423184559": {
     "name": "Charged Automata's Heart V",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/FeetMetal",
     "recipes": [],
@@ -40935,7 +41343,7 @@
   },
   "424080511": {
     "name": "Deed: Strapped Leather Boots - Light Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -41367,6 +41775,45 @@
     ],
     "extraction_skill": -1
   },
+  "430501399": {
+    "name": "Fine Crafting Elixir",
+    "tier": 4,
+    "rarity": 1,
+    "icon": "Other/Items/CraftingSpeedPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 4130002,
+            "quantity": 5
+          },
+          {
+            "id": 98643046,
+            "quantity": 1
+          },
+          {
+            "id": 817475417,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          40
+        ],
+        "output_quantity": 3,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "430669890": {
     "name": "Rathium Pickaxe",
     "tier": 6,
@@ -41442,7 +41889,7 @@
   },
   "431256921": {
     "name": "Deed: Ragged Shirt - Light Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -41624,7 +42071,7 @@
   },
   "436749381": {
     "name": "Deed: Short Sleeved Rough Shirt - Light Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -41808,7 +42255,7 @@
   },
   "438443081": {
     "name": "Deed: Shirt and Suspenders - Light Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -41889,7 +42336,7 @@
   },
   "441277962": {
     "name": "Deed: Strapped Leather Boots - Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -42108,7 +42555,7 @@
   },
   "443776811": {
     "name": "Deed: Simple Belt - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -42310,7 +42757,7 @@
   },
   "445488297": {
     "name": "Deed: Fingerless Long Cloth Gloves - Dark Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -42856,7 +43303,7 @@
   },
   "455359628": {
     "name": "Deed: Tattered Cap - Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -43196,7 +43643,7 @@
   },
   "460699260": {
     "name": "Deed: Basic Cloth Footwraps - Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -43426,7 +43873,7 @@
   },
   "472672268": {
     "name": "Cook's Endurance Training IV",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -43581,7 +44028,7 @@
   },
   "479135484": {
     "name": "Deed: Dress Shirt - Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -44126,7 +44573,7 @@
   },
   "484791099": {
     "name": "Cook's Endurance Training II",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -45108,7 +45555,7 @@
   },
   "504777617": {
     "name": "Cooking Power Training II",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -45116,7 +45563,7 @@
   },
   "504956910": {
     "name": "Deed: Fingerless Long Cloth Gloves - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -45124,7 +45571,7 @@
   },
   "506005594": {
     "name": "Deed: Well Made Long Shorts - Teal",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -45653,7 +46100,7 @@
   },
   "514626480": {
     "name": "Deed: Elegant Shirt - Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -45948,7 +46395,7 @@
   },
   "517886121": {
     "name": "Deed: Cloth Armwraps - Teal",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -46139,7 +46586,7 @@
   },
   "519223075": {
     "name": "Deed: Cloth Armwraps - Gray",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -47383,7 +47830,7 @@
   },
   "539111181": {
     "name": "Deed: Rolled Up Shorts - Gray",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -47391,7 +47838,7 @@
   },
   "540370053": {
     "name": "Chitin",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/JakylFur",
     "recipes": [],
@@ -47999,9 +48446,17 @@
     ],
     "extraction_skill": -1
   },
+  "555197904": {
+    "name": "Deed: Hair Color - Orange",
+    "tier": -1,
+    "rarity": 1,
+    "icon": "Items/AncientDeed",
+    "recipes": [],
+    "extraction_skill": -1
+  },
   "555274167": {
     "name": "Deed: Rideable Goat",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Other/Animals/Goat",
     "recipes": [],
@@ -48196,7 +48651,7 @@
   },
   "559040757": {
     "name": "Banks",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -48422,7 +48877,7 @@
   },
   "563491002": {
     "name": "Deed: Rough Cap - Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -48853,7 +49308,7 @@
   },
   "571136247": {
     "name": "Deed: Loose Rough Pants - Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -48861,7 +49316,7 @@
   },
   "571407278": {
     "name": "Deed: Tattered Shorts - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -48939,7 +49394,7 @@
   },
   "575502830": {
     "name": "Deed: Simple Rough Armwraps - Orange & Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -49569,7 +50024,7 @@
   },
   "590750423": {
     "name": "Deed: Tropical Shirt and Skirt - Light Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -49751,6 +50206,45 @@
         "possibilities": {
           "1": 0.925
         }
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "595492492": {
+    "name": "Magnificient Stamina Potion",
+    "tier": 9,
+    "rarity": 1,
+    "icon": "Other/Items/StaminaPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1608154701,
+            "quantity": 5
+          },
+          {
+            "id": 1527038072,
+            "quantity": 1
+          },
+          {
+            "id": 624936134,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          90
+        ],
+        "output_quantity": 5,
+        "possibilities": {}
       }
     ],
     "extraction_skill": -1
@@ -50540,7 +51034,7 @@
   },
   "608622566": {
     "name": "Reinforced Conductive Frame",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/ConductiveFrame",
     "recipes": [
@@ -50917,7 +51411,7 @@
   },
   "616578184": {
     "name": "Deed: Tattered Shorts - Stylish Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -50925,7 +51419,7 @@
   },
   "617029534": {
     "name": "Umbura Fang",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/UmburaClaw",
     "recipes": [],
@@ -51079,7 +51573,7 @@
   },
   "620432214": {
     "name": "Deed: Ancient Footwraps - Light Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -51514,7 +52008,7 @@
   },
   "626604551": {
     "name": "Deed: Pet Owl Gray",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/PetOwlGray",
     "recipes": [],
@@ -51579,7 +52073,7 @@
   },
   "629599826": {
     "name": "Deed: Ragged Long Sleeve Burlap Shirt - Light Pink",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -51660,7 +52154,7 @@
   },
   "630139150": {
     "name": "Deed: Rope Belt - Beige",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -51913,7 +52407,7 @@
   },
   "636074769": {
     "name": "Deed: Beach Shirt - Light Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -51921,7 +52415,7 @@
   },
   "636401551": {
     "name": "Construction Power Training VII",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -51980,6 +52474,45 @@
         "possibilities": {
           "1": 1.0
         }
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "639183677": {
+    "name": "Exquisite Crafting Elixir",
+    "tier": 5,
+    "rarity": 1,
+    "icon": "Other/Items/CraftingSpeedPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 5130002,
+            "quantity": 5
+          },
+          {
+            "id": 1030159712,
+            "quantity": 1
+          },
+          {
+            "id": 1686620338,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          50
+        ],
+        "output_quantity": 3,
+        "possibilities": {}
       }
     ],
     "extraction_skill": -1
@@ -52436,7 +52969,7 @@
   },
   "646561130": {
     "name": "Deed: Tropical Shirt and Skirt - Sea Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -52882,6 +53415,45 @@
     ],
     "extraction_skill": -1
   },
+  "657302832": {
+    "name": "Exquisite Stamina Potion",
+    "tier": 5,
+    "rarity": 1,
+    "icon": "Other/Items/StaminaPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 5130004,
+            "quantity": 5
+          },
+          {
+            "id": 1030159712,
+            "quantity": 1
+          },
+          {
+            "id": 1686620338,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          50
+        ],
+        "output_quantity": 5,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "657331360": {
     "name": "Rathium Knife",
     "tier": 6,
@@ -53281,7 +53853,7 @@
   },
   "663071170": {
     "name": "Deed: Rough Cap - Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -53620,7 +54192,7 @@
   },
   "670826329": {
     "name": "Deed: Ragged Dress - Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -53692,7 +54264,7 @@
   },
   "674011241": {
     "name": "Deed: Rough Pants - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -53949,7 +54521,7 @@
   },
   "677257844": {
     "name": "Cooking Power Training VIII",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -53957,7 +54529,7 @@
   },
   "677354685": {
     "name": "Schematic: Wagon",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -54071,7 +54643,7 @@
   },
   "678604400": {
     "name": "Deed: Ragged Shirt - Light Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -55419,7 +55991,7 @@
   },
   "699339158": {
     "name": "Deed: Simple Burlap Rough - Gray",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -55435,7 +56007,7 @@
   },
   "700541173": {
     "name": "Deed: Simple Rough Armwraps - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -56078,7 +56650,7 @@
   },
   "711060053": {
     "name": "Deed: Dress Shirt - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -56113,7 +56685,7 @@
   },
   "711737334": {
     "name": "Insect Wing",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Other/Items/InsectWing",
     "recipes": [],
@@ -56511,7 +57083,7 @@
   },
   "716191639": {
     "name": "Deed: Rough Bonnet - White",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -56519,7 +57091,7 @@
   },
   "717773127": {
     "name": "Deed: Leather Dress - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -56625,7 +57197,7 @@
   },
   "719011047": {
     "name": "Player Housing 5",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -56759,7 +57331,7 @@
   },
   "721687650": {
     "name": "Deed: Well Made Long Shorts - Stylish Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -57037,7 +57609,7 @@
   },
   "727775369": {
     "name": "Player Housing 4",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -57109,7 +57681,7 @@
   },
   "728704541": {
     "name": "Deed: Rough Pants - Dark Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -57778,7 +58350,7 @@
   },
   "742692061": {
     "name": "Deed: Simple Cloth Gloves - Light Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -58277,6 +58849,45 @@
     ],
     "extraction_skill": -1
   },
+  "747505039": {
+    "name": "Basic Stamina Potion",
+    "tier": 1,
+    "rarity": 1,
+    "icon": "Other/Items/StaminaPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1130004,
+            "quantity": 5
+          },
+          {
+            "id": 1573699181,
+            "quantity": 1
+          },
+          {
+            "id": 1909588525,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          1
+        ],
+        "output_quantity": 5,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "747689943": {
     "name": "Ferralith Daggers",
     "tier": 1,
@@ -58716,7 +59327,7 @@
   },
   "756657156": {
     "name": "Deed: Simple Cloth Gloves - Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -58782,7 +59393,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.68,
+          "1": 0.8,
           "2": 0.2,
           "3": 0.2
         }
@@ -59003,7 +59614,7 @@
   },
   "764177275": {
     "name": "Deed: Pointed Cap - Light Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -59152,7 +59763,7 @@
   },
   "767727086": {
     "name": "Jakyl Fur",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/JakylFur",
     "recipes": [],
@@ -59517,7 +60128,7 @@
   },
   "774124643": {
     "name": "Deed: Simple Belt - Olive",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -60263,7 +60874,7 @@
   },
   "795735693": {
     "name": "Deed: Pet Owl Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/PetOwlPurple",
     "recipes": [],
@@ -61462,7 +62073,7 @@
   },
   "814390994": {
     "name": "Deed: Basic Belt - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -61808,7 +62419,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "5": 0.08,
+          "5": 0.2,
           "6": 0.2,
           "7": 0.2,
           "8": 0.2,
@@ -62098,7 +62709,7 @@
   },
   "828731292": {
     "name": "Alpha Jakyl Fur",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AlphaJakylFur",
     "recipes": [],
@@ -62106,7 +62717,7 @@
   },
   "830248587": {
     "name": "Deed: Ragged Dress - Stylish Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -63119,6 +63730,45 @@
     ],
     "extraction_skill": -1
   },
+  "850829831": {
+    "name": "Peerless Crafting Elixir",
+    "tier": 6,
+    "rarity": 1,
+    "icon": "Other/Items/CraftingSpeedPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 6130002,
+            "quantity": 5
+          },
+          {
+            "id": 389773215,
+            "quantity": 1
+          },
+          {
+            "id": 987565502,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          60
+        ],
+        "output_quantity": 3,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "851522677": {
     "name": "Luminite Hammer",
     "tier": 5,
@@ -63978,7 +64628,7 @@
   },
   "866022939": {
     "name": "Deed: Tropical Shirt and Skirt - Beige",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -64304,7 +64954,7 @@
   },
   "871084931": {
     "name": "Deed: Pet Owl Brown and Gray",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/PetOwlBrownGray",
     "recipes": [],
@@ -64564,7 +65214,7 @@
   },
   "881688838": {
     "name": "Deed: Short Sleeved Rough Shirt - Light Pink",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -64929,7 +65579,7 @@
   },
   "884521401": {
     "name": "Schematic: Skiff",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -65059,7 +65709,7 @@
   },
   "885977560": {
     "name": "Deployables",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -65253,6 +65903,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "889337473": {
+    "name": "Deed: Hair Color - Pink",
+    "tier": -1,
+    "rarity": 1,
+    "icon": "Items/AncientDeed",
+    "recipes": [],
     "extraction_skill": -1
   },
   "889534061": {
@@ -65838,7 +66496,7 @@
   },
   "898603864": {
     "name": "Deed: Ragged Long Sleeve Burlap Shirt - Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -65846,7 +66504,7 @@
   },
   "900515998": {
     "name": "Deed: Basic Belt - Hazel",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -66376,7 +67034,7 @@
   },
   "911410621": {
     "name": "Deed: Leather Dress - Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -66669,7 +67327,7 @@
   },
   "915223534": {
     "name": "Deed: Rough Cap - Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -66692,7 +67350,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967303,
+            "id": 4294967300,
             "quantity": 1
           }
         ],
@@ -66740,7 +67398,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967300,
+            "id": 4294967303,
             "quantity": 1
           }
         ],
@@ -67250,7 +67908,7 @@
   },
   "933925457": {
     "name": "Starving Berry",
-    "tier": 0,
+    "tier": -1,
     "rarity": 6,
     "icon": "Items/Berries",
     "recipes": [],
@@ -67454,7 +68112,7 @@
   "937100546": {
     "name": "Flawless Crop Oil",
     "tier": 10,
-    "rarity": 2,
+    "rarity": 3,
     "icon": "Items/VegetableOil",
     "recipes": [],
     "extraction_skill": -1
@@ -67490,7 +68148,7 @@
   },
   "938610077": {
     "name": "Cooking Power Training X",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -67614,6 +68272,45 @@
         "possibilities": {
           "1": 0.9625
         }
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "942892298": {
+    "name": "Ornate Crafting Elixir",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Items/CraftingSpeedPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1188640605,
+            "quantity": 5
+          },
+          {
+            "id": 1569513170,
+            "quantity": 1
+          },
+          {
+            "id": 1569789324,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          70
+        ],
+        "output_quantity": 3,
+        "possibilities": {}
       }
     ],
     "extraction_skill": -1
@@ -68032,7 +68729,7 @@
   },
   "948766076": {
     "name": "Deed: Rough Long Skirt - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -68180,7 +68877,7 @@
   },
   "950152350": {
     "name": "Construction Power Training VI",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -68188,7 +68885,7 @@
   },
   "954353788": {
     "name": "Deed: Simple Cloth Footwraps - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -68260,7 +68957,7 @@
       {
         "consumed_items": [
           {
-            "id": 6100010,
+            "id": 6130002,
             "quantity": 10
           }
         ],
@@ -68276,7 +68973,7 @@
       {
         "consumed_items": [
           {
-            "id": 6130002,
+            "id": 6100010,
             "quantity": 10
           }
         ],
@@ -68865,7 +69562,7 @@
   },
   "964757887": {
     "name": "Deed: Fingerless Cloth Gloves - Gray",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -69372,7 +70069,7 @@
   },
   "974840009": {
     "name": "Empires",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -69503,7 +70200,7 @@
   },
   "978058801": {
     "name": "Deed: Rough Bonnet - Light Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -70038,7 +70735,7 @@
   },
   "994291356": {
     "name": "Deed: Ragged Long Sleeve Burlap Shirt - Light Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -70279,7 +70976,7 @@
   },
   "1000062472": {
     "name": "Construction Power Training IV",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -70314,7 +71011,7 @@
   },
   "1000896515": {
     "name": "Deed: Jacket - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -70671,7 +71368,7 @@
   },
   "1008780724": {
     "name": "Player House Deed 1",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -70687,7 +71384,7 @@
   },
   "1009634974": {
     "name": "Conductive Frame",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/DamagedConductiveFrame",
     "recipes": [],
@@ -70786,9 +71483,17 @@
     ],
     "extraction_skill": -1
   },
+  "1010996042": {
+    "name": "Deed: Hair Color - Red",
+    "tier": -1,
+    "rarity": 1,
+    "icon": "Items/AncientDeed",
+    "recipes": [],
+    "extraction_skill": -1
+  },
   "1011319265": {
     "name": "Construction Power Training IX",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -71116,7 +71821,7 @@
   },
   "1017920380": {
     "name": "Deed: Fancy Shirt - Light Teal",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -71352,10 +72057,73 @@
   },
   "1019742717": {
     "name": "Deed: Tropical Shirt and Skirt - Light Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
+    "extraction_skill": -1
+  },
+  "1020188259": {
+    "name": "Infused Chemical Catalyst",
+    "tier": 3,
+    "rarity": 0,
+    "icon": "Items/GemDust",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 3110010,
+            "quantity": 2
+          },
+          {
+            "id": 3100008,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 3110010,
+            "quantity": 2
+          },
+          {
+            "id": 3100015,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 3110010,
+            "quantity": 2
+          },
+          {
+            "id": 3100005,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
     "extraction_skill": -1
   },
   "1021114792": {
@@ -71466,7 +72234,7 @@
   },
   "1023307980": {
     "name": "Item Recovery",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -71822,9 +72590,72 @@
     ],
     "extraction_skill": -1
   },
+  "1030159712": {
+    "name": "Exquisite Chemical Catalyst",
+    "tier": 5,
+    "rarity": 0,
+    "icon": "Items/GemDust",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 5110010,
+            "quantity": 2
+          },
+          {
+            "id": 5100008,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          50
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 5110010,
+            "quantity": 2
+          },
+          {
+            "id": 5100005,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          50
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 5110010,
+            "quantity": 2
+          },
+          {
+            "id": 5100015,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          50
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "1030786738": {
     "name": "Ship Sailing Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -71889,7 +72720,7 @@
   },
   "1031572827": {
     "name": "Deed: Well Stitched Long Shorts - Teal Gray",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -71954,7 +72785,7 @@
   },
   "1032502599": {
     "name": "Deed: Tattered Shorts - Refined Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -72188,7 +73019,7 @@
   },
   "1040471365": {
     "name": "Spear and Shield Weapon Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -73157,7 +73988,7 @@
   },
   "1052560618": {
     "name": "Deed: Leather Trousers - Burgundy",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -73524,7 +74355,7 @@
   },
   "1061968498": {
     "name": "Player House Deed 3",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -73784,7 +74615,7 @@
   },
   "1064818439": {
     "name": "Licenses",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -73792,7 +74623,7 @@
   },
   "1064981359": {
     "name": "Deed: Ragged Long Sleeve Burlap Shirt - Beige",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -73807,7 +74638,7 @@
       {
         "consumed_items": [
           {
-            "id": 5130002,
+            "id": 5100010,
             "quantity": 10
           }
         ],
@@ -73823,7 +74654,7 @@
       {
         "consumed_items": [
           {
-            "id": 5100010,
+            "id": 5130002,
             "quantity": 10
           }
         ],
@@ -73962,7 +74793,7 @@
   },
   "1069197121": {
     "name": "Expanded Automata's Heart III",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/HandMetal",
     "recipes": [
@@ -74014,7 +74845,7 @@
   },
   "1069458004": {
     "name": "Deed: Rough Trousers - Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -74234,7 +75065,7 @@
   },
   "1075863431": {
     "name": "Deed: Leather Workboots - Slate Gray",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -74242,7 +75073,7 @@
   },
   "1077640817": {
     "name": "Deed: Tattered Cap - Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -74627,7 +75458,7 @@
   },
   "1086344292": {
     "name": "Deed: Simple Belt - Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -74894,7 +75725,7 @@
       {
         "consumed_items": [
           {
-            "id": 4100010,
+            "id": 4130002,
             "quantity": 10
           }
         ],
@@ -74910,7 +75741,7 @@
       {
         "consumed_items": [
           {
-            "id": 4130002,
+            "id": 4100010,
             "quantity": 10
           }
         ],
@@ -75413,7 +76244,7 @@
   },
   "1098132100": {
     "name": "Deed: Pet Owl Pink",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/PetOwlPink",
     "recipes": [],
@@ -75776,7 +76607,7 @@
   },
   "1112071728": {
     "name": "Goat Riding Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -76391,7 +77222,7 @@
   },
   "1120204366": {
     "name": "Deed: Pointed Cap - Light Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -76521,7 +77352,7 @@
   },
   "1122846156": {
     "name": "Deed: Jacket - Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -76581,7 +77412,7 @@
   },
   "1124626544": {
     "name": "Deed: Pet Owl White",
-    "tier": 0,
+    "tier": -1,
     "rarity": 6,
     "icon": "Items/PetOwlWhite",
     "recipes": [],
@@ -76662,7 +77493,7 @@
   },
   "1125718226": {
     "name": "Crystalized Slime",
-    "tier": 0,
+    "tier": -1,
     "rarity": 3,
     "icon": "Items/Bones",
     "recipes": [],
@@ -77013,7 +77844,7 @@
   },
   "1130585781": {
     "name": "Construction Power Training VIII",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -77021,7 +77852,7 @@
   },
   "1132116949": {
     "name": "Deed: Pet Owl Black",
-    "tier": 0,
+    "tier": -1,
     "rarity": 5,
     "icon": "Items/PetOwlBlack",
     "recipes": [],
@@ -78732,7 +79563,7 @@
   },
   "1151366391": {
     "name": "Ruined Towns",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -78740,7 +79571,7 @@
   },
   "1152051808": {
     "name": "Deed: Rough Pants - Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -78990,7 +79821,7 @@
   },
   "1162680358": {
     "name": "Deed: Leather Trousers - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -79169,7 +80000,7 @@
   },
   "1168774134": {
     "name": "Cook's Endurance Training I",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -79177,7 +80008,7 @@
   },
   "1169350160": {
     "name": "Expanded Automata's Heart V",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/HandMetal",
     "recipes": [],
@@ -79522,7 +80353,7 @@
   },
   "1176380689": {
     "name": "Deed: Rope Belt - Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -79712,7 +80543,7 @@
   },
   "1182839338": {
     "name": "Campfire Kit",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Other/Buildings/Crafting/FireT1",
     "recipes": [
@@ -80276,7 +81107,7 @@
   },
   "1193442949": {
     "name": "Deed: Rough Long Skirt - Hazel",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -80660,6 +81491,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "1199909640": {
+    "name": "Deed: Hair Color - Purple",
+    "tier": -1,
+    "rarity": 1,
+    "icon": "Items/AncientDeed",
+    "recipes": [],
     "extraction_skill": -1
   },
   "1200171202": {
@@ -81903,7 +82742,7 @@
   },
   "1216365425": {
     "name": "Deed: Simple Cloth Gloves - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -82263,7 +83102,7 @@
   },
   "1223618233": {
     "name": "Construction Power Training I",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -83005,7 +83844,7 @@
   },
   "1239828151": {
     "name": "Deed: Leather Heeled Boots - Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -83051,8 +83890,8 @@
             "quantity": 5
           },
           {
-            "id": 3130002,
-            "quantity": 5
+            "id": 1020188259,
+            "quantity": 1
           },
           {
             "id": 1458853832,
@@ -83064,14 +83903,14 @@
           },
           {
             "id": 253606511,
-            "quantity": 3
+            "quantity": 1
           }
         ],
         "level_requirements": [
           7,
           30
         ],
-        "output_quantity": 1,
+        "output_quantity": 5,
         "possibilities": {}
       }
     ],
@@ -84027,7 +84866,7 @@
   },
   "1257732800": {
     "name": "Cart Logistics Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -84116,7 +84955,7 @@
   },
   "1258960813": {
     "name": "Deed: Ragged Shirt - Pale Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -84329,7 +85168,7 @@
   },
   "1262928328": {
     "name": "Deed: Pet Owl Blue and Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/PetOwlBlueOrange",
     "recipes": [],
@@ -84411,7 +85250,7 @@
   },
   "1266489720": {
     "name": "Deed: Leather Heeled Boots - Olive",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -84647,7 +85486,7 @@
   },
   "1271136439": {
     "name": "Deed: Ancient Footwraps - Light Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -84655,7 +85494,7 @@
   },
   "1271364907": {
     "name": "Deed: Ragged Dress - Refined Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -84910,7 +85749,7 @@
   },
   "1275669165": {
     "name": "Deed: Short Sleeved Rough Shirt - Light Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -85157,7 +85996,7 @@
   },
   "1279130379": {
     "name": "Deed: Rough Bonnet - Light Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -85229,7 +86068,7 @@
   },
   "1283102386": {
     "name": "Deed: Fingerless Long Cloth Gloves - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -86254,7 +87093,7 @@
   },
   "1307942768": {
     "name": "Cook's Endurance Training V",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -86322,7 +87161,7 @@
   },
   "1312391363": {
     "name": "Heated Capacitor Knowledge Scroll",
-    "tier": 0,
+    "tier": -1,
     "rarity": 0,
     "icon": "",
     "recipes": [],
@@ -86365,7 +87204,7 @@
   },
   "1313504512": {
     "name": "Bird Riding Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -86582,7 +87421,7 @@
   },
   "1319984056": {
     "name": "Deed: Simple Cloth Gloves - Gray",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -87286,7 +88125,7 @@
   },
   "1331162242": {
     "name": "Personal Cache Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -87873,7 +88712,7 @@
   },
   "1340407516": {
     "name": "Ancient Temple #3 Location Scroll",
-    "tier": 0,
+    "tier": -1,
     "rarity": 0,
     "icon": "",
     "recipes": [],
@@ -88685,6 +89524,69 @@
     "recipes": [],
     "extraction_skill": 14
   },
+  "1359102754": {
+    "name": "Pristine Chemical Catalyst",
+    "tier": 8,
+    "rarity": 0,
+    "icon": "Items/GemDust",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 9679815,
+            "quantity": 2
+          },
+          {
+            "id": 757946117,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          80
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 9679815,
+            "quantity": 2
+          },
+          {
+            "id": 2129960803,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          80
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 9679815,
+            "quantity": 2
+          },
+          {
+            "id": 1024977657,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          80
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "1360515241": {
     "name": "Peerless Leather Boots",
     "tier": 6,
@@ -88912,7 +89814,7 @@
   },
   "1365271781": {
     "name": "Deed: Rough Trousers - Light Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -89053,7 +89955,7 @@
   },
   "1367197991": {
     "name": "Deed: Fancy Shirt - Light Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -89805,7 +90707,7 @@
   },
   "1379005360": {
     "name": "Deed: Rough Long Skirt - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -89923,7 +90825,7 @@
   },
   "1382535079": {
     "name": "Trader Stand Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -91339,7 +92241,7 @@
   },
   "1408572825": {
     "name": "Deed: Well Stitched Long Shorts - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -91429,7 +92331,7 @@
   },
   "1411345788": {
     "name": "Deed: Beach Shirt - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -91723,7 +92625,7 @@
   },
   "1418659918": {
     "name": "Charged Automata's Heart VI",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/FeetMetal",
     "recipes": [],
@@ -91876,7 +92778,7 @@
   },
   "1422053499": {
     "name": "Raft Sailing Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -92849,7 +93751,7 @@
   },
   "1432169927": {
     "name": "Deed: Basic Cloth Footwraps - Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -92917,7 +93819,7 @@
   },
   "1434148175": {
     "name": "Cooling Capacitor Knowledge Scroll",
-    "tier": 0,
+    "tier": -1,
     "rarity": 0,
     "icon": "",
     "recipes": [],
@@ -93170,6 +94072,45 @@
     ],
     "extraction_skill": -1
   },
+  "1438381702": {
+    "name": "Infused Crafting Elixir",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Items/CraftingSpeedPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 3130002,
+            "quantity": 5
+          },
+          {
+            "id": 1020188259,
+            "quantity": 1
+          },
+          {
+            "id": 1458853832,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          30
+        ],
+        "output_quantity": 3,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "1439378047": {
     "name": "Pristine Wood Polish",
     "tier": 8,
@@ -93232,7 +94173,7 @@
   },
   "1440636746": {
     "name": "Deed: Jacket - Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -93618,7 +94559,7 @@
   },
   "1447133477": {
     "name": "Deed: Beach Shirt - Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -93626,7 +94567,7 @@
   },
   "1448045505": {
     "name": "Deed: Ragged Long Sleeve Burlap Shirt - Stylish Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -93642,7 +94583,7 @@
   },
   "1448193972": {
     "name": "Schematic: Expanded Personal Cache",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -93683,7 +94624,7 @@
   },
   "1453129584": {
     "name": "Deed: Rough Long Skirt - Light Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -93691,7 +94632,7 @@
   },
   "1454954372": {
     "name": "Charged Automata's Heart I",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/FeetMetal",
     "recipes": [],
@@ -93707,7 +94648,7 @@
   },
   "1455381746": {
     "name": "Deed: Ragged Shirt - Stylish Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -94417,7 +95358,7 @@
   },
   "1468515063": {
     "name": "Deed: Well Made Long Shorts - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -94904,7 +95845,7 @@
   },
   "1479036555": {
     "name": "Deed: Leather Pants",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -94969,7 +95910,7 @@
   },
   "1480966810": {
     "name": "Cooking Power Training V",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -95049,7 +95990,7 @@
   },
   "1481975980": {
     "name": "Cook's Endurance Training VI",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -95129,7 +96070,7 @@
   },
   "1486899324": {
     "name": "Cooking Power Training IV",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -95423,7 +96364,7 @@
   },
   "1491902340": {
     "name": "Deed: Pet Owl Peach",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/PetOwlPeach",
     "recipes": [],
@@ -95620,7 +96561,7 @@
   },
   "1495184321": {
     "name": "Deed: Beach Shirt - Hazel",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -96074,7 +97015,7 @@
   },
   "1503286108": {
     "name": "Deed: Long Cloth Gloves - Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -96395,7 +97336,7 @@
   },
   "1507679268": {
     "name": "Deed: Pet Owl Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/PetOwlRed",
     "recipes": [],
@@ -96460,7 +97401,7 @@
   },
   "1508261820": {
     "name": "Deed: Dress Shirt - Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -97117,7 +98058,7 @@
   },
   "1514180905": {
     "name": "Deed: Leather Dress - Dark Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -97125,7 +98066,7 @@
   },
   "1518632342": {
     "name": "Deed: Rough Pants - Stylish Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -97597,6 +98538,69 @@
     ],
     "extraction_skill": -1
   },
+  "1527038072": {
+    "name": "Magnificient Chemical Catalyst",
+    "tier": 9,
+    "rarity": 0,
+    "icon": "Items/GemDust",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1491156124,
+            "quantity": 2
+          },
+          {
+            "id": 1530487215,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          90
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1491156124,
+            "quantity": 2
+          },
+          {
+            "id": 2120609742,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          90
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1491156124,
+            "quantity": 2
+          },
+          {
+            "id": 1537113956,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          90
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "1527795841": {
     "name": "Rathium Hoe",
     "tier": 6,
@@ -97889,7 +98893,7 @@
   },
   "1531809628": {
     "name": "Deed: Rolled Up Shorts - Olive",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -98371,12 +99375,20 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.68,
+          "1": 0.8,
           "2": 0.2,
           "3": 0.2
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "1537267704": {
+    "name": "Deed: Hair Color - Blue",
+    "tier": -1,
+    "rarity": 1,
+    "icon": "Items/AncientDeed",
+    "recipes": [],
     "extraction_skill": -1
   },
   "1537459864": {
@@ -99771,7 +100783,7 @@
   },
   "1555762676": {
     "name": "Deed: Rope Belt - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -99820,7 +100832,7 @@
   },
   "1557960292": {
     "name": "Deed: Leather Workboots - Light Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -99828,7 +100840,7 @@
   },
   "1558581555": {
     "name": "Player House Deed 4",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -99909,7 +100921,7 @@
   },
   "1559053568": {
     "name": "Deed: Burlap Vest - Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -100580,6 +101592,108 @@
     ],
     "extraction_skill": -1
   },
+  "1569472580": {
+    "name": "Basic Crafting Elixir",
+    "tier": 1,
+    "rarity": 1,
+    "icon": "Other/Items/CraftingSpeedPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1130002,
+            "quantity": 5
+          },
+          {
+            "id": 1573699181,
+            "quantity": 1
+          },
+          {
+            "id": 1909588525,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          1
+        ],
+        "output_quantity": 3,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "1569513170": {
+    "name": "Ornate Chemical Catalyst",
+    "tier": 7,
+    "rarity": 0,
+    "icon": "Items/GemDust",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 793439431,
+            "quantity": 2
+          },
+          {
+            "id": 53729166,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 793439431,
+            "quantity": 2
+          },
+          {
+            "id": 2115422084,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 793439431,
+            "quantity": 2
+          },
+          {
+            "id": 1008417993,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "1569789324": {
     "name": "Ornate Glass Vial",
     "tier": 7,
@@ -100783,6 +101897,69 @@
         "possibilities": {
           "1": 0.925
         }
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "1573699181": {
+    "name": "Basic Chemical Catalyst",
+    "tier": 1,
+    "rarity": 0,
+    "icon": "Items/GemDust",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1110010,
+            "quantity": 2
+          },
+          {
+            "id": 1100008,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1110010,
+            "quantity": 2
+          },
+          {
+            "id": 1100005,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1110010,
+            "quantity": 2
+          },
+          {
+            "id": 1100015,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
       }
     ],
     "extraction_skill": -1
@@ -101151,7 +102328,7 @@
   },
   "1585016044": {
     "name": "Cooking Power Training IX",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -101906,7 +103083,7 @@
   },
   "1593759943": {
     "name": "Deed: Rough Bonnet - Light Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -101998,8 +103175,8 @@
             "quantity": 5
           },
           {
-            "id": 1188640605,
-            "quantity": 5
+            "id": 1569513170,
+            "quantity": 1
           },
           {
             "id": 1569789324,
@@ -102011,14 +103188,14 @@
           },
           {
             "id": 253606511,
-            "quantity": 3
+            "quantity": 1
           }
         ],
         "level_requirements": [
           7,
           70
         ],
-        "output_quantity": 1,
+        "output_quantity": 5,
         "possibilities": {}
       }
     ],
@@ -102397,7 +103574,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "5": 0.08,
+          "5": 0.2,
           "6": 0.2,
           "7": 0.2,
           "8": 0.2,
@@ -102410,7 +103587,7 @@
   },
   "1600135528": {
     "name": "Deed: Leather Trousers - Gray",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -102899,7 +104076,7 @@
   },
   "1609530122": {
     "name": "Deed: Rough Long Skirt - Stylish Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -104015,8 +105192,8 @@
             "quantity": 5
           },
           {
-            "id": 892842742,
-            "quantity": 5
+            "id": 1527038072,
+            "quantity": 1
           },
           {
             "id": 624936134,
@@ -104028,14 +105205,14 @@
           },
           {
             "id": 253606511,
-            "quantity": 3
+            "quantity": 1
           }
         ],
         "level_requirements": [
           7,
           90
         ],
-        "output_quantity": 1,
+        "output_quantity": 5,
         "possibilities": {}
       }
     ],
@@ -104136,7 +105313,7 @@
   },
   "1635165368": {
     "name": "Deed: Leather Trousers - Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -104144,7 +105321,7 @@
   },
   "1636103728": {
     "name": "Deed: Fingerless Cloth Gloves - Reddish Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -104152,7 +105329,7 @@
   },
   "1636393959": {
     "name": "Deed: Ragged Shorts - Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -104308,7 +105485,7 @@
   },
   "1639947725": {
     "name": "Construction Power Training III",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -104573,7 +105750,7 @@
   },
   "1644725611": {
     "name": "Deed: Tattered Cap - Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -104703,7 +105880,7 @@
   },
   "1648916601": {
     "name": "Deed: Burlap Vest - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -105319,7 +106496,7 @@
   },
   "1665899831": {
     "name": "Umbura Fur",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/UmburaFur",
     "recipes": [],
@@ -105651,7 +106828,7 @@
   },
   "1671558372": {
     "name": "The World of Bitcraft",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -106335,7 +107512,7 @@
   },
   "1683661714": {
     "name": "Deed: Simple Belt - Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -106376,7 +107553,7 @@
   },
   "1685784429": {
     "name": "Cook's Endurance Training III",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -106710,7 +107887,7 @@
   },
   "1692160990": {
     "name": "Cooking Power Training III",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -106775,7 +107952,7 @@
   },
   "1693693111": {
     "name": "Deed: Rough Short Skirt - Gray",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -106808,7 +107985,7 @@
   },
   "1694444289": {
     "name": "Deed: Ragged Shirt - Light Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -106979,7 +108156,7 @@
   "1696961810": {
     "name": "Pristine Crop Oil",
     "tier": 8,
-    "rarity": 2,
+    "rarity": 3,
     "icon": "Items/VegetableOil",
     "recipes": [
       {
@@ -106995,7 +108172,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.08
+          "1": 0.2
         }
       }
     ],
@@ -107003,7 +108180,7 @@
   },
   "1697423661": {
     "name": "Deed: Basic Cloth Footwraps - Light Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -107908,7 +109085,7 @@
   },
   "1709056753": {
     "name": "Deed: Loose Rough Pants - Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -107989,7 +109166,7 @@
   },
   "1711979184": {
     "name": "Santa Hat",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SantaHat",
     "recipes": [
@@ -108121,6 +109298,45 @@
           1
         ],
         "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "1714811992": {
+    "name": "Pristine Crafting Elixir",
+    "tier": 8,
+    "rarity": 1,
+    "icon": "Other/Items/CraftingSpeedPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 121211472,
+            "quantity": 5
+          },
+          {
+            "id": 1359102754,
+            "quantity": 1
+          },
+          {
+            "id": 528092341,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          80
+        ],
+        "output_quantity": 3,
         "possibilities": {}
       }
     ],
@@ -108267,7 +109483,7 @@
   },
   "1717184418": {
     "name": "Deed: Ragged Shorts - Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -108680,7 +109896,7 @@
   },
   "1724996165": {
     "name": "Player House Deed 5",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -109861,7 +111077,7 @@
   },
   "1745678458": {
     "name": "Deed: Tattered Shorts - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -111020,10 +112236,49 @@
   },
   "1764737039": {
     "name": "Deed: Shirt and Suspenders - Light Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
+    "extraction_skill": -1
+  },
+  "1764797024": {
+    "name": "Pristine Stamina Potion",
+    "tier": 8,
+    "rarity": 1,
+    "icon": "Other/Items/StaminaPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1971526319,
+            "quantity": 5
+          },
+          {
+            "id": 1359102754,
+            "quantity": 1
+          },
+          {
+            "id": 528092341,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          80
+        ],
+        "output_quantity": 5,
+        "possibilities": {}
+      }
+    ],
     "extraction_skill": -1
   },
   "1764864914": {
@@ -111070,7 +112325,7 @@
   "1764870816": {
     "name": "Ornate Crop Oil",
     "tier": 7,
-    "rarity": 2,
+    "rarity": 3,
     "icon": "Items/VegetableOil",
     "recipes": [
       {
@@ -111086,7 +112341,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.08
+          "1": 0.2
         }
       }
     ],
@@ -111278,7 +112533,7 @@
   },
   "1768765678": {
     "name": "Schematic: Massive Personal Cache",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -111449,7 +112704,7 @@
   },
   "1772961736": {
     "name": "Deed: Basic Belt - Light Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -111484,7 +112739,7 @@
   },
   "1781165883": {
     "name": "Tracking Resources",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -111533,7 +112788,7 @@
   },
   "1783646430": {
     "name": "Deed: Strapped Leather Boots - Olive",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -112293,7 +113548,7 @@
   },
   "1798374700": {
     "name": "Claymore Weapon Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -112577,7 +113832,7 @@
   },
   "1801312513": {
     "name": "Deed: Rolled Up Shorts - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -112785,7 +114040,7 @@
   },
   "1804859902": {
     "name": "Deed: Simple Burlap Shoes - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -112824,7 +114079,7 @@
   },
   "1807155019": {
     "name": "Crossbow Weapon Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -113079,7 +114334,7 @@
   },
   "1813380695": {
     "name": "Expanded Automata's Heart II",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/HandMetal",
     "recipes": [
@@ -113286,7 +114541,7 @@
   },
   "1818418717": {
     "name": "Traveler's Fruit",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Other/Items/TravelersFruit",
     "recipes": [],
@@ -113367,7 +114622,7 @@
   },
   "1820525295": {
     "name": "Deed: Shirt and Suspenders - Light Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -115028,7 +116283,7 @@
   },
   "1847577629": {
     "name": "Cook's Endurance Training VII",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -115755,7 +117010,7 @@
   },
   "1852463482": {
     "name": "Construction Power Training II",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -115763,7 +117018,7 @@
   },
   "1852924005": {
     "name": "Deed: Tattered Shorts - Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -115800,7 +117055,7 @@
   },
   "1853574967": {
     "name": "Deed: Fingerless Cloth Gloves - Hazel",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -115816,7 +117071,7 @@
   },
   "1854438379": {
     "name": "Deed: Simple Cloth Footwraps - Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -115916,7 +117171,7 @@
   },
   "1857486284": {
     "name": "Deed: Simple Burlap Shoes - Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -116038,7 +117293,7 @@
   },
   "1858010536": {
     "name": "Deed: Tattered Shorts - Sea Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -116046,7 +117301,7 @@
   },
   "1858106060": {
     "name": "Player Housing 3",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -116130,7 +117385,7 @@
   },
   "1859190999": {
     "name": "Player House Deed 2",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -116646,6 +117901,45 @@
     ],
     "extraction_skill": -1
   },
+  "1868014014": {
+    "name": "Simple Stamina Potion",
+    "tier": 2,
+    "rarity": 1,
+    "icon": "Other/Items/StaminaPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 2130004,
+            "quantity": 5
+          },
+          {
+            "id": 283591176,
+            "quantity": 1
+          },
+          {
+            "id": 726306536,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          20
+        ],
+        "output_quantity": 5,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "1868622776": {
     "name": "Refined Rough Plank",
     "tier": 1,
@@ -116894,7 +118188,7 @@
   },
   "1871728631": {
     "name": "Deed: Rough Short Skirt - Light Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -117262,7 +118556,7 @@
   },
   "1878100825": {
     "name": "Deed: Rough Shorts - Black",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -117415,6 +118709,14 @@
         }
       }
     ],
+    "extraction_skill": -1
+  },
+  "1883260586": {
+    "name": "Deed: Hair Color - Blonde",
+    "tier": -1,
+    "rarity": 1,
+    "icon": "Items/AncientDeed",
+    "recipes": [],
     "extraction_skill": -1
   },
   "1884263400": {
@@ -117594,7 +118896,7 @@
   },
   "1885566540": {
     "name": "Cook's Endurance Training IX",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -118222,7 +119524,7 @@
   },
   "1895679137": {
     "name": "Deed: Rough Pants - Refined White",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -118634,7 +119936,7 @@
   },
   "1901138565": {
     "name": "Insulating Wiring Knowledge Scroll",
-    "tier": 0,
+    "tier": -1,
     "rarity": 0,
     "icon": "",
     "recipes": [],
@@ -118927,7 +120229,7 @@
   },
   "1906022164": {
     "name": "Deed: Rolled Up Shorts - Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -119005,7 +120307,7 @@
   },
   "1906826053": {
     "name": "Deed: Leather Heeled Boots - Reddish Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -119797,7 +121099,7 @@
   },
   "1915636306": {
     "name": "Deed: Well Stitched Long Shorts - Orange",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -120031,7 +121333,7 @@
   },
   "1920600466": {
     "name": "Deed: Simple Burlap Shoes - Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -120435,7 +121737,7 @@
   },
   "1927761865": {
     "name": "Cooking Power Training VII",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -120835,7 +122137,15 @@
   },
   "1933861240": {
     "name": "Deed: Pointed Cap - Light Yellow",
-    "tier": 0,
+    "tier": -1,
+    "rarity": 1,
+    "icon": "Items/AncientDeed",
+    "recipes": [],
+    "extraction_skill": -1
+  },
+  "1934679826": {
+    "name": "Deed: Hair Color - Green",
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -120908,7 +122218,7 @@
   },
   "1936957629": {
     "name": "Deed: Simple Burlap Shoes - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -120973,7 +122283,7 @@
   },
   "1938205258": {
     "name": "Deed: Rough Cap - Stylish Teal",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -121638,7 +122948,7 @@
   },
   "1948497957": {
     "name": "Cooking Power Training VI",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -122046,7 +123356,7 @@
   },
   "1955730160": {
     "name": "Deed: Loose Rough Pants - Teal",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -122663,6 +123973,45 @@
         "possibilities": {
           "1": 0.9625
         }
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "1965392393": {
+    "name": "Peerless Stamina Potion",
+    "tier": 6,
+    "rarity": 1,
+    "icon": "Other/Items/StaminaPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 6130004,
+            "quantity": 5
+          },
+          {
+            "id": 389773215,
+            "quantity": 1
+          },
+          {
+            "id": 987565502,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          60
+        ],
+        "output_quantity": 5,
+        "possibilities": {}
       }
     ],
     "extraction_skill": -1
@@ -123702,7 +125051,7 @@
   },
   "1978793059": {
     "name": "Deed: Fancy Shirt - Light Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -124003,7 +125352,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "5": 0.08,
+          "5": 0.2,
           "6": 0.2,
           "7": 0.2,
           "8": 0.2,
@@ -124122,7 +125471,7 @@
   },
   "1982434019": {
     "name": "Player Housing 1",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -124308,8 +125657,8 @@
             "quantity": 5
           },
           {
-            "id": 1130002,
-            "quantity": 5
+            "id": 1573699181,
+            "quantity": 1
           },
           {
             "id": 1909588525,
@@ -124321,14 +125670,14 @@
           },
           {
             "id": 253606511,
-            "quantity": 3
+            "quantity": 1
           }
         ],
         "level_requirements": [
           7,
           1
         ],
-        "output_quantity": 1,
+        "output_quantity": 5,
         "possibilities": {}
       }
     ],
@@ -124547,7 +125896,7 @@
   },
   "1992186330": {
     "name": "Deed: Well Made Long Shorts - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -124620,7 +125969,7 @@
   },
   "1996765852": {
     "name": "Dual Blades Weapon Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -124628,7 +125977,7 @@
   },
   "1997275115": {
     "name": "Deed: Long Cloth Gloves - Olive",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -125232,8 +126581,8 @@
             "quantity": 5
           },
           {
-            "id": 699985609,
-            "quantity": 5
+            "id": 391105297,
+            "quantity": 1
           },
           {
             "id": 133674104,
@@ -125245,14 +126594,14 @@
           },
           {
             "id": 253606511,
-            "quantity": 3
+            "quantity": 1
           }
         ],
         "level_requirements": [
           7,
           100
         ],
-        "output_quantity": 1,
+        "output_quantity": 5,
         "possibilities": {}
       }
     ],
@@ -125350,7 +126699,7 @@
   },
   "2012639669": {
     "name": "Ox Riding Training",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/SchematicGeneric",
     "recipes": [],
@@ -125940,7 +127289,7 @@
   },
   "2020442639": {
     "name": "Deed: Burlap Vest - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -125948,7 +127297,7 @@
   },
   "2021404593": {
     "name": "Deed: Pet Owl Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 2,
     "icon": "Items/PetOwlBrown",
     "recipes": [],
@@ -126081,7 +127430,7 @@
   },
   "2024150418": {
     "name": "Deed: Ancient Footwraps - Light Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -126260,7 +127609,7 @@
   },
   "2029139426": {
     "name": "Deed: Leather Workboots - Burgundy",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -126560,7 +127909,7 @@
   },
   "2032385498": {
     "name": "Deed: Simple Cloth Footwraps - Blue",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -126597,7 +127946,7 @@
   },
   "2034712035": {
     "name": "Deed: Fancy Shirt - Light Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -126678,7 +128027,7 @@
   },
   "2034753298": {
     "name": "Deed: Rough Cap - Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -126885,7 +128234,7 @@
   },
   "2036719025": {
     "name": "Owl Hatchling",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/GrayOwl",
     "recipes": [],
@@ -127373,7 +128722,7 @@
   },
   "2044606506": {
     "name": "Insulating Wires",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/InsulatingWires",
     "recipes": [
@@ -127480,7 +128829,7 @@
   },
   "2046149078": {
     "name": "The Market",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -127488,7 +128837,7 @@
   },
   "2046579508": {
     "name": "Deed: Simple Cloth Footwraps - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -127661,6 +129010,45 @@
         "possibilities": {
           "1": 0.85
         }
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "2048036143": {
+    "name": "Flawless Stamina Potion",
+    "tier": 10,
+    "rarity": 1,
+    "icon": "Other/Items/StaminaPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 51716987,
+            "quantity": 5
+          },
+          {
+            "id": 391105297,
+            "quantity": 1
+          },
+          {
+            "id": 133674104,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          100
+        ],
+        "output_quantity": 5,
+        "possibilities": {}
       }
     ],
     "extraction_skill": -1
@@ -128612,7 +130000,7 @@
   },
   "2067709071": {
     "name": "Regions",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -128671,6 +130059,45 @@
         "possibilities": {
           "1": 0.9625
         }
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "2068709084": {
+    "name": "Simple Crafting Elixir",
+    "tier": 2,
+    "rarity": 1,
+    "icon": "Other/Items/CraftingSpeedPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 2130002,
+            "quantity": 5
+          },
+          {
+            "id": 283591176,
+            "quantity": 1
+          },
+          {
+            "id": 726306536,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          20
+        ],
+        "output_quantity": 3,
+        "possibilities": {}
       }
     ],
     "extraction_skill": -1
@@ -128924,7 +130351,7 @@
   },
   "2071574448": {
     "name": "Food And Stamina",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -128940,7 +130367,7 @@
   },
   "2074279496": {
     "name": "Deed: Ragged Dress - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -129078,6 +130505,45 @@
         "possibilities": {
           "1": 0.7
         }
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "2077457839": {
+    "name": "Fine Stamina Potion",
+    "tier": 4,
+    "rarity": 1,
+    "icon": "Other/Items/StaminaPotion",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 4130004,
+            "quantity": 5
+          },
+          {
+            "id": 98643046,
+            "quantity": 1
+          },
+          {
+            "id": 817475417,
+            "quantity": 1
+          },
+          {
+            "id": 11007,
+            "quantity": 1
+          },
+          {
+            "id": 253606511,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          40
+        ],
+        "output_quantity": 5,
+        "possibilities": {}
       }
     ],
     "extraction_skill": -1
@@ -130467,7 +131933,7 @@
   },
   "2096381372": {
     "name": "Charged Automata's Heart III",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/FeetMetal",
     "recipes": [],
@@ -130812,7 +132278,7 @@
   },
   "2103452115": {
     "name": "Terrified Adventurer's Note",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -130843,7 +132309,7 @@
   },
   "2104397305": {
     "name": "Deed: Elegant Shirt - Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -131051,7 +132517,7 @@
   },
   "2107333339": {
     "name": "Deed: Rough Shorts - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -131251,7 +132717,7 @@
   },
   "2111320251": {
     "name": "Deed: Rough Short Skirt - Yellow",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -131259,7 +132725,7 @@
   },
   "2111853277": {
     "name": "Deed: Basic Belt - Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -131466,8 +132932,8 @@
             "quantity": 5
           },
           {
-            "id": 121211472,
-            "quantity": 5
+            "id": 1359102754,
+            "quantity": 1
           },
           {
             "id": 528092341,
@@ -131479,14 +132945,14 @@
           },
           {
             "id": 253606511,
-            "quantity": 3
+            "quantity": 1
           }
         ],
         "level_requirements": [
           7,
           80
         ],
-        "output_quantity": 1,
+        "output_quantity": 5,
         "possibilities": {}
       }
     ],
@@ -131511,7 +132977,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "1": 0.68,
+          "1": 0.8,
           "2": 0.2,
           "3": 0.2
         }
@@ -131578,7 +133044,7 @@
   },
   "2116624789": {
     "name": "Deed: Ancient Footwraps - Light Purple",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -131586,7 +133052,7 @@
   },
   "2117007596": {
     "name": "Deed: Rough Shorts - Red",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -132073,7 +133539,7 @@
   },
   "2124868209": {
     "name": "Deed: Leather Heeled Boots - Brown",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -132481,7 +133947,7 @@
   },
   "2130527014": {
     "name": "Deed: Rough Trousers - Burgundy",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -132644,7 +134110,7 @@
   },
   "2135367777": {
     "name": "Deed: Basic Cloth Footwraps - Green",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -133251,7 +134717,7 @@
   },
   "2142443002": {
     "name": "Deed: Leather Workboots - Olive",
-    "tier": 0,
+    "tier": -1,
     "rarity": 1,
     "icon": "Items/AncientDeed",
     "recipes": [],
@@ -133332,7 +134798,7 @@
   },
   "2143560479": {
     "name": "Hexite Shard",
-    "tier": 0,
+    "tier": -1,
     "rarity": 4,
     "icon": "Items/HexiteCrystal",
     "recipes": [],
