@@ -139,7 +139,7 @@ public partial class CraftPage : PanelContainer, IPage
         {
             GetBaseIngredients(tab.GetTreeRoot(), ref unsortedData);
         }
-        var data = unsortedData.OrderBy(pair => _data.CraftingItems[pair.Key].Name);
+        var data = unsortedData.OrderBy(pair => $"{_data.CraftingItems[pair.Key].GenericName}{_data.CraftingItems[pair.Key].Tier}");
 
         _baseIngredientsTree.Clear();
         var ingredientsRoot = _baseIngredientsTree.CreateItem();
