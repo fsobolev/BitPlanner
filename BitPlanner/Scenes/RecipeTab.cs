@@ -58,7 +58,7 @@ public partial class RecipeTab : VBoxContainer
     public void ShowRecipe(ulong id, uint quantity = 1)
     {
         var craftingItem = _data.CraftingItems[id];
-        SetName($"T{craftingItem.Tier} {craftingItem.GenericName}");
+        SetName(craftingItem.Tier > -1 ? $"T{craftingItem.Tier} {craftingItem.GenericName}" : $"{craftingItem.Name}");
 
         if (!string.IsNullOrEmpty(craftingItem.Icon))
         {
@@ -70,6 +70,7 @@ public partial class RecipeTab : VBoxContainer
         }
         _recipeName.Text = craftingItem.Name;
         _recipeTier.Text = $"Tier {craftingItem.Tier}";
+        _recipeTier.Visible = craftingItem.Tier > -1;
         _recipeRarity.Text = Rarity.GetName(craftingItem.Rarity);
         _recipeRarity.AddThemeColorOverride("font_color", Rarity.GetColor(craftingItem.Rarity));
 
@@ -130,8 +131,9 @@ public partial class RecipeTab : VBoxContainer
         var craftingItem = _data.CraftingItems[id];
         treeItem.SetMetadata(0, id);
 
-        treeItem.SetText(0, craftingItem.Name);
-        treeItem.SetTooltipText(0, $"{craftingItem.Name} ({Rarity.GetName(craftingItem.Rarity)})");
+        treeItem.SetText(0, craftingItem.Tier > -1 ? $"{craftingItem.Name} (T{craftingItem.Tier})" : craftingItem.Name);
+        var tooltipName = craftingItem.Tier > -1 ? $"T{craftingItem.Tier} {craftingItem.GenericName}" : craftingItem.Name;
+        treeItem.SetTooltipText(0, $"{tooltipName} ({Rarity.GetName(craftingItem.Rarity)})");
         treeItem.SetCustomColor(0, Rarity.GetColor(craftingItem.Rarity));
         if (!string.IsNullOrEmpty(craftingItem.Icon))
         {

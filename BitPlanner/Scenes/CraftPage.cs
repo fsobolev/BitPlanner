@@ -69,6 +69,7 @@ public partial class CraftPage : PanelContainer, IPage
         _baseIngredientsPopup = GetNode<PopupPanel>("BaseIngredientsPopup");
         _baseIngredientsPopup.Visible = false;
         _baseIngredientsTree = _baseIngredientsPopup.GetNode<Tree>("VBoxContainer/BaseIngredientsTree");
+        _baseIngredientsTree.SetColumnExpandRatio(0, 2);
         _baseIngredientsCopyPlain = _baseIngredientsPopup.GetNode<Button>("VBoxContainer/MarginContainer/HBoxContainer/CopyPlain");
         _baseIngredientsCopyPlain.Pressed += OnBaseIngredientsCopyPlainRequested;
         _baseIngredientsCopyCsv = _baseIngredientsPopup.GetNode<Button>("VBoxContainer/MarginContainer/HBoxContainer/CopyCSV");
@@ -171,8 +172,9 @@ public partial class CraftPage : PanelContainer, IPage
             }
             var treeItem = _baseIngredientsTree.CreateItem(skillTreeItems[skill]);
 
-            treeItem.SetText(0, craftingItem.Name);
-            treeItem.SetTooltipText(0, $"{craftingItem.Name} ({Rarity.GetName(craftingItem.Rarity)})");
+            treeItem.SetText(0, craftingItem.Tier > -1 ? $"{craftingItem.Name} (T{craftingItem.Tier})" : craftingItem.Name);
+            var tooltipName = craftingItem.Tier > -1 ? $"T{craftingItem.Tier} {craftingItem.GenericName}" : craftingItem.Name;
+            treeItem.SetTooltipText(0, $"{tooltipName} ({Rarity.GetName(craftingItem.Rarity)})");
             treeItem.SetCustomColor(0, Rarity.GetColor(craftingItem.Rarity));
             if (!string.IsNullOrEmpty(craftingItem.Icon))
             {
@@ -190,7 +192,11 @@ public partial class CraftPage : PanelContainer, IPage
             var quantityString = RecipeTab.GetQuantityString(minQuantity, maxQuantity);
             treeItem.SetText(1, quantityString);
 
-            dataForCopying.Add(craftingItem.Name, [$"{craftingItem.GenericName} — T{craftingItem.Tier}", Skill.GetName(skill), quantityString]);
+            dataForCopying.Add(craftingItem.Name, [
+                craftingItem.Tier > -1 ? $"{craftingItem.GenericName} — T{craftingItem.Tier}" : craftingItem.Name,
+                Skill.GetName(skill),
+                quantityString
+            ]);
         }
         foreach (var skillTreeItem in skillTreeItems.Values)
         {
