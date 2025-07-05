@@ -166,12 +166,14 @@ for item in items:
 			chance = possibility[0]
 
 			for details in possibility[1]:
-				target_id = details[0]
+				target_id = details[0] + (cargo_offset if details[2][0] == 1 else 0)
 				if not target_id in crafting_data.keys():
 					continue
+				if crafting_data[target_id]['extraction_skill'] < 0:
+					crafting_data[target_id]['extraction_skill'] = find_extraction_skill(id)
+
 				if not target_id in possible_recipes.keys():
 					possible_recipes[target_id] = {}
-
 				quantity = details[1]
 				if not quantity in possible_recipes[target_id]:
 					possible_recipes[target_id][quantity] = 0.0
@@ -186,28 +188,7 @@ for item in items:
 			for recipe in new_recipes:
 				recipe['possibilities'] = {k: possibilities[k] for k in sorted(possibilities)}
 			crafting_data[target_id]['recipes'].extend(new_recipes)
-			if crafting_data[target_id]['extraction_skill'] < 0:
-				crafting_data[target_id]['extraction_skill'] = find_extraction_skill(id)
 		break
-
-print('Getting extraction skills from item lists...')
-for item in items:
-	id = item['id']
-	list_id = item['item_list_id']
-	if list_id == 0 or item['tier'] < 0:
-		continue
-
-	for item_list in item_lists:
-		if item_list['id'] != list_id:
-			continue
-
-		for possibility in item_list['possibilities']:
-			for details in possibility[1]:
-				target_id = details[0] + (cargo_offset if details[2][0] == 1 else 0)
-				if not target_id in crafting_data.keys():
-					continue
-				if crafting_data[target_id]['extraction_skill'] < 0:
-					crafting_data[target_id]['extraction_skill'] = find_extraction_skill(id)
 
 print('Cleanup and sort recipes...')
 for key, value in crafting_data.items():
