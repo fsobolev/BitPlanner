@@ -1,10 +1,10 @@
 using Godot;
 using System;
 using System.Collections.Generic;
-using System.Globalization;
 
 public partial class AboutPage : PanelContainer, IPage
 {
+    private readonly GameData _data = GameData.Instance;
     public Action BackButtonCallback => null;
     public Dictionary<string, Action> MenuActions => [];
 
@@ -12,9 +12,14 @@ public partial class AboutPage : PanelContainer, IPage
     {
         var appVersion = ProjectSettings.GetSetting("application/config/version");
         GetNode<Label>("ScrollContainer/MarginContainer/VBoxContainer/AppVersion").Text = $"Version {appVersion}";
+        VisibilityChanged += OnVisibilityChanged;
+    }
 
-        using var dataVersionFile = FileAccess.Open("res://data_version.txt", FileAccess.ModeFlags.Read);
-        var dataVersion = DateOnly.Parse(dataVersionFile.GetAsText(), CultureInfo.InvariantCulture);
-        GetNode<Label>("ScrollContainer/MarginContainer/VBoxContainer/DataVersion").Text = $"Game data as of {dataVersion}";
+    private void OnVisibilityChanged()
+    {
+        if (Visible)
+        {
+            GetNode<Label>("ScrollContainer/MarginContainer/VBoxContainer/DataVersion").Text = $"Game data as of {_data.Version}";
+        }
     }
 }

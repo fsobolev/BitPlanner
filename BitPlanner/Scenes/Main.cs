@@ -40,11 +40,24 @@ public partial class Main : Control
     public override void _Ready()
     {
         var data = GameData.Instance;
-        var dataLoaded = data.Load();
-        if (!dataLoaded)
+        try
         {
-            GD.Print("FATAL: Failed to load game data");
-            GetTree().Quit();
+            data.Load();
+        }
+        catch (Exception userDataException)
+        {
+            GD.Print(userDataException);
+            GD.Print("WARNING: failed to load game data from user directory, falling back to built-in data");
+            try
+            {
+                data.Load(true);
+            }
+            catch (Exception builtInDataException)
+            {
+                GD.Print(builtInDataException);
+                GD.Print("FATAL: Failed to load game data");
+                GetTree().Quit();
+            }
         }
         Config.Load();
 

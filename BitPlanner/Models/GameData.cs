@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using Godot;
@@ -32,6 +33,7 @@ public sealed class GameData
         }
     }
 
+    public DateOnly Version { get; private set; } = new();
     public Dictionary<ulong, CraftingItem> CraftingItems { get; private set; }
     public List<TravelerData> Travelers { get; private set; }
 
@@ -39,21 +41,25 @@ public sealed class GameData
     {
     }
 
-    public bool Load()
+    public void Load(bool forceBuiltIn = false)
     {
-        using var craftingDataFile = FileAccess.Open("res://crafting_data.json", FileAccess.ModeFlags.Read);
-        using var travelersDataFile = FileAccess.Open("res://travelers_data.json", FileAccess.ModeFlags.Read);
+        var pathPrefix = "res:/";
+        using var builtInDataVersionFile = FileAccess.Open("res://data_version.txt", FileAccess.ModeFlags.Read);
+        Version = DateOnly.Parse(builtInDataVersionFile.GetAsText(), CultureInfo.InvariantCulture);
+        if (!forceBuiltIn && FileAccess.FileExists("user://data/data_version.txt"))
+        {
+            using var userDataVersionFile = FileAccess.Open("user://data/data_version.txt", FileAccess.ModeFlags.Read);
+            var userDataVersion = DateOnly.Parse(userDataVersionFile.GetAsText(), CultureInfo.InvariantCulture);
+            if (userDataVersion > Version)
+            {
+                pathPrefix = "user://data";
+                Version = userDataVersion;
+            }
+        }
 
-        try
-        {
-            CraftingItems = JsonSerializer.Deserialize(craftingDataFile.GetAsText(), GameDataContext.Default.DictionaryUInt64CraftingItem);
-            Travelers = JsonSerializer.Deserialize(travelersDataFile.GetAsText(), GameDataContext.Default.ListTravelerData);
-        }
-        catch (Exception e)
-        {
-            GD.Print(e);
-            return false;
-        }
-        return true;
+        using var craftingDataFile = FileAccess.Open($"{pathPrefix}/crafting_data.json", FileAccess.ModeFlags.Read);
+        using var travelersDataFile = FileAccess.Open($"{pathPrefix}/travelers_data.json", FileAccess.ModeFlags.Read);
+        CraftingItems = JsonSerializer.Deserialize(craftingDataFile.GetAsText(), GameDataContext.Default.DictionaryUInt64CraftingItem);
+        Travelers = JsonSerializer.Deserialize(travelersDataFile.GetAsText(), GameDataContext.Default.ListTravelerData);
     }
 }
