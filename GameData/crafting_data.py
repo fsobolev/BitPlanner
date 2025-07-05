@@ -69,6 +69,7 @@ def find_extraction_skill(id, is_cargo = False):
 	skill = -1
 	found = False
 	item_type = 1 if is_cargo else 0
+
 	for recipe in extraction_recipes:
 		for result in recipe['extracted_item_stacks']:
 			if result[0][1][0] == id:
@@ -78,10 +79,7 @@ def find_extraction_skill(id, is_cargo = False):
 				found = True
 				break
 		if found:
-			break
-
-	if found:
-		return skill
+			return skill
 	
 	for enemy in enemies:
 		for result in enemy['extracted_item_stacks']:
@@ -92,7 +90,8 @@ def find_extraction_skill(id, is_cargo = False):
 				found = True
 				break
 		if found:
-			break
+			return skill
+		
 	return skill
 
 def get_recipe_priority(target_id, recipe):
@@ -179,8 +178,6 @@ for item in items:
 				possible_recipes[target_id][quantity] += chance
 
 		recipes = find_recipes(id)
-		skill = find_extraction_skill(id)
-
 		for target_id, possibilities in possible_recipes.items():
 			if not target_id in crafting_data.keys():
 				print(f'Warning: no ID {target_id} in crafting data')
@@ -189,9 +186,28 @@ for item in items:
 			for recipe in new_recipes:
 				recipe['possibilities'] = {k: possibilities[k] for k in sorted(possibilities)}
 			crafting_data[target_id]['recipes'].extend(new_recipes)
-			if crafting_data[target_id]['extraction_skill'] == -1:
-				crafting_data[target_id]['extraction_skill'] = skill
+			if crafting_data[target_id]['extraction_skill'] < 0:
+				crafting_data[target_id]['extraction_skill'] = find_extraction_skill(id)
 		break
+
+print('Getting extraction skills from item lists...')
+for item in items:
+	id = item['id']
+	list_id = item['item_list_id']
+	if list_id == 0 or item['tier'] < 0:
+		continue
+
+	for item_list in item_lists:
+		if item_list['id'] != list_id:
+			continue
+
+		for possibility in item_list['possibilities']:
+			for details in possibility[1]:
+				target_id = details[0] + (cargo_offset if details[2][0] == 1 else 0)
+				if not target_id in crafting_data.keys():
+					continue
+				if crafting_data[target_id]['extraction_skill'] < 0:
+					crafting_data[target_id]['extraction_skill'] = find_extraction_skill(id)
 
 print('Cleanup and sort recipes...')
 for key, value in crafting_data.items():

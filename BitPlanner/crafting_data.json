@@ -1951,7 +1951,7 @@
       {
         "consumed_items": [
           {
-            "id": 4010005,
+            "id": 1010005,
             "quantity": 1
           }
         ],
@@ -1965,7 +1965,7 @@
       {
         "consumed_items": [
           {
-            "id": 1010005,
+            "id": 2010005,
             "quantity": 1
           }
         ],
@@ -1993,7 +1993,7 @@
       {
         "consumed_items": [
           {
-            "id": 2010005,
+            "id": 4010005,
             "quantity": 1
           }
         ],
@@ -9524,7 +9524,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967299,
+            "id": 4294967298,
             "quantity": 1
           }
         ],
@@ -9540,7 +9540,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967298,
+            "id": 4294967299,
             "quantity": 1
           }
         ],
@@ -12346,6 +12346,22 @@
       {
         "consumed_items": [
           {
+            "id": 4294967301,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          9,
+          40
+        ],
+        "output_quantity": 1,
+        "possibilities": {
+          "2": 1.0
+        }
+      },
+      {
+        "consumed_items": [
+          {
             "id": 4294967303,
             "quantity": 1
           }
@@ -12374,22 +12390,6 @@
         "possibilities": {
           "2": 1.0
         }
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 4294967301,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          9,
-          40
-        ],
-        "output_quantity": 1,
-        "possibilities": {
-          "2": 1.0
-        }
       }
     ],
     "extraction_skill": -1
@@ -12403,7 +12403,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967303,
+            "id": 4294967300,
             "quantity": 1
           }
         ],
@@ -12435,7 +12435,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967300,
+            "id": 4294967303,
             "quantity": 1
           }
         ],
@@ -22704,7 +22704,7 @@
     "name": "Fine Healing Potion",
     "tier": 4,
     "rarity": 1,
-    "icon": "Other/Items/HealingPotion",
+    "icon": "Items/HealingPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -24893,7 +24893,7 @@
             "quantity": 2
           },
           {
-            "id": 4100008,
+            "id": 4100015,
             "quantity": 10
           }
         ],
@@ -24929,7 +24929,7 @@
             "quantity": 2
           },
           {
-            "id": 4100015,
+            "id": 4100008,
             "quantity": 10
           }
         ],
@@ -27708,7 +27708,7 @@
     "name": "Peerless Healing Potion",
     "tier": 6,
     "rarity": 1,
-    "icon": "Other/Items/HealingPotion",
+    "icon": "Items/HealingPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -27820,7 +27820,7 @@
     "name": "Magnificient Crafting Elixir",
     "tier": 9,
     "rarity": 1,
-    "icon": "Other/Items/CraftingSpeedPotion",
+    "icon": "Items/CraftingSpeedPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -28201,7 +28201,7 @@
     "name": "Ornate Stamina Potion",
     "tier": 7,
     "rarity": 1,
-    "icon": "Other/Items/StaminaPotion",
+    "icon": "Items/StaminaPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -28977,7 +28977,7 @@
       {
         "consumed_items": [
           {
-            "id": 4130002,
+            "id": 4100010,
             "quantity": 10
           }
         ],
@@ -28993,7 +28993,7 @@
       {
         "consumed_items": [
           {
-            "id": 4100010,
+            "id": 4130002,
             "quantity": 10
           }
         ],
@@ -31439,7 +31439,7 @@
     "name": "Simple Healing Potion",
     "tier": 2,
     "rarity": 1,
-    "icon": "Other/Items/HealingPotion",
+    "icon": "Items/HealingPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -32451,7 +32451,7 @@
     "name": "Flawless Crafting Elixir",
     "tier": 10,
     "rarity": 1,
-    "icon": "Other/Items/CraftingSpeedPotion",
+    "icon": "Items/CraftingSpeedPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -34236,7 +34236,7 @@
             "quantity": 2
           },
           {
-            "id": 2100005,
+            "id": 2100015,
             "quantity": 10
           }
         ],
@@ -34254,7 +34254,7 @@
             "quantity": 2
           },
           {
-            "id": 2100015,
+            "id": 2100005,
             "quantity": 10
           }
         ],
@@ -35306,7 +35306,7 @@
     "name": "Infused Stamina Potion",
     "tier": 3,
     "rarity": 1,
-    "icon": "Other/Items/StaminaPotion",
+    "icon": "Items/StaminaPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -37771,7 +37771,7 @@
     "name": "Exquisite Healing Potion",
     "tier": 5,
     "rarity": 1,
-    "icon": "Other/Items/HealingPotion",
+    "icon": "Items/HealingPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -39267,7 +39267,7 @@
             "quantity": 2
           },
           {
-            "id": 6100008,
+            "id": 6100005,
             "quantity": 10
           }
         ],
@@ -39303,7 +39303,7 @@
             "quantity": 2
           },
           {
-            "id": 6100005,
+            "id": 6100008,
             "quantity": 10
           }
         ],
@@ -39365,7 +39365,7 @@
             "quantity": 2
           },
           {
-            "id": 21938971,
+            "id": 1181587439,
             "quantity": 10
           }
         ],
@@ -39401,7 +39401,7 @@
             "quantity": 2
           },
           {
-            "id": 1181587439,
+            "id": 21938971,
             "quantity": 10
           }
         ],
@@ -41259,7 +41259,7 @@
     "name": "Glittering Junk",
     "tier": -1,
     "rarity": 1,
-    "icon": "Other/Items/GlitteringJunk",
+    "icon": "Items/GlitteringJunk",
     "recipes": [],
     "extraction_skill": 18
   },
@@ -41779,7 +41779,7 @@
     "name": "Fine Crafting Elixir",
     "tier": 4,
     "rarity": 1,
-    "icon": "Other/Items/CraftingSpeedPotion",
+    "icon": "Items/CraftingSpeedPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -50214,7 +50214,7 @@
     "name": "Magnificient Stamina Potion",
     "tier": 9,
     "rarity": 1,
-    "icon": "Other/Items/StaminaPotion",
+    "icon": "Items/StaminaPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -52482,7 +52482,7 @@
     "name": "Exquisite Crafting Elixir",
     "tier": 5,
     "rarity": 1,
-    "icon": "Other/Items/CraftingSpeedPotion",
+    "icon": "Items/CraftingSpeedPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -53419,7 +53419,7 @@
     "name": "Exquisite Stamina Potion",
     "tier": 5,
     "rarity": 1,
-    "icon": "Other/Items/StaminaPotion",
+    "icon": "Items/StaminaPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -56687,7 +56687,7 @@
     "name": "Insect Wing",
     "tier": -1,
     "rarity": 1,
-    "icon": "Other/Items/InsectWing",
+    "icon": "Items/InsectWing",
     "recipes": [],
     "extraction_skill": 18
   },
@@ -58853,7 +58853,7 @@
     "name": "Basic Stamina Potion",
     "tier": 1,
     "rarity": 1,
-    "icon": "Other/Items/StaminaPotion",
+    "icon": "Items/StaminaPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -63734,7 +63734,7 @@
     "name": "Peerless Crafting Elixir",
     "tier": 6,
     "rarity": 1,
-    "icon": "Other/Items/CraftingSpeedPotion",
+    "icon": "Items/CraftingSpeedPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -67382,7 +67382,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967304,
+            "id": 4294967303,
             "quantity": 1
           }
         ],
@@ -67398,7 +67398,7 @@
       {
         "consumed_items": [
           {
-            "id": 4294967303,
+            "id": 4294967304,
             "quantity": 1
           }
         ],
@@ -68280,7 +68280,7 @@
     "name": "Ornate Crafting Elixir",
     "tier": 7,
     "rarity": 1,
-    "icon": "Other/Items/CraftingSpeedPotion",
+    "icon": "Items/CraftingSpeedPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -68957,7 +68957,7 @@
       {
         "consumed_items": [
           {
-            "id": 6130002,
+            "id": 6100010,
             "quantity": 10
           }
         ],
@@ -68973,7 +68973,7 @@
       {
         "consumed_items": [
           {
-            "id": 6100010,
+            "id": 6130002,
             "quantity": 10
           }
         ],
@@ -72603,7 +72603,7 @@
             "quantity": 2
           },
           {
-            "id": 5100008,
+            "id": 5100005,
             "quantity": 10
           }
         ],
@@ -72621,7 +72621,7 @@
             "quantity": 2
           },
           {
-            "id": 5100005,
+            "id": 5100008,
             "quantity": 10
           }
         ],
@@ -75725,7 +75725,7 @@
       {
         "consumed_items": [
           {
-            "id": 4130002,
+            "id": 4100010,
             "quantity": 10
           }
         ],
@@ -75741,7 +75741,7 @@
       {
         "consumed_items": [
           {
-            "id": 4100010,
+            "id": 4130002,
             "quantity": 10
           }
         ],
@@ -83881,7 +83881,7 @@
     "name": "Infused Healing Potion",
     "tier": 3,
     "rarity": 1,
-    "icon": "Other/Items/HealingPotion",
+    "icon": "Items/HealingPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -89537,7 +89537,7 @@
             "quantity": 2
           },
           {
-            "id": 757946117,
+            "id": 1024977657,
             "quantity": 10
           }
         ],
@@ -89573,7 +89573,7 @@
             "quantity": 2
           },
           {
-            "id": 1024977657,
+            "id": 757946117,
             "quantity": 10
           }
         ],
@@ -90174,7 +90174,7 @@
       {
         "consumed_items": [
           {
-            "id": 5130002,
+            "id": 5100010,
             "quantity": 10
           }
         ],
@@ -90190,7 +90190,7 @@
       {
         "consumed_items": [
           {
-            "id": 5100010,
+            "id": 5130002,
             "quantity": 10
           }
         ],
@@ -94076,7 +94076,7 @@
     "name": "Infused Crafting Elixir",
     "tier": 3,
     "rarity": 1,
-    "icon": "Other/Items/CraftingSpeedPotion",
+    "icon": "Items/CraftingSpeedPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -98551,7 +98551,7 @@
             "quantity": 2
           },
           {
-            "id": 1530487215,
+            "id": 1537113956,
             "quantity": 10
           }
         ],
@@ -98587,7 +98587,7 @@
             "quantity": 2
           },
           {
-            "id": 1537113956,
+            "id": 1530487215,
             "quantity": 10
           }
         ],
@@ -101596,7 +101596,7 @@
     "name": "Basic Crafting Elixir",
     "tier": 1,
     "rarity": 1,
-    "icon": "Other/Items/CraftingSpeedPotion",
+    "icon": "Items/CraftingSpeedPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -101644,24 +101644,6 @@
             "quantity": 2
           },
           {
-            "id": 53729166,
-            "quantity": 10
-          }
-        ],
-        "level_requirements": [
-          7,
-          70
-        ],
-        "output_quantity": 1,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 793439431,
-            "quantity": 2
-          },
-          {
             "id": 2115422084,
             "quantity": 10
           }
@@ -101681,6 +101663,24 @@
           },
           {
             "id": 1008417993,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 793439431,
+            "quantity": 2
+          },
+          {
+            "id": 53729166,
             "quantity": 10
           }
         ],
@@ -101932,7 +101932,7 @@
             "quantity": 2
           },
           {
-            "id": 1100005,
+            "id": 1100015,
             "quantity": 10
           }
         ],
@@ -101950,7 +101950,7 @@
             "quantity": 2
           },
           {
-            "id": 1100015,
+            "id": 1100005,
             "quantity": 10
           }
         ],
@@ -103166,7 +103166,7 @@
     "name": "Ornate Healing Potion",
     "tier": 7,
     "rarity": 1,
-    "icon": "Other/Items/HealingPotion",
+    "icon": "Items/HealingPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -105183,7 +105183,7 @@
     "name": "Magnificient Healing Potion",
     "tier": 9,
     "rarity": 1,
-    "icon": "Other/Items/HealingPotion",
+    "icon": "Items/HealingPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -109307,7 +109307,7 @@
     "name": "Pristine Crafting Elixir",
     "tier": 8,
     "rarity": 1,
-    "icon": "Other/Items/CraftingSpeedPotion",
+    "icon": "Items/CraftingSpeedPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -112246,7 +112246,7 @@
     "name": "Pristine Stamina Potion",
     "tier": 8,
     "rarity": 1,
-    "icon": "Other/Items/StaminaPotion",
+    "icon": "Items/StaminaPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -114543,7 +114543,7 @@
     "name": "Traveler's Fruit",
     "tier": -1,
     "rarity": 1,
-    "icon": "Other/Items/TravelersFruit",
+    "icon": "Items/TravelersFruit",
     "recipes": [],
     "extraction_skill": -1
   },
@@ -117905,7 +117905,7 @@
     "name": "Simple Stamina Potion",
     "tier": 2,
     "rarity": 1,
-    "icon": "Other/Items/StaminaPotion",
+    "icon": "Items/StaminaPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -123981,7 +123981,7 @@
     "name": "Peerless Stamina Potion",
     "tier": 6,
     "rarity": 1,
-    "icon": "Other/Items/StaminaPotion",
+    "icon": "Items/StaminaPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -125648,7 +125648,7 @@
     "name": "Basic Healing Potion",
     "tier": 1,
     "rarity": 1,
-    "icon": "Other/Items/HealingPotion",
+    "icon": "Items/HealingPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -126572,7 +126572,7 @@
     "name": "Flawless Healing Potion",
     "tier": 10,
     "rarity": 1,
-    "icon": "Other/Items/HealingPotion",
+    "icon": "Items/HealingPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -129018,7 +129018,7 @@
     "name": "Flawless Stamina Potion",
     "tier": 10,
     "rarity": 1,
-    "icon": "Other/Items/StaminaPotion",
+    "icon": "Items/StaminaPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -130067,7 +130067,7 @@
     "name": "Simple Crafting Elixir",
     "tier": 2,
     "rarity": 1,
-    "icon": "Other/Items/CraftingSpeedPotion",
+    "icon": "Items/CraftingSpeedPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -130513,7 +130513,7 @@
     "name": "Fine Stamina Potion",
     "tier": 4,
     "rarity": 1,
-    "icon": "Other/Items/StaminaPotion",
+    "icon": "Items/StaminaPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -132923,7 +132923,7 @@
     "name": "Pristine Healing Potion",
     "tier": 8,
     "rarity": 1,
-    "icon": "Other/Items/HealingPotion",
+    "icon": "Items/HealingPotion",
     "recipes": [
       {
         "consumed_items": [
@@ -135117,7 +135117,7 @@
     "rarity": 1,
     "icon": "Cargo/Trunk",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 2
   },
   "4294968298": {
     "name": "Fine Trunk",
@@ -135125,7 +135125,7 @@
     "rarity": 1,
     "icon": "Cargo/Trunk",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 2
   },
   "4294968299": {
     "name": "Exquisite Trunk",
@@ -135133,7 +135133,7 @@
     "rarity": 1,
     "icon": "Cargo/Trunk",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 2
   },
   "4294968300": {
     "name": "Peerless Trunk",
@@ -135141,7 +135141,7 @@
     "rarity": 1,
     "icon": "Cargo/Trunk",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 2
   },
   "4294968495": {
     "name": "Rough Timber",
@@ -135319,7 +135319,7 @@
     "rarity": 1,
     "icon": "Cargo/StoneChunk",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 5
   },
   "4294969298": {
     "name": "Sturdy Stone Chunk",
@@ -135327,7 +135327,7 @@
     "rarity": 1,
     "icon": "Cargo/StoneChunk",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 5
   },
   "4294969299": {
     "name": "Fine Stone Chunk",
@@ -135335,7 +135335,7 @@
     "rarity": 1,
     "icon": "Cargo/StoneChunk",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 5
   },
   "4294969300": {
     "name": "Exquisite Stone Chunk",
@@ -135343,7 +135343,7 @@
     "rarity": 1,
     "icon": "Cargo/StoneChunk",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 5
   },
   "4294969301": {
     "name": "Peerless Stone Chunk",
@@ -135351,7 +135351,7 @@
     "rarity": 1,
     "icon": "Cargo/StoneChunk",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 5
   },
   "4294969695": {
     "name": "Rough Brick Slab",
@@ -135521,7 +135521,7 @@
     "rarity": 1,
     "icon": "Cargo/PyreliteOreChunk",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 5
   },
   "4294970297": {
     "name": "Emarium Ore Chunk",
@@ -135529,7 +135529,7 @@
     "rarity": 1,
     "icon": "Cargo/EmariumOreChunk",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 5
   },
   "4294970298": {
     "name": "Elenvar Ore Chunk",
@@ -135537,7 +135537,7 @@
     "rarity": 1,
     "icon": "Cargo/ElenvarOreChunk",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 5
   },
   "4294970299": {
     "name": "Luminite Ore Chunk",
@@ -135545,7 +135545,7 @@
     "rarity": 1,
     "icon": "Cargo/LuminiteOreChunk",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 5
   },
   "4294970300": {
     "name": "Rathium Ore Chunk",
@@ -135553,7 +135553,7 @@
     "rarity": 1,
     "icon": "Cargo/RathiumOreChunk",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 5
   },
   "4294971295": {
     "name": "Rough Geode",
@@ -135617,7 +135617,7 @@
     "rarity": 1,
     "icon": "Cargo/LargeFish",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 12
   },
   "4294973297": {
     "name": "Wavecrest Eel",
@@ -135625,7 +135625,7 @@
     "rarity": 1,
     "icon": "Cargo/LargeFish",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 12
   },
   "4294973298": {
     "name": "Seastorm Tuna",
@@ -135633,7 +135633,7 @@
     "rarity": 1,
     "icon": "Cargo/LargeFish",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 12
   },
   "4294973299": {
     "name": "Azure Shark",
@@ -135641,7 +135641,7 @@
     "rarity": 1,
     "icon": "Cargo/LargeFish",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 12
   },
   "4294973300": {
     "name": "Abyssal Swordfish",
@@ -135649,7 +135649,7 @@
     "rarity": 1,
     "icon": "Cargo/LargeFish",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 12
   },
   "4294974295": {
     "name": "Rough Cloth Tarp",
@@ -137535,7 +137535,7 @@
     "rarity": 1,
     "icon": "Cargo/PlantRoots",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 14
   },
   "4769913590": {
     "name": "Flawless Cloth Package",
@@ -138592,7 +138592,7 @@
     "rarity": 1,
     "icon": "Cargo/PlantRoots",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 14
   },
   "5425409628": {
     "name": "Aurumite Ingot Package",
@@ -139040,7 +139040,7 @@
     "rarity": 1,
     "icon": "Cargo/PlantRoots",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 14
   },
   "5768471618": {
     "name": "Magnificient Timber",
@@ -139279,7 +139279,7 @@
     "rarity": 1,
     "icon": "Cargo/PlantRoots",
     "recipes": [],
-    "extraction_skill": -1
+    "extraction_skill": 14
   },
   "5936233949": {
     "name": "Refined Pristine Leather Package",
