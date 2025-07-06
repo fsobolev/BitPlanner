@@ -245,6 +245,8 @@ public partial class RecipeTab : VBoxContainer
                     continue;
                 }
                 var child = treeItem.CreateChild();
+                child.Collapsed = true;
+
                 var childMinQuantity = (uint)Math.Ceiling((double)minQuantity / maxOutput) * consumedItem.Quantity;
                 // If minOutput is 0 it means that the item is not guaranteed to craft, so we can't know maximum quantity for ingredients and it's therefore set to 0
                 var childMaxQuantity = minOutput > 0 ? (uint)Math.Ceiling((double)maxQuantity / minOutput) * consumedItem.Quantity : 0;
