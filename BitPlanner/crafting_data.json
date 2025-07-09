@@ -2815,7 +2815,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       }
     ],
@@ -3077,6 +3077,34 @@
           {
             "id": 1582847061,
             "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          11,
+          1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1110021,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          11,
+          1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1080002,
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -6486,7 +6514,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       }
     ],
@@ -6717,6 +6745,34 @@
           {
             "id": 1974958555,
             "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          11,
+          20
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 2110021,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          11,
+          20
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 2080002,
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -9534,7 +9590,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       },
       {
@@ -9550,7 +9606,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       }
     ],
@@ -9801,6 +9857,34 @@
           {
             "id": 2127360112,
             "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          11,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 3110021,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          11,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 3080002,
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -12340,7 +12424,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       },
       {
@@ -12356,7 +12440,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       },
       {
@@ -12372,7 +12456,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       },
       {
@@ -12388,7 +12472,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       }
     ],
@@ -12706,6 +12790,34 @@
           {
             "id": 1788612243,
             "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          11,
+          40
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 4110021,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          11,
+          40
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 4080002,
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -15276,7 +15388,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       },
       {
@@ -15292,7 +15404,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       }
     ],
@@ -15543,6 +15655,34 @@
           {
             "id": 2083052337,
             "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          11,
+          50
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 5110021,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          11,
+          50
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 5080002,
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -17986,7 +18126,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       }
     ],
@@ -18206,6 +18346,34 @@
           {
             "id": 1110458355,
             "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          11,
+          60
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 6110021,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          11,
+          60
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 6080002,
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -20539,6 +20707,34 @@
         ],
         "output_quantity": 1,
         "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1509252047,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          11,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 671494642,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          11,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
       }
     ],
     "extraction_skill": -1
@@ -21884,7 +22080,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       }
     ],
@@ -22244,6 +22440,34 @@
           {
             "id": 1588421618,
             "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          11,
+          100
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1912257356,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          11,
+          100
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 580465059,
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -44627,7 +44851,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       }
     ],
@@ -52863,7 +53087,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       }
     ],
@@ -88062,6 +88286,34 @@
         ],
         "output_quantity": 1,
         "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1623412821,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          11,
+          90
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 61508445,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          11,
+          90
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
       }
     ],
     "extraction_skill": -1
@@ -94165,7 +94417,7 @@
         ],
         "output_quantity": 1,
         "possibilities": {
-          "2": 1.0
+          "3": 1.0
         }
       }
     ],
@@ -114542,7 +114794,7 @@
   "1818418717": {
     "name": "Traveler's Fruit",
     "tier": -1,
-    "rarity": 1,
+    "rarity": 6,
     "icon": "Items/TravelersFruit",
     "recipes": [],
     "extraction_skill": -1
@@ -119469,6 +119721,34 @@
           {
             "id": 1800829536,
             "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          11,
+          80
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1056358610,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          11,
+          80
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1197392727,
+            "quantity": 1
           }
         ],
         "level_requirements": [
@@ -136866,6 +137146,29 @@
     ],
     "extraction_skill": -1
   },
+  "4348625295": {
+    "name": "Peerless Chemical Supply Pack",
+    "tier": 6,
+    "rarity": 1,
+    "icon": "Cargo/Supplies/SupplyPack",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 389773215,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          60
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "4353724363": {
     "name": "Pristine Stone Chunk",
     "tier": 8,
@@ -137256,6 +137559,29 @@
         "level_requirements": [
           4,
           1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "4633497068": {
+    "name": "Exquisite Chemical Supply Pack",
+    "tier": 5,
+    "rarity": 1,
+    "icon": "Cargo/Supplies/SupplyPack",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1030159712,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          50
         ],
         "output_quantity": 1,
         "possibilities": {}
@@ -137703,6 +138029,29 @@
     ],
     "extraction_skill": -1
   },
+  "4878073306": {
+    "name": "Rough Chemical Supply Pack",
+    "tier": 1,
+    "rarity": 1,
+    "icon": "Cargo/Supplies/SupplyPack",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1573699181,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "4882664603": {
     "name": "Flawless Plant Roots",
     "tier": 10,
@@ -138125,7 +138474,7 @@
   },
   "5165534088": {
     "name": "Tundra Ox",
-    "tier": 5,
+    "tier": 9,
     "rarity": 1,
     "icon": "Other/Other/Animals/Bison",
     "recipes": [],
@@ -138339,6 +138688,29 @@
     "recipes": [],
     "extraction_skill": 5
   },
+  "5255375123": {
+    "name": "Pristine Chemical Supply Pack",
+    "tier": 8,
+    "rarity": 1,
+    "icon": "Cargo/Supplies/SupplyPack",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1359102754,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          80
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "5256985385": {
     "name": "Flawless Geode",
     "tier": 10,
@@ -138394,6 +138766,29 @@
         "level_requirements": [
           8,
           1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "5321197630": {
+    "name": "Fine Chemical Supply Pack",
+    "tier": 4,
+    "rarity": 1,
+    "icon": "Cargo/Supplies/SupplyPack",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 98643046,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          40
         ],
         "output_quantity": 1,
         "possibilities": {}
@@ -138579,6 +138974,29 @@
         "level_requirements": [
           8,
           30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "5385752889": {
+    "name": "Magnificient Chemical Supply Pack",
+    "tier": 9,
+    "rarity": 1,
+    "icon": "Cargo/Supplies/SupplyPack",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1527038072,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          90
         ],
         "output_quantity": 1,
         "possibilities": {}
@@ -139034,6 +139452,29 @@
     ],
     "extraction_skill": -1
   },
+  "5707374133": {
+    "name": "Flawless Chemical Supply Pack",
+    "tier": 10,
+    "rarity": 1,
+    "icon": "Cargo/Supplies/SupplyPack",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 391105297,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          100
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
   "5735906132": {
     "name": "Peerless Plant Roots",
     "tier": 6,
@@ -139062,6 +139503,29 @@
         "level_requirements": [
           3,
           90
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "5791929890": {
+    "name": "Simple Chemical Supply Pack",
+    "tier": 2,
+    "rarity": 1,
+    "icon": "Cargo/Supplies/SupplyPack",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 283591176,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          20
         ],
         "output_quantity": 1,
         "possibilities": {}
@@ -139139,6 +139603,29 @@
         "level_requirements": [
           8,
           1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "5841690707": {
+    "name": "Ornate Chemical Supply Pack",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Cargo/Supplies/SupplyPack",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1569513170,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          70
         ],
         "output_quantity": 1,
         "possibilities": {}
@@ -140164,6 +140651,29 @@
         "level_requirements": [
           3,
           1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1
+  },
+  "6441669913": {
+    "name": "Infused Chemical Supply Pack",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Cargo/Supplies/SupplyPack",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1020188259,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          30
         ],
         "output_quantity": 1,
         "possibilities": {}
