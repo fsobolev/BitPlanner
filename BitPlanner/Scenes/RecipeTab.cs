@@ -58,7 +58,8 @@ public partial class RecipeTab : VBoxContainer
     public void ShowRecipe(ulong id, uint quantity = 1)
     {
         var craftingItem = _data.CraftingItems[id];
-        SetName(craftingItem.Tier > -1 ? $"T{craftingItem.Tier} {craftingItem.GenericName}" : $"{craftingItem.Name}");
+        var tabName = craftingItem.Tier > -1 ? $"T{craftingItem.Tier} {craftingItem.GenericName}" : $"{craftingItem.Name}";
+        SetName(tabName.Replace(":", ""));
 
         if (!string.IsNullOrEmpty(craftingItem.Icon))
         {
