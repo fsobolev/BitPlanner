@@ -568,7 +568,7 @@
     "rarity": 1,
     "icon": "Items/AncientLorePage",
     "recipes": [],
-    "extraction_skill": 5
+    "extraction_skill": -1
   },
   "3002": {
     "name": "Ancient Journal Page #3",
@@ -576,7 +576,7 @@
     "rarity": 1,
     "icon": "Items/AncientLorePage",
     "recipes": [],
-    "extraction_skill": 5
+    "extraction_skill": -1
   },
   "3003": {
     "name": "Ancient Journal Page #4",
@@ -584,7 +584,7 @@
     "rarity": 1,
     "icon": "Items/AncientLorePage",
     "recipes": [],
-    "extraction_skill": 5
+    "extraction_skill": -1
   },
   "3004": {
     "name": "Ancient Journal Page #5",
@@ -592,7 +592,7 @@
     "rarity": 1,
     "icon": "Items/AncientLorePage",
     "recipes": [],
-    "extraction_skill": 5
+    "extraction_skill": -1
   },
   "3005": {
     "name": "Ancient Journal Page #6",
@@ -600,7 +600,7 @@
     "rarity": 1,
     "icon": "Items/AncientLorePage",
     "recipes": [],
-    "extraction_skill": 5
+    "extraction_skill": -1
   },
   "4000": {
     "name": "Cooling Energy",
@@ -24893,7 +24893,7 @@
             "quantity": 2
           },
           {
-            "id": 4100015,
+            "id": 4100005,
             "quantity": 10
           }
         ],
@@ -24911,7 +24911,7 @@
             "quantity": 2
           },
           {
-            "id": 4100005,
+            "id": 4100015,
             "quantity": 10
           }
         ],
@@ -34218,7 +34218,7 @@
             "quantity": 2
           },
           {
-            "id": 2100008,
+            "id": 2100005,
             "quantity": 10
           }
         ],
@@ -34254,7 +34254,7 @@
             "quantity": 2
           },
           {
-            "id": 2100005,
+            "id": 2100008,
             "quantity": 10
           }
         ],
@@ -39365,7 +39365,7 @@
             "quantity": 2
           },
           {
-            "id": 1181587439,
+            "id": 1239830729,
             "quantity": 10
           }
         ],
@@ -39383,7 +39383,7 @@
             "quantity": 2
           },
           {
-            "id": 1239830729,
+            "id": 1181587439,
             "quantity": 10
           }
         ],
@@ -72076,7 +72076,7 @@
             "quantity": 2
           },
           {
-            "id": 3100008,
+            "id": 3100005,
             "quantity": 10
           }
         ],
@@ -72112,7 +72112,7 @@
             "quantity": 2
           },
           {
-            "id": 3100005,
+            "id": 3100008,
             "quantity": 10
           }
         ],
@@ -72621,7 +72621,7 @@
             "quantity": 2
           },
           {
-            "id": 5100008,
+            "id": 5100015,
             "quantity": 10
           }
         ],
@@ -72639,7 +72639,7 @@
             "quantity": 2
           },
           {
-            "id": 5100015,
+            "id": 5100008,
             "quantity": 10
           }
         ],
@@ -98551,24 +98551,6 @@
             "quantity": 2
           },
           {
-            "id": 1537113956,
-            "quantity": 10
-          }
-        ],
-        "level_requirements": [
-          7,
-          90
-        ],
-        "output_quantity": 1,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 1491156124,
-            "quantity": 2
-          },
-          {
             "id": 2120609742,
             "quantity": 10
           }
@@ -98588,6 +98570,24 @@
           },
           {
             "id": 1530487215,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          90
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1491156124,
+            "quantity": 2
+          },
+          {
+            "id": 1537113956,
             "quantity": 10
           }
         ],
@@ -101644,24 +101644,6 @@
             "quantity": 2
           },
           {
-            "id": 2115422084,
-            "quantity": 10
-          }
-        ],
-        "level_requirements": [
-          7,
-          70
-        ],
-        "output_quantity": 1,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 793439431,
-            "quantity": 2
-          },
-          {
             "id": 1008417993,
             "quantity": 10
           }
@@ -101681,6 +101663,24 @@
           },
           {
             "id": 53729166,
+            "quantity": 10
+          }
+        ],
+        "level_requirements": [
+          7,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 793439431,
+            "quantity": 2
+          },
+          {
+            "id": 2115422084,
             "quantity": 10
           }
         ],
@@ -101914,7 +101914,7 @@
             "quantity": 2
           },
           {
-            "id": 1100008,
+            "id": 1100005,
             "quantity": 10
           }
         ],
@@ -101950,7 +101950,7 @@
             "quantity": 2
           },
           {
-            "id": 1100005,
+            "id": 1100008,
             "quantity": 10
           }
         ],
