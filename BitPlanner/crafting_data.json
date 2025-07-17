@@ -78087,7 +78087,26 @@
     "tier": 6,
     "rarity": 4,
     "icon": "Items/ResearchStone",
-    "recipes": [],
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1344950671,
+            "quantity": 1
+          },
+          {
+            "id": 6210004,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          7,
+          60
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
     "extraction_skill": -1
   },
   "1132378672": {
