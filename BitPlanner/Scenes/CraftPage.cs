@@ -64,6 +64,7 @@ public partial class CraftPage : PanelContainer, IPage
         _recipeTabScene = GD.Load<PackedScene>("res://Scenes/RecipeTab.tscn");
 
         _recipesMenuActions.Add("Copy Trees As Text", CopyTreesAsText);
+        _recipesMenuActions.Add("Copy Trees As CSV", CopyTreesAsCSV);
         _recipesMenuActions.Add("Show Base Ingredients", ShowBaseIngredients);
 
         _baseIngredientsPopup = GetNode<PopupPanel>("BaseIngredientsPopup");
@@ -132,6 +133,61 @@ public partial class CraftPage : PanelContainer, IPage
         DisplayServer.ClipboardSet(result.ToString().Trim());
     }
 
+    public void CopyTreesAsCSV()
+	{
+	var result = new StringBuilder();
+	var separator = new string('-', 64);
+
+	result.AppendLine("Item Name,Generic Name,Profession/Skill,Quantity,In Stock");
+
+		foreach (var tab in _recipeTabs.GetChildren().Cast<RecipeTab>())
+		{
+		var root = tab.GetTreeRoot();
+		TraverseAndAppendCSV(root, result);
+		result.AppendLine(separator); // Separera olika träd
+		}
+
+	DisplayServer.ClipboardSet(result.ToString().Trim());
+	}
+
+	private void TraverseAndAppendCSV(TreeItem item, StringBuilder csv)
+	{
+		var id = item.GetMetadata(0).AsUInt64();
+		var craftingItem = _data.CraftingItems[id];
+
+		// Get quantity
+		var quantity = item.GetMetadata(2).AsInt32Array();
+		var minQuantity = quantity[0];
+		var maxQuantity = quantity[1];
+
+		var quantityString = RecipeTab.GetQuantityString((uint)minQuantity, maxQuantity >= 0 ? (uint)maxQuantity : 0u);
+
+		// Get profession/skill
+		int skill = -1;
+		if (craftingItem.ExtractionSkill > -1)
+		{
+			skill = craftingItem.ExtractionSkill;
+		}
+		else if (craftingItem.Recipes.Count > 0)
+		{
+			skill = craftingItem.Recipes[0].LevelRequirements[0];
+		}
+
+		var skillName = Skill.GetName(skill);
+
+		// Format: Item Name,Generic Name,Profession/Skill,Quantity,In Stock
+		var itemName = craftingItem.Tier > -1 ? $"{craftingItem.Name} (T{craftingItem.Tier})" : craftingItem.Name;
+		var genericName = craftingItem.Tier > -1 ? $"{craftingItem.GenericName} — T{craftingItem.Tier}" : craftingItem.GenericName;
+
+		csv.AppendLine($"{itemName},{genericName},{skillName},{quantityString},0");
+
+		// Traverse children
+		foreach (var child in item.GetChildren())
+		{
+			TraverseAndAppendCSV(child, csv);
+		}
+	}
+    
     public void ShowBaseIngredients()
     {
         var unsortedData = new Dictionary<ulong, int[]>();
