@@ -7,7 +7,7 @@ I only made this fork to add a CSV export with all materials, and not just with 
 All that's needed is to edit CraftPage.cs slightly.
 Add the code on line 67 and the code on line 136 to 189 in the CraftPage.cs.  
 
-
+### [Download](https://github.com/Darokebi/BitPlanner/releases/latest)
 
 
 *********
@@ -23,7 +23,7 @@ Add the code on line 67 and the code on line 136 to 189 in the CraftPage.cs.
 
 Statistics calculator with gathering time and effort calculations and other tools are planned for the future.
 
-### [Download](https://github.com/Darokebi/BitPlanner/releases/latest)
+### [Download](https://github.com/fsobolev/BitPlanner/releases/latest)
 
 ![](Screenshots/main.png)
 ![](Screenshots/crafting.png)
