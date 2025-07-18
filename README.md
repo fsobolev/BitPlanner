@@ -4,7 +4,7 @@ Here's the original https://github.com/fsobolev/BitPlanner
 
 I only made this fork to add a CSV export with all materials, and not just with the base materials.
 
-All that's needed is to edit slightly CraftPage.cs.
+All that's needed is to edit CraftPage.cs slightly.
 Add the code on line 67 and the code on line 136 to 189 in the CraftPage.cs.  
 
 
