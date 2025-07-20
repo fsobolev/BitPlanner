@@ -133,6 +133,9 @@ for item in items:
 	if id > cargo_offset:
 		print(f'FATAL: item id {id} exceeds uint32 range')
 		os.exit(1)
+	
+	if item['tag'] == 'Crushed Ore':
+		continue
 
 	crafting_data[id] = {
 		'name': item['name'],
@@ -177,6 +180,9 @@ if len(missing_icons) > 0:
 
 print('Reorganizing recipes...')
 for item in items:
+	if item['tag'] == 'Crushed Ore':
+		continue
+	
 	id = item['id']
 	list_id = item['item_list_id']
 	if list_id == 0 or item['tier'] < 0:
