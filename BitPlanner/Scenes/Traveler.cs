@@ -15,20 +15,39 @@ public partial class Traveler : VBoxContainer
     private TextureRect _skillIcon;
     private AtlasTexture _skillIconTexture;
     private Label _skillName;
+    private CheckButton _showAvailableButton;
+    private Label _levelLabel;
+    private SpinBox _levelSpinBox;
     private Tree _tasks;
     private Texture2D _coinsIcon;
     private Texture2D _craftingIcon;
 
     public event EventHandler<CraftRequestedEventArgs> CraftRequested;
+    public event Action<bool> FilterToggled;
 
     public override void _Ready()
     {
-        _image = GetNode<TextureRect>("HBoxContainer/MarginContainer/Image");
-        _name = GetNode<Label>("HBoxContainer/VBoxContainer/Name");
-        _skillIcon = GetNode<TextureRect>("HBoxContainer/VBoxContainer/HBoxContainer/SkillIcon");
+        _image = GetNode<TextureRect>("Header/MarginContainer/Image");
+        _name = GetNode<Label>("Header/VBoxContainer/Name");
+        _skillIcon = GetNode<TextureRect>("Header/VBoxContainer/HBoxContainer/SkillIcon");
         _skillIconTexture = _skillIcon.Texture as AtlasTexture;
         _skillIconTexture.ResourceLocalToScene = true;
-        _skillName = GetNode<Label>("HBoxContainer/VBoxContainer/HBoxContainer/SkillName");
+        _skillName = GetNode<Label>("Header/VBoxContainer/HBoxContainer/SkillName");
+
+        _showAvailableButton = GetNode<CheckButton>("Filter/ShowAvailableButton");
+        _showAvailableButton.ButtonPressed = Config.FilterTasks;
+        _levelLabel = GetNode<Label>("Filter/LevelLabel");
+        _levelLabel.Visible = Config.FilterTasks;
+        _levelSpinBox = GetNode<SpinBox>("Filter/LevelSpinBox");
+        _levelSpinBox.Visible = Config.FilterTasks;
+        _showAvailableButton.Toggled += (toggled) => FilterToggled?.Invoke(toggled);
+        _levelSpinBox.ValueChanged += (value) =>
+        {
+            if (Config.FilterTasks)
+            {
+                FilterTasks((uint)value);
+            }
+        };
 
         _tasks = GetNode<Tree>("Tasks");
         _tasks.SetColumnExpandRatio(0, 8);
@@ -65,6 +84,7 @@ public partial class Traveler : VBoxContainer
             {
                 taskDescription.SetText(0, $"Level requirements: {task.Levels[0]}+");
             }
+            taskDescription.SetMetadata(0, task.Levels.ToArray());
 
             taskDescription.SetText(1, $"{task.Experience:N0} XP");
             taskDescription.SetTextAlignment(1, HorizontalAlignment.Right);
@@ -91,19 +111,45 @@ public partial class Traveler : VBoxContainer
                     itemRow.SetButtonColor(0, 0, iconsColor);
                 }
 
-                var meta = new Godot.Collections.Array
+                var itemMeta = new Godot.Collections.Array
                 {
                     item.Key,
                     quantity
                 };
-                itemRow.SetMetadata(0, meta);
+                itemRow.SetMetadata(0, itemMeta);
             }
+        }
+
+        Config.SkillLevels.TryGetValue(data.Skill, out uint skillLevel);
+        _levelSpinBox.Value = skillLevel;
+        _levelSpinBox.ValueChanged += (value) => Config.SetSkillLevel(data.Skill, (uint)value);
+    }
+
+    public void OnFilterToggled(bool toggled)
+    {
+        _showAvailableButton.SetPressedNoSignal(toggled);
+        _levelLabel.Visible = toggled;
+        _levelSpinBox.Visible = toggled;
+        FilterTasks(toggled ? (uint)_levelSpinBox.Value : 0);
+    }
+
+    private void FilterTasks(uint level)
+    {
+        foreach (var task in _tasks.GetRoot().GetChildren())
+        {
+            if (level == 0)
+            {
+                task.Visible = true;
+                continue;
+            }
+            var requirements = task.GetMetadata(0).AsInt32Array();
+            task.Visible = level >= requirements[0] && level <= requirements[1];
         }
     }
 
     private void OnThemeChanged()
     {
-        var iconsColor = Color.FromHtml(Config.Theme == Config.ThemeVariant.Dark? "e9dfc4" : "15567e");
+        var iconsColor = Color.FromHtml(Config.Theme == Config.ThemeVariant.Dark ? "e9dfc4" : "15567e");
         _skillIcon.Modulate = iconsColor;
 
         var root = _tasks.GetRoot();

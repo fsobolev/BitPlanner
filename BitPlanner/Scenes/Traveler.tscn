@@ -26,16 +26,16 @@ size_flags_vertical = 3
 script = ExtResource("1_tn6o6")
 metadata/_tab_index = 0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="."]
+[node name="Header" type="HBoxContainer" parent="."]
 layout_mode = 2
 size_flags_horizontal = 4
 theme_override_constants/separation = 12
 
-[node name="MarginContainer" type="Control" parent="HBoxContainer"]
+[node name="MarginContainer" type="Control" parent="Header"]
 custom_minimum_size = Vector2(91, 99)
 layout_mode = 2
 
-[node name="Image" type="TextureRect" parent="HBoxContainer/MarginContainer"]
+[node name="Image" type="TextureRect" parent="Header/MarginContainer"]
 layout_mode = 2
 offset_top = 4.0
 offset_right = 130.0
@@ -43,28 +43,46 @@ offset_bottom = 134.0
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("1_wrl8a")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="Header"]
 layout_mode = 2
 size_flags_vertical = 4
 
-[node name="Name" type="Label" parent="HBoxContainer/VBoxContainer"]
+[node name="Name" type="Label" parent="Header/VBoxContainer"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 24
 text = "Traveler"
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="Header/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 4
 
-[node name="SkillIcon" type="TextureRect" parent="HBoxContainer/VBoxContainer/HBoxContainer"]
+[node name="SkillIcon" type="TextureRect" parent="Header/VBoxContainer/HBoxContainer"]
 modulate = Color(0.0823529, 0.337255, 0.494118, 1)
 layout_mode = 2
 texture = SubResource("AtlasTexture_wrl8a")
 
-[node name="SkillName" type="Label" parent="HBoxContainer/VBoxContainer/HBoxContainer"]
+[node name="SkillName" type="Label" parent="Header/VBoxContainer/HBoxContainer"]
 layout_mode = 2
 text = "Skill"
+
+[node name="Filter" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="ShowAvailableButton" type="CheckButton" parent="Filter"]
+layout_mode = 2
+text = "Only show available"
+flat = true
+
+[node name="LevelLabel" type="Label" parent="Filter"]
+layout_mode = 2
+text = "Level"
+
+[node name="LevelSpinBox" type="SpinBox" parent="Filter"]
+layout_mode = 2
+size_flags_vertical = 4
+min_value = 1.0
+value = 1.0
 
 [node name="Tasks" type="Tree" parent="."]
 layout_mode = 2

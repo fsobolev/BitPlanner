@@ -15,6 +15,7 @@ public static class Config
     private const ThemeVariant DEFAULT_THEME = ThemeVariant.Light;
     private const double DEFAULT_SCALE = 1.0;
     private const bool DEFAULT_NON_GUARANTEED_AS_BASE = true;
+    private const bool DEFAULT_FILTER_TASKS = false;
     private static readonly bool _defaultCsd = RuntimeInformation.IsOSPlatform(OSPlatform.Windows) || RuntimeInformation.IsOSPlatform(OSPlatform.Linux);
     private static ConfigFile _configFile;
 
@@ -67,6 +68,27 @@ public static class Config
         get => _configFile?.GetValue("Craft", "NonGuaranteedAsBase", DEFAULT_NON_GUARANTEED_AS_BASE).AsBool() ?? DEFAULT_NON_GUARANTEED_AS_BASE;
 
         set => _configFile?.SetValue("Craft", "NonGuaranteedAsBase", value);
+    }
+
+    public static bool FilterTasks
+    {
+        get => _configFile?.GetValue("Tasks", "Filter", DEFAULT_FILTER_TASKS).AsBool() ?? DEFAULT_FILTER_TASKS;
+
+        set => _configFile?.SetValue("Tasks", "Filter", value);
+    }
+
+    public static Godot.Collections.Dictionary<int, uint> SkillLevels
+    {
+        get => _configFile?.GetValue("Tasks", "SkillLevels", new Godot.Collections.Dictionary<int, uint>()).AsGodotDictionary<int, uint>() ?? [];
+
+        private set => _configFile?.SetValue("Tasks", "SkillLevels", value);
+    }
+
+    public static void SetSkillLevel(int id, uint level)
+    {
+        var dict = SkillLevels;
+        dict[id] = level;
+        SkillLevels = dict;
     }
 
     public static void Load()

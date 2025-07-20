@@ -1,6 +1,7 @@
 using Godot;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 public partial class TasksPage : PanelContainer, IPage
 {
@@ -26,6 +27,14 @@ public partial class TasksPage : PanelContainer, IPage
             _travelers.AddChild(traveler);
             traveler.Load(travelerData);
             traveler.CraftRequested += (s, e) => CraftRequested?.Invoke(s, e);
+            traveler.FilterToggled += (toggled) =>
+            {
+                Config.FilterTasks = toggled;
+                foreach (var tab in _travelers.GetChildren().Cast<Traveler>())
+                {
+                    tab.OnFilterToggled(toggled);
+                }
+            };
         }
     }
 }
