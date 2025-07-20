@@ -122,6 +122,7 @@ public partial class CraftPage : PanelContainer, IPage
     {
         { _currentRecipeTab.AllCollapsed ? "Expand Tree" : "Collapse Tree", ToggleCollapse },
         { "Copy Trees As Text", CopyTreesAsText },
+        { "Copy Trees As CSV", CopyTreesAsCSV },
         { "Show Base Ingredients", ShowBaseIngredients }
     };
 
@@ -142,6 +143,52 @@ public partial class CraftPage : PanelContainer, IPage
         }
         DisplayServer.ClipboardSet(result.ToString().Trim());
     }
+
+    public void CopyTreesAsCSV()
+	{
+		var result = new StringBuilder();
+		var separator = new string('-', 64);
+
+		// Ny header enligt rekommendation
+		result.AppendLine("Item,Minimum Quantity,Maximum Quantity,In Stock");
+
+		foreach (var tab in _recipeTabs.GetChildren().Cast<RecipeTab>())
+		{
+			var root = tab.GetTreeRoot();
+			TraverseAndAppendCSV(root, result, 0); // Skicka med depth = 0
+			result.AppendLine(separator); // Separera träd
+		}
+
+		DisplayServer.ClipboardSet(result.ToString().Trim());
+	}
+
+	private void TraverseAndAppendCSV(TreeItem item, StringBuilder csv, int depth)
+	{
+		var id = item.GetMetadata(0).AsUInt64();
+		var craftingItem = _data.CraftingItems[id];
+
+		var quantity = item.GetMetadata(2).AsGodotArray();
+		var minQuantity = quantity[0].AsUInt32();
+		var maxQuantity = quantity[1].AsUInt32();
+
+		// Namn + Tier
+		var itemName = craftingItem.Tier > -1
+			? $"{craftingItem.Name} (T{craftingItem.Tier})"
+			: craftingItem.Name;
+
+		// Bygg ett indrag som återspeglar trädstrukturen
+		var indent = string.Concat(Enumerable.Repeat("| ", depth));
+		if (depth > 0)
+			indent += " ";
+
+		csv.AppendLine($"{indent}{itemName},{minQuantity},{maxQuantity},0");
+
+		// Rekursivt för varje child
+		foreach (var child in item.GetChildren())
+		{
+			TraverseAndAppendCSV(child, csv, depth + 1);
+		}
+	}
 
     private void ShowBaseIngredients()
     {
