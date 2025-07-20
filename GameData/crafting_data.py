@@ -110,8 +110,21 @@ def get_recipe_priority(target_id, recipe):
 		for item in recipe['consumed_items']:
 			if item['id'] in recipes_order_overrides[target_id]:
 				return recipes_order_overrides[target_id].index(item['id'])
+	
+	priority_bonus = 0
+	for data in items:
+		if data['id'] == target_id:
+			if 'Tool' in data['tag']:
+				for consumed_item in recipe['consumed_items']:
+					if 'Tool Scrap' in crafting_data[consumed_item['id']]['name']:
+						priority_bonus += 10000
+						break
+			break
+	
 	item = recipe['consumed_items'][0]
-	return (item['quantity'] + (1000 if item['id'] > cargo_offset else 0)) * crafting_data[item['id']]['rarity'] * 100 / recipe['output_quantity'] + sum(map(int, str(item['id'])))
+	return (item['quantity'] + (1000 if item['id'] > cargo_offset else 0)) \
+		* crafting_data[item['id']]['rarity'] * 100 / recipe['output_quantity'] \
+		+ sum(map(int, str(item['id']))) + priority_bonus
 
 
 print('Collecting items...')
