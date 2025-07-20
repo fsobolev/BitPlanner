@@ -14,6 +14,7 @@ public static class Config
     private const int DEFAULT_WINDOW_HEIGHT = 720;
     private const ThemeVariant DEFAULT_THEME = ThemeVariant.Light;
     private const double DEFAULT_SCALE = 1.0;
+    private const bool DEFAULT_COLLAPSE_TREES = false;
     private const bool DEFAULT_NON_GUARANTEED_AS_BASE = true;
     private const bool DEFAULT_FILTER_TASKS = false;
     private static readonly bool _defaultCsd = RuntimeInformation.IsOSPlatform(OSPlatform.Windows) || RuntimeInformation.IsOSPlatform(OSPlatform.Linux);
@@ -61,6 +62,13 @@ public static class Config
         get => _configFile?.GetValue("Window", "Scale", OS.GetName().Contains("Android") ? 1.5 : DEFAULT_SCALE).AsDouble() ?? DEFAULT_SCALE;
 
         set => _configFile?.SetValue("Window", "Scale", value);
+    }
+
+    public static bool CollapseTreesByDefault
+    {
+        get => _configFile?.GetValue("Craft", "CollapseByDefault", DEFAULT_COLLAPSE_TREES).AsBool() ?? DEFAULT_COLLAPSE_TREES;
+
+        set => _configFile?.SetValue("Craft", "CollapseByDefault", value);
     }
 
     public static bool TreatNonGuaranteedItemsAsBase

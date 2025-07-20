@@ -323,7 +323,7 @@ color = Color(0, 0, 0, 0.501961)
 
 [node name="SettingsPopup" type="PopupPanel" parent="."]
 initial_position = 2
-size = Vector2i(360, 324)
+size = Vector2i(360, 376)
 visible = true
 wrap_controls = false
 
@@ -331,7 +331,7 @@ wrap_controls = false
 offset_left = 4.0
 offset_top = 4.0
 offset_right = 356.0
-offset_bottom = 316.0
+offset_bottom = 368.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
@@ -403,6 +403,11 @@ layout_mode = 2
 [node name="Crafting" type="Label" parent="SettingsPopup/MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "CRAFTING"
+
+[node name="CollapseTreesCheck" type="CheckButton" parent="SettingsPopup/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Collapse trees by default"
+flat = true
 
 [node name="NonGuaranteedAsBaseCheck" type="CheckButton" parent="SettingsPopup/MarginContainer/VBoxContainer"]
 layout_mode = 2

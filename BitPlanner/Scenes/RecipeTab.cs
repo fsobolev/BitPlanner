@@ -7,6 +7,7 @@ using System.Text;
 public partial class RecipeTab : VBoxContainer
 {
     private readonly GameData _data = GameData.Instance;
+    private bool _allCollapsed = Config.CollapseTreesByDefault;
     private Tree _recipeTree;
     private TextureRect _recipeIcon;
     private Label _recipeName;
@@ -20,6 +21,20 @@ public partial class RecipeTab : VBoxContainer
     private Texture2D _errorIcon;
     private PopupPanel _recipeLoopPopup;
     private Label _recipeLoopLabel;
+
+    public bool AllCollapsed
+    {
+        get => _allCollapsed;
+
+        set
+        {
+            _allCollapsed = value;
+            foreach (var item in _recipeTree.GetRoot().GetChildren())
+            {
+                CollapseItem(item);
+            }
+        }
+    }
 
     public override void _Ready()
     {
@@ -246,11 +261,21 @@ public partial class RecipeTab : VBoxContainer
                     continue;
                 }
                 var child = treeItem.CreateChild();
+                child.Collapsed = _allCollapsed;
                 var childMinQuantity = (uint)Math.Ceiling((double)minQuantity / maxOutput) * consumedItem.Quantity;
                 // If minOutput is 0 it means that the item is not guaranteed to craft, so we can't know maximum quantity for ingredients and it's therefore set to 0
                 var childMaxQuantity = minOutput > 0 ? (uint)Math.Ceiling((double)maxQuantity / minOutput) * consumedItem.Quantity : 0;
                 BuildTree(consumedItem.Id, child, new(shownIds), 0, childMinQuantity, childMaxQuantity);
             }
+        }
+    }
+
+    private void CollapseItem(TreeItem item)
+    {
+        item.Collapsed = _allCollapsed;
+        foreach (var child in item.GetChildren())
+        {
+            CollapseItem(child);
         }
     }
 

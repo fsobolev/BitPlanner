@@ -7,7 +7,6 @@ using Godot;
 public partial class CraftPage : PanelContainer, IPage
 {
     private readonly GameData _data = GameData.Instance;
-    private readonly Dictionary<string, Action> _recipesMenuActions = [];
     private Action _backButtonCallback;
     private Dictionary<string, Action> _menuActions;
     private CraftOverview _overview;
@@ -18,6 +17,7 @@ public partial class CraftPage : PanelContainer, IPage
     private Tree _baseIngredientsTree;
     private Button _baseIngredientsCopyPlain;
     private Button _baseIngredientsCopyCsv;
+    private RecipeTab _currentRecipeTab => _recipeTabs.GetChild<RecipeTab>(_recipeTabs.CurrentTab);
 
     public Action BackButtonCallback
     {
@@ -61,10 +61,8 @@ public partial class CraftPage : PanelContainer, IPage
                 ShowOverview();
             }
         };
+        _recipeTabs.TabChanged += (_) => MenuActions = BuildMenu();
         _recipeTabScene = GD.Load<PackedScene>("res://Scenes/RecipeTab.tscn");
-
-        _recipesMenuActions.Add("Copy Trees As Text", CopyTreesAsText);
-        _recipesMenuActions.Add("Show Base Ingredients", ShowBaseIngredients);
 
         _baseIngredientsPopup = GetNode<PopupPanel>("BaseIngredientsPopup");
         _baseIngredientsPopup.Visible = false;
@@ -94,7 +92,6 @@ public partial class CraftPage : PanelContainer, IPage
         _overview.Visible = false;
         _recipeView.Visible = true;
         BackButtonCallback = ShowOverview;
-        MenuActions = _recipesMenuActions;
         var targetTab = -1;
         foreach (var tab in _recipeTabs.GetChildren())
         {
@@ -118,9 +115,23 @@ public partial class CraftPage : PanelContainer, IPage
             _recipeTabs.CurrentTab = _recipeTabs.GetChildCount() - 1;
             tab.ShowRecipe(id, quantity);
         }
+        MenuActions = BuildMenu();
     }
 
-    public void CopyTreesAsText()
+    private Dictionary<string, Action> BuildMenu() => new()
+    {
+        { _currentRecipeTab.AllCollapsed ? "Expand Tree" : "Collapse Tree", ToggleCollapse },
+        { "Copy Trees As Text", CopyTreesAsText },
+        { "Show Base Ingredients", ShowBaseIngredients }
+    };
+
+    public void ToggleCollapse()
+    {
+        _currentRecipeTab.AllCollapsed = !_currentRecipeTab.AllCollapsed;
+        MenuActions = BuildMenu();
+    }
+
+    private void CopyTreesAsText()
     {
         var result = new StringBuilder();
         var separator = new string('-', 64);
@@ -132,7 +143,7 @@ public partial class CraftPage : PanelContainer, IPage
         DisplayServer.ClipboardSet(result.ToString().Trim());
     }
 
-    public void ShowBaseIngredients()
+    private void ShowBaseIngredients()
     {
         var unsortedData = new Dictionary<ulong, int[]>();
         foreach (var tab in _recipeTabs.GetChildren().Cast<RecipeTab>())

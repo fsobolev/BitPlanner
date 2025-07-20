@@ -34,8 +34,8 @@ public partial class Main : Control
     private OptionButton _themeSelection;
     private CheckButton _csdCheck;
     private SpinBox _uiScaleSpin;
+    private CheckButton _collapseTreesCheck;
     private CheckButton _nonGuaranteedAsBaseCheck;
-    private Button _settingsSaveButton;
 
     public override void _Ready()
     {
@@ -210,6 +210,10 @@ public partial class Main : Control
         _uiScaleSpin = _settingsPopup.GetNode<SpinBox>("MarginContainer/VBoxContainer/HBoxContainer2/ScaleSpin");
         _uiScaleSpin.SetValueNoSignal(Config.Scale);
         _uiScaleSpin.ValueChanged += UpdateScale;
+
+        _collapseTreesCheck = _settingsPopup.GetNode<CheckButton>("MarginContainer/VBoxContainer/CollapseTreesCheck");
+        _collapseTreesCheck.SetPressedNoSignal(Config.CollapseTreesByDefault);
+        _collapseTreesCheck.Toggled += (toggled) => Config.CollapseTreesByDefault = toggled;
 
         _nonGuaranteedAsBaseCheck = _settingsPopup.GetNode<CheckButton>("MarginContainer/VBoxContainer/NonGuaranteedAsBaseCheck");
         _nonGuaranteedAsBaseCheck.SetPressedNoSignal(Config.TreatNonGuaranteedItemsAsBase);
