@@ -195,7 +195,18 @@ for item in items:
 			if not target_id in crafting_data.keys():
 				print(f'Warning: no ID {target_id} in crafting data')
 				continue
-			new_recipes = copy.deepcopy(recipes)
+
+			filtered_recipes = []
+			for recipe in recipes:
+				consumes_itself = False
+				for consumed_item in recipe['consumed_items']:
+					if consumed_item['id'] == target_id:
+						consumes_itself = True
+						break
+				if not consumes_itself:
+					filtered_recipes.append(copy.deepcopy(recipe))
+			
+			new_recipes = copy.deepcopy(filtered_recipes)
 			for recipe in new_recipes:
 				recipe['possibilities'] = {k: possibilities[k] for k in sorted(possibilities)}
 			crafting_data[target_id]['recipes'].extend(new_recipes)
