@@ -149,20 +149,19 @@ public partial class CraftPage : PanelContainer, IPage
 		var result = new StringBuilder();
 		var separator = new string('-', 64);
 
-		// Ny header enligt rekommendation
 		result.AppendLine("Item,Minimum Quantity,Maximum Quantity,In Stock");
 
 		foreach (var tab in _recipeTabs.GetChildren().Cast<RecipeTab>())
 		{
 			var root = tab.GetTreeRoot();
-			TraverseAndAppendCSV(root, result, 0); // Skicka med depth = 0
-			result.AppendLine(separator); // Separera träd
+			TraverseAndAppendCSV(root, result, new List<bool>());
+			result.AppendLine("\n\n");
 		}
-
+  
 		DisplayServer.ClipboardSet(result.ToString().Trim());
 	}
 
-	private void TraverseAndAppendCSV(TreeItem item, StringBuilder csv, int depth)
+	private void TraverseAndAppendCSV(TreeItem item, StringBuilder csv, List<bool> hasMoreSiblings)
 	{
 		var id = item.GetMetadata(0).AsUInt64();
 		var craftingItem = _data.CraftingItems[id];
@@ -171,23 +170,33 @@ public partial class CraftPage : PanelContainer, IPage
 		var minQuantity = quantity[0].AsUInt32();
 		var maxQuantity = quantity[1].AsUInt32();
 
-		// Namn + Tier
-		var itemName = craftingItem.Tier > -1
-			? $"{craftingItem.Name} (T{craftingItem.Tier})"
-			: craftingItem.Name;
+		var itemName = item.GetText(0);
 
-		// Bygg ett indrag som återspeglar trädstrukturen
-		var indent = string.Concat(Enumerable.Repeat("| ", depth));
-		if (depth > 0)
-			indent += " ";
-
+		var indent = BuildTreeIndent(hasMoreSiblings);
 		csv.AppendLine($"{indent}{itemName},{minQuantity},{maxQuantity},0");
 
-		// Rekursivt för varje child
-		foreach (var child in item.GetChildren())
+		var children = item.GetChildren();
+		for (int i = 0; i < children.Count; i++)
 		{
-			TraverseAndAppendCSV(child, csv, depth + 1);
+			var child = (TreeItem)children[i];
+			var isLastChild = i == children.Count - 1;
+
+			var newSiblingsList = new List<bool>(hasMoreSiblings) { !isLastChild };
+			TraverseAndAppendCSV(child, csv, newSiblingsList);
 		}
+	}
+
+	private string BuildTreeIndent(List<bool> hasMoreSiblings)
+	{
+		var parts = new List<string>();
+	
+		for (int i = 0; i < hasMoreSiblings.Count; i++)
+		{
+			bool hasSibling = hasMoreSiblings[i];
+			parts.Add(hasSibling ? "| " : "  ");
+		}
+	
+		return string.Concat(parts);
 	}
 
     private void ShowBaseIngredients()
