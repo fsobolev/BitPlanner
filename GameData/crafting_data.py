@@ -125,7 +125,7 @@ for item in items:
 		'name': item['name'],
 		'tier': item['tier'],
 		'rarity': item['rarity'][0],
-		'icon': item['icon_asset_name'].replace('GeneratedIcons/', ''),
+		'icon': item['icon_asset_name'],
 		'recipes': find_recipes(id),
 		'extraction_skill': find_extraction_skill(id)
 	}
@@ -141,7 +141,7 @@ for item in cargos:
 		'name': item['name'],
 		'tier': item['tier'],
 		'rarity': item['rarity'][0],
-		'icon': item['icon_asset_name'].replace('GeneratedIcons/', ''),
+		'icon': item['icon_asset_name'],
 		'recipes': find_recipes(id, True),
 		'extraction_skill': find_extraction_skill(id, True)
 	}
@@ -149,12 +149,14 @@ for item in cargos:
 print('Checking icons...')
 missing_icons = []
 for item in crafting_data.values():
-	icon = item['icon']
+	icon = item['icon'].replace('GeneratedIcons/', '').replace('Other/Other/', 'Other/')
+	if icon.startswith('Buildings/'):
+		icon = 'Other/' + icon
+	if os.path.exists(f'../BitPlanner/Assets/{icon.replace('Other/', '')}.png'):
+		icon = icon.replace('Other/', '')
+	item['icon'] = icon
 	if not os.path.exists(f'../BitPlanner/Assets/{icon}.png'):
-		if os.path.exists(f'../BitPlanner/Assets/{icon.replace('Other/', '')}.png'):
-			item['icon'] = icon.replace('Other/', '')
-		else:
-			missing_icons.append(icon)
+		missing_icons.append(icon)
 if len(missing_icons) > 0:
 	print('Missing icons:')
 	for icon in sorted(set(missing_icons)):
