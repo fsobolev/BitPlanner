@@ -122,6 +122,7 @@ public partial class CraftPage : PanelContainer, IPage
     {
         { _currentRecipeTab.AllCollapsed ? "Expand Tree" : "Collapse Tree", ToggleCollapse },
         { "Copy Trees As Text", CopyTreesAsText },
+        { "Copy Trees As CSV", CopyTreesAsCSV },
         { "Show Base Ingredients", ShowBaseIngredients }
     };
 
@@ -142,6 +143,61 @@ public partial class CraftPage : PanelContainer, IPage
         }
         DisplayServer.ClipboardSet(result.ToString().Trim());
     }
+
+    public void CopyTreesAsCSV()
+	{
+		var result = new StringBuilder();
+		var separator = new string('-', 64);
+
+		result.AppendLine("Item,Minimum Quantity,Maximum Quantity,In Stock");
+
+		foreach (var tab in _recipeTabs.GetChildren().Cast<RecipeTab>())
+		{
+			var root = tab.GetTreeRoot();
+			TraverseAndAppendCSV(root, result, new List<bool>());
+			result.AppendLine("\n\n");
+		}
+  
+		DisplayServer.ClipboardSet(result.ToString().Trim());
+	}
+
+	private void TraverseAndAppendCSV(TreeItem item, StringBuilder csv, List<bool> hasMoreSiblings)
+	{
+		var id = item.GetMetadata(0).AsUInt64();
+		var craftingItem = _data.CraftingItems[id];
+
+		var quantity = item.GetMetadata(2).AsGodotArray();
+		var minQuantity = quantity[0].AsUInt32();
+		var maxQuantity = quantity[1].AsUInt32();
+
+		var itemName = item.GetText(0);
+
+		var indent = BuildTreeIndent(hasMoreSiblings);
+		csv.AppendLine($"{indent}{itemName},{minQuantity},{maxQuantity},0");
+
+		var children = item.GetChildren();
+		for (int i = 0; i < children.Count; i++)
+		{
+			var child = (TreeItem)children[i];
+			var isLastChild = i == children.Count - 1;
+
+			var newSiblingsList = new List<bool>(hasMoreSiblings) { !isLastChild };
+			TraverseAndAppendCSV(child, csv, newSiblingsList);
+		}
+	}
+
+	private string BuildTreeIndent(List<bool> hasMoreSiblings)
+	{
+		var parts = new List<string>();
+	
+		for (int i = 0; i < hasMoreSiblings.Count; i++)
+		{
+			bool hasSibling = hasMoreSiblings[i];
+			parts.Add(hasSibling ? "| " : "  ");
+		}
+	
+		return string.Concat(parts);
+	}
 
     private void ShowBaseIngredients()
     {
