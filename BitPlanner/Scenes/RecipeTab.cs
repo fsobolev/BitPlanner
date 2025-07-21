@@ -116,9 +116,19 @@ public partial class RecipeTab : VBoxContainer
         var text = new StringBuilder();
         text.Append($"**{recipeRoot.GetText(0)} x{recipeRoot.GetText(2)}**\n");
         text.Append("\n```\n");
-        GetTreeRowText(recipeRoot, [], ref text);
+        TraverseAndAppendText(recipeRoot, [], ref text);
         text.Append("```");
         return text.ToString();
+    }
+
+    public string GetTreeAsCSV()
+    {
+        var recipeRoot = _recipeTree.GetRoot();
+        var csv = new StringBuilder();
+        csv.Append($"{recipeRoot.GetText(0)},{(uint)_quantitySelection.Value}");
+        csv.AppendLine("\nItem,Minimum Quantity,Maximum Quantity,In Stock");
+        TraverseAndAppendCSV(recipeRoot, [], ref csv);
+        return csv.ToString();
     }
 
     public TreeItem GetTreeRoot() => _recipeTree.GetRoot();
@@ -134,6 +144,56 @@ public partial class RecipeTab : VBoxContainer
             return $"≥ {minQuantity:N0}";
         }
         return $"{minQuantity:N0}—{maxQuantity:N0}";
+    }
+
+	private static string BuildTreeIndent(bool[] relationshipLines)
+	{
+        var result = new StringBuilder();
+        foreach (var line in relationshipLines)
+        {
+            result.Append(line ? "| " : "  ");
+        }
+        return result.ToString();
+	}
+
+    private static void TraverseAndAppendText(TreeItem parent, bool[] relationshipLines, ref StringBuilder text)
+    {
+        const int MAX_LENGTH = 52;
+        foreach (var child in parent.GetChildren())
+        {
+            var firstColumnString = new StringBuilder();
+            firstColumnString.Append(BuildTreeIndent(relationshipLines));
+            firstColumnString.Append(child.GetText(0));
+            while (firstColumnString.Length < MAX_LENGTH)
+            {
+                firstColumnString.Append(' ');
+            }
+            text.Append(firstColumnString, 0, MAX_LENGTH);
+            text.Append(' ');
+            text.Append(child.GetText(2));
+            text.Append('\n');
+
+            var hasMoreSiblings = child.GetIndex() != parent.GetChildCount() - 1;
+            var newRelationshipLines = relationshipLines.Append(hasMoreSiblings).ToArray();
+            TraverseAndAppendText(child, newRelationshipLines, ref text);
+        }
+    }
+
+	private static void TraverseAndAppendCSV(TreeItem parent, bool[] relationshipLines, ref StringBuilder csv)
+    {
+        foreach (var child in parent.GetChildren())
+        {
+            var indent = BuildTreeIndent(relationshipLines);
+            var name = parent.GetText(0);
+            var quantity = parent.GetMetadata(2).AsGodotArray();
+            var minQuantity = quantity[0].AsUInt32();
+            var maxQuantity = quantity[1].AsUInt32();
+            csv.AppendLine($"{indent}{name},{minQuantity},{maxQuantity},0");
+
+            var hasMoreSiblings = child.GetIndex() != parent.GetChildCount() - 1;
+            var newRelationshipLines = relationshipLines.Append(hasMoreSiblings).ToArray();
+            TraverseAndAppendCSV(child, newRelationshipLines, ref csv);
+        }
     }
 
     private void BuildTree(ulong id, TreeItem treeItem, HashSet<ulong> shownIds, uint recipeIndex, uint minQuantity, uint maxQuantity)
@@ -305,32 +365,6 @@ public partial class RecipeTab : VBoxContainer
         var id = treeItem.GetMetadata(0).AsUInt64();
         var recipeMeta = treeItem.GetMetadata(1).AsGodotArray();
         BuildTree(id, treeItem, [id], recipeMeta[0].AsUInt32(), (uint)quantity, (uint)quantity);
-    }
-
-    private void GetTreeRowText(TreeItem item, bool[] indents, ref StringBuilder text)
-    {
-        const int maxLength = 52;
-        foreach (var child in item.GetChildren())
-        {
-            var rowString = new StringBuilder();
-            foreach (var indent in indents)
-            {
-                rowString.Append(indent ? "| " : "  ");
-            }
-            rowString.Append(child.GetText(0));
-            while (rowString.Length < maxLength)
-            {
-                rowString.Append(' ');
-            }
-            text.Append(rowString, 0, maxLength);
-            text.Append(' ');
-            text.Append(child.GetText(2));
-            text.Append('\n');
-
-            var nextIndent = child.GetIndex() != item.GetChildCount() - 1;
-            var newIndents = indents.Append(nextIndent).ToArray();
-            GetTreeRowText(child, newIndents, ref text);
-        }
     }
 
     private void OnTreeItemEdited()
