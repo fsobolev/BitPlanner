@@ -214,6 +214,10 @@ public partial class CraftPage : PanelContainer, IPage
             var maxQuantity = item.Value.Item2 < 0 ? 0u : (uint)item.Value.Item2;
             var quantityString = RecipeTab.GetQuantityString(minQuantity, maxQuantity);
             treeItem.SetText(1, quantityString);
+            if (quantityString.Length > 9)
+            {
+                treeItem.SetTooltipText(1, quantityString);
+            }
 
             dataForCopying.Add(craftingItem.Name, [
                 craftingItem.Tier > -1 ? $"{craftingItem.GenericName} — T{craftingItem.Tier}" : craftingItem.Name,
