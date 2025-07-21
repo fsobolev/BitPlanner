@@ -186,15 +186,65 @@ public partial class RecipeTab : VBoxContainer
         return $"{minQuantity:N0}—{maxQuantity:N0}";
     }
 
-	private static string BuildTreeIndent(bool[] relationshipLines)
-	{
+    /// <summary>
+    /// Gets a possible output range for the given recipe.
+    /// If the output is fixed and guaranteed, returned minimum and maximum outputs are the same.
+    /// If the item is not guaranteed to craft, returned minimum output is 0.
+    /// </summary>
+    /// <param name="recipe">A recipe to calculate output for</param>
+    /// <returns>Minimum and maximum output</returns>
+    private static (uint, uint) CalculateRecipeOutput(Recipe recipe)
+    {
+        var minOutput = UInt32.MaxValue;
+        var maxOutput = 1u;
+        var possibilitiesSum = 0.0;
+        foreach (var possibility in recipe.Possibilities)
+        {
+            possibilitiesSum += possibility.Value;
+            // 8.0 seems to indicate equal chance to get 1-2 items
+            if (possibility.Value >= 8.0)
+            {
+                minOutput = 1;
+                maxOutput = possibility.Key;
+            }
+            // 2.0 seems to indicate equal chance to get 0-1 item
+            else if (possibility.Value >= 2.0 || possibility.Value < 1.0)
+            {
+                minOutput = 0;
+                maxOutput = possibility.Key;
+            }
+
+            if (possibility.Key < minOutput)
+            {
+                minOutput = possibility.Key;
+            }
+            if (possibility.Key > maxOutput)
+            {
+                maxOutput = possibility.Key;
+            }
+        }
+        if (minOutput == UInt32.MaxValue)
+        {
+            minOutput = 1;
+        }
+        else if (minOutput == 0 && possibilitiesSum >= 1.0)
+        {
+            minOutput = recipe.Possibilities.Min(p => p.Key);
+        }
+        minOutput *= recipe.OutputQuantity;
+        maxOutput *= recipe.OutputQuantity;
+        return (minOutput, maxOutput);
+    }
+
+    private static string BuildTreeIndent(bool[] relationshipLines)
+    {
         var result = new StringBuilder();
         foreach (var line in relationshipLines)
         {
             result.Append(line ? "| " : "  ");
         }
         return result.ToString();
-	}
+    }
 
     private static void TraverseAndCountBaseIngredients(TreeItem item, ref Dictionary<ulong, (int, int)> data)
     {
@@ -355,47 +405,7 @@ public partial class RecipeTab : VBoxContainer
                 }
             }
 
-            // Calculating quantity of items produced by the recipe.
-            // If the quantity is fixed and guaranteed, minOutput and maxOutput are the same.
-            var minOutput = UInt32.MaxValue;
-            var maxOutput = 1u;
-            var possibilitiesSum = 0.0;
-            foreach (var possibility in recipe.Possibilities)
-            {
-                possibilitiesSum += possibility.Value;
-                // 8.0 seems to indicate equal chance to get 1-2 items
-                if (possibility.Value >= 8.0)
-                {
-                    minOutput = 1;
-                    maxOutput = possibility.Key;
-                }
-                // 2.0 seems to indicate equal chance to get 0-1 item
-                else if (possibility.Value >= 2.0 || possibility.Value < 1.0)
-                {
-                    minOutput = 0;
-                    maxOutput = possibility.Key;
-                }
-
-                if (possibility.Key < minOutput)
-                {
-                    minOutput = possibility.Key;
-                }
-                if (possibility.Key > maxOutput)
-                {
-                    maxOutput = possibility.Key;
-                }
-            }
-            if (minOutput == UInt32.MaxValue)
-            {
-                minOutput = 1;
-            }
-            else if (minOutput == 0 && possibilitiesSum >= 1.0)
-            {
-                minOutput = recipe.Possibilities.Min(p => p.Key);
-            }
-            minOutput *= recipe.OutputQuantity;
-            maxOutput *= recipe.OutputQuantity;
-
+            var (minOutput, maxOutput) = CalculateRecipeOutput(recipe);
             foreach (var consumedItem in recipe.ConsumedItems)
             {
                 if (!_data.CraftingItems.ContainsKey(consumedItem.Id))
@@ -417,6 +427,33 @@ public partial class RecipeTab : VBoxContainer
                 };
                 BuildTree(childItem, childMetadata);
             }
+        }
+    }
+
+    private void TraverseAndChangeQuantity(TreeItem item)
+    {
+        var meta = ItemMetadata.FromGodotArray(item.GetMetadata(0).AsGodotArray());
+        var quantityString = GetQuantityString(meta.MinQuantity, meta.MaxQuantity);
+        item.SetText(2, quantityString);
+        item.SetTooltipText(2, quantityString.Length > 9 ? quantityString : "");
+
+        if (_data.CraftingItems[meta.Id].Recipes.Count == 0)
+        {
+            return;
+        }
+        var recipe = _data.CraftingItems[meta.Id].Recipes[(int)meta.RecipeIndex];
+        var (minOutput, maxOutput) = CalculateRecipeOutput(recipe);
+        foreach (var child in item.GetChildren())
+        {
+            var consumedQuantity = recipe.ConsumedItems[child.GetIndex()].Quantity;
+            var minQuantity = (uint)Math.Ceiling((double)meta.MinQuantity / maxOutput) * consumedQuantity;
+            // If minOutput is 0 it means that the item is not guaranteed to craft, so we can't know maximum quantity for ingredients and it's therefore set to 0
+            var maxQuantity = minOutput > 0 ? (uint)Math.Ceiling((double)meta.MaxQuantity / minOutput) * consumedQuantity : 0;
+            var childMeta = ItemMetadata.FromGodotArray(child.GetMetadata(0).AsGodotArray());
+            childMeta.MinQuantity = minQuantity;
+            childMeta.MaxQuantity = maxQuantity;
+            child.SetMetadata(0, childMeta.ToGodotArray());
+            TraverseAndChangeQuantity(child);
         }
     }
 
@@ -443,15 +480,16 @@ public partial class RecipeTab : VBoxContainer
 
     private void OnQuantityChanged(double quantity)
     {
-        var treeItem = _recipeTree.GetRoot();
-        var meta = ItemMetadata.FromGodotArray(treeItem.GetMetadata(0).AsGodotArray());
+        var root = _recipeTree.GetRoot();
+        var meta = ItemMetadata.FromGodotArray(root.GetMetadata(0).AsGodotArray());
         if (meta.MinQuantity == quantity)
         {
             return;
         }
         meta.MinQuantity = (uint)quantity;
         meta.MaxQuantity = meta.MinQuantity;
-        BuildTree(treeItem, meta);
+        root.SetMetadata(0, meta.ToGodotArray());
+        TraverseAndChangeQuantity(root);
     }
 
     private void OnTreeItemEdited()
