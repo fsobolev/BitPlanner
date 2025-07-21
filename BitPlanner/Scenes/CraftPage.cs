@@ -145,15 +145,15 @@ public partial class CraftPage : PanelContainer, IPage
     }
 
     public void CopyTreesAsCSV()
-	{
-		var result = new StringBuilder();
-		foreach (var tab in _recipeTabs.GetChildren().Cast<RecipeTab>())
-		{
+    {
+        var result = new StringBuilder();
+        foreach (var tab in _recipeTabs.GetChildren().Cast<RecipeTab>())
+        {
             result.Append(tab.GetTreeAsCSV());
             result.Append("\n\n");
-		}
-		DisplayServer.ClipboardSet(result.ToString().Trim());
-	}
+        }
+        DisplayServer.ClipboardSet(result.ToString().Trim());
+    }
 
     private void ShowBaseIngredients()
     {
