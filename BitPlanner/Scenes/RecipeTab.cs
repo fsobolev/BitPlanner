@@ -161,13 +161,14 @@ public partial class RecipeTab : VBoxContainer
         return text.ToString();
     }
 
-    public string GetTreeAsCSV()
+    public string GetTreeAsCSV(ref uint currentRow)
     {
         var recipeRoot = _recipeTree.GetRoot();
         var csv = new StringBuilder();
-        csv.Append($"{recipeRoot.GetText(0)},{(uint)_quantitySelection.Value}");
-        csv.AppendLine("\nItem,Minimum Quantity,Maximum Quantity,In Stock");
-        TraverseAndAppendCSV(recipeRoot, [], ref csv);
+        csv.AppendLine($"{recipeRoot.GetText(0)},{(uint)_quantitySelection.Value}");
+        csv.AppendLine("Item,Minimum Quantity,Maximum Quantity,In Stock");
+        currentRow += 2;
+        TraverseAndAppendCSV(recipeRoot, [], ref csv, ref currentRow, currentRow-2);
         return csv.ToString();
     }
 
@@ -320,22 +321,38 @@ public partial class RecipeTab : VBoxContainer
         }
     }
 
-    private static void TraverseAndAppendCSV(TreeItem parent, bool[] relationshipLines, ref StringBuilder csv)
+    private void TraverseAndAppendCSV(TreeItem parent, bool[] relationshipLines, ref StringBuilder csv, ref uint currentRow, uint parentRow)
     {
         if (Config.IgnoreHiddenInTreesExport && parent.Collapsed)
         {
             return;
         }
+        if (parent.GetChildCount() == 0)
+        {
+            return;
+        }
+        var parentMeta = ItemMetadata.FromGodotArray(parent.GetMetadata(0).AsGodotArray());
+        var recipe = _data.CraftingItems[parentMeta.Id].Recipes[(int)parentMeta.RecipeIndex];
+        var (minOutput, maxOutput) = CalculateRecipeOutput(recipe);
+        var parentMaxQuantityColumn = parent.GetParent() != null ? "C" : "B";
         foreach (var child in parent.GetChildren())
         {
             var indent = BuildTreeIndent(relationshipLines);
             var name = child.GetText(0);
+
             var meta = ItemMetadata.FromGodotArray(child.GetMetadata(0).AsGodotArray());
-            csv.AppendLine($"{indent}{name},{meta.MinQuantity},{meta.MaxQuantity},0");
+            var consumedQuantity = recipe.ConsumedItems[child.GetIndex()].Quantity;
+            var minQuantityString = $"=ROUNDUP(B{parentRow}/{maxOutput})*{consumedQuantity}";
+            var maxQuantityString = (minOutput > 0 && parentMeta.MaxQuantity > 0)
+                ? $"=ROUNDUP({parentMaxQuantityColumn}{parentRow}/{minOutput})*{consumedQuantity}"
+                : "?";
+
+            csv.AppendLine($".{indent}{name},{minQuantityString},{maxQuantityString},0");
 
             var hasMoreSiblings = child.GetIndex() != parent.GetChildCount() - 1;
             var newRelationshipLines = relationshipLines.Append(hasMoreSiblings).ToArray();
-            TraverseAndAppendCSV(child, newRelationshipLines, ref csv);
+            var childRow = currentRow; currentRow++;
+            TraverseAndAppendCSV(child, newRelationshipLines, ref csv, ref currentRow, childRow);
         }
     }
 

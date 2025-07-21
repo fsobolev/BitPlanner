@@ -147,10 +147,12 @@ public partial class CraftPage : PanelContainer, IPage
     public void CopyTreesAsCSV()
     {
         var result = new StringBuilder();
+        var currentRow = 1u;
         foreach (var tab in _recipeTabs.GetChildren().Cast<RecipeTab>())
         {
-            result.Append(tab.GetTreeAsCSV());
+            result.Append(tab.GetTreeAsCSV(ref currentRow));
             result.Append("\n\n");
+            currentRow += 2;
         }
         DisplayServer.ClipboardSet(result.ToString().Trim());
     }
