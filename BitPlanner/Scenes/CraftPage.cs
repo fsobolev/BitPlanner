@@ -157,10 +157,10 @@ public partial class CraftPage : PanelContainer, IPage
 
     private void ShowBaseIngredients()
     {
-        var unsortedData = new Dictionary<ulong, int[]>();
+        var unsortedData = new Dictionary<ulong, (int, int)>();
         foreach (var tab in _recipeTabs.GetChildren().Cast<RecipeTab>())
         {
-            GetBaseIngredients(tab.GetTreeRoot(), ref unsortedData);
+            tab.GetBaseIngredients(ref unsortedData);
         }
         var data = unsortedData.OrderBy(pair => $"{_data.CraftingItems[pair.Key].GenericName}{_data.CraftingItems[pair.Key].Tier}");
 
@@ -209,9 +209,9 @@ public partial class CraftPage : PanelContainer, IPage
             }
 
             treeItem.SetTextAlignment(1, HorizontalAlignment.Right);
-            var minQuantity = (uint)item.Value[0];
-            // Here maxQuantity can be -1, see GetBaseIngredients()
-            var maxQuantity = item.Value[1] < 0 ? 0u : (uint)item.Value[1];
+            var minQuantity = (uint)item.Value.Item1;
+            // Here maxQuantity can be -1, see RecipeTab.TraverseAndCountBaseIngredients()
+            var maxQuantity = item.Value.Item2 < 0 ? 0u : (uint)item.Value.Item2;
             var quantityString = RecipeTab.GetQuantityString(minQuantity, maxQuantity);
             treeItem.SetText(1, quantityString);
 
@@ -230,57 +230,6 @@ public partial class CraftPage : PanelContainer, IPage
         }
         ingredientsRoot.SetMetadata(0, dataForCopying);
         _baseIngredientsPopup.PopupCentered();
-    }
-
-    private void GetBaseIngredients(TreeItem item, ref Dictionary<ulong, int[]> data)
-    {
-        var guaranteedCraft = true;
-        if (Config.TreatNonGuaranteedItemsAsBase)
-        {
-            foreach (var child in item.GetChildren())
-            {
-                var childQuantity = child.GetMetadata(2).AsInt32Array();
-                if (childQuantity[1] == 0)
-                {
-                    guaranteedCraft = false;
-                    break;
-                }
-            }
-        }
-        if (item.GetChildCount() > 0 && guaranteedCraft)
-        {
-            foreach (var child in item.GetChildren())
-            {
-                GetBaseIngredients(child, ref data);
-            }
-            return;
-        }
-
-        var id = item.GetMetadata(0).AsUInt64();
-        var quantity = item.GetMetadata(2).AsInt32Array();
-        var minQuantity = quantity[0];
-        var maxQuantity = quantity[1];
-        if (!data.ContainsKey(id))
-        {
-            data[id] = [0, 0];
-        }
-        if (maxQuantity > 0)
-        {
-            data[id][0] += minQuantity;
-            if (data[id][1] >= 0)
-            {
-                data[id][1] += maxQuantity;
-            }
-        }
-        else
-        {
-            if (minQuantity > data[id][0])
-            {
-                data[id][0] = minQuantity;
-            }
-            // For the sake of code simplification, here -1 means unknown maximum quantity, unlike in RecipeTab.BuildTree() where it's 0
-            data[id][1] = -1;
-        }
     }
 
     private void OnBaseIngredientsCopyPlainRequested()

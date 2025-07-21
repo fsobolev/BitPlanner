@@ -6,6 +6,38 @@ using System.Text;
 
 public partial class RecipeTab : VBoxContainer
 {
+    private class ItemMetadata
+    {
+        public ulong Id;
+        public HashSet<ulong> ShownIds;
+        public uint RecipeIndex;
+        public uint MinQuantity;
+        public uint MaxQuantity;
+
+        public Godot.Collections.Array<Variant> ToGodotArray()
+        {
+            return [
+                Id,
+                new Godot.Collections.Array(ShownIds.Select(i => Variant.CreateFrom(i))),
+                RecipeIndex,
+                MinQuantity,
+                MaxQuantity
+            ];
+        }
+
+        public static ItemMetadata FromGodotArray(Godot.Collections.Array array)
+        {
+            return new()
+            {
+                Id = array[0].AsUInt64(),
+                ShownIds = new(array[1].AsGodotArray().Select(i => i.AsUInt64())),
+                RecipeIndex = array[2].AsUInt32(),
+                MinQuantity = array[3].AsUInt32(),
+                MaxQuantity = array[4].AsUInt32()
+            };
+        }
+    }
+
     private readonly GameData _data = GameData.Instance;
     private bool _allCollapsed = Config.CollapseTreesByDefault;
     private Tree _recipeTree;
@@ -57,6 +89,7 @@ public partial class RecipeTab : VBoxContainer
         _recipeTree = GetNode<Tree>("RecipeTree");
         _recipeTree.SetColumnCustomMinimumWidth(1, 86);
         _recipeTree.SetColumnExpand(1, false);
+        _recipeTree.SetColumnExpandRatio(0, (int)Math.Round(10 / Config.Scale * 2));
         _recipeTree.SetColumnCustomMinimumWidth(2, 98);
         _recipeTree.ItemEdited += OnTreeItemEdited;
         _recipeTree.ButtonClicked += OnRecipeTreeButtonClicked;
@@ -101,9 +134,16 @@ public partial class RecipeTab : VBoxContainer
         _recipeSelection.Visible = craftingItem.Recipes.Count > 1;
 
         _recipeTree.Clear();
-        _recipeTree.SetColumnExpandRatio(0, (int)Math.Round(10 / Config.Scale * 2));
         var rootItem = _recipeTree.CreateItem();
-        BuildTree(id, rootItem, [id], 0, quantity, quantity);
+        var meta = new ItemMetadata()
+        {
+            Id = id,
+            ShownIds = [],
+            RecipeIndex = 0,
+            MinQuantity = quantity,
+            MaxQuantity = quantity
+        };
+        BuildTree(rootItem, meta);
         _recipeSelection.Select(0);
         _quantitySelection.SetValueNoSignal(quantity);
     }
@@ -131,7 +171,7 @@ public partial class RecipeTab : VBoxContainer
         return csv.ToString();
     }
 
-    public TreeItem GetTreeRoot() => _recipeTree.GetRoot();
+    public void GetBaseIngredients(ref Dictionary<ulong, (int, int)> data) => TraverseAndCountBaseIngredients(_recipeTree.GetRoot(), ref data);
 
     public static string GetQuantityString(uint minQuantity, uint maxQuantity)
     {
@@ -155,6 +195,53 @@ public partial class RecipeTab : VBoxContainer
         }
         return result.ToString();
 	}
+
+    private static void TraverseAndCountBaseIngredients(TreeItem item, ref Dictionary<ulong, (int, int)> data)
+    {
+        var guaranteedCraft = true;
+        if (Config.TreatNonGuaranteedItemsAsBase)
+        {
+            foreach (var child in item.GetChildren())
+            {
+                var childMaxQuantity = ItemMetadata.FromGodotArray(child.GetMetadata(0).AsGodotArray()).MaxQuantity;
+                if (childMaxQuantity == 0)
+                {
+                    guaranteedCraft = false;
+                    break;
+                }
+            }
+        }
+        if (item.GetChildCount() > 0 && guaranteedCraft)
+        {
+            foreach (var child in item.GetChildren())
+            {
+                TraverseAndCountBaseIngredients(child, ref data);
+            }
+            return;
+        }
+
+        var meta = ItemMetadata.FromGodotArray(item.GetMetadata(0).AsGodotArray());
+        data.TryGetValue(meta.Id, out var quantity);
+        if (meta.MaxQuantity > 0)
+        {
+            quantity.Item1 += (int)meta.MinQuantity;
+            if (quantity.Item2 >= 0)
+            {
+                quantity.Item2 += (int)meta.MaxQuantity;
+            }
+        }
+        else
+        {
+            if (meta.MinQuantity > quantity.Item1)
+            {
+                quantity.Item1 = (int)meta.MinQuantity;
+            }
+            // For the sake of code simplification, here -1 means unknown maximum quantity, unlike in metadata where it's 0
+            // That's needed to differentiate between unknown quantity and the default value when we start counting
+            quantity.Item2 = -1;
+        }
+        data[meta.Id] = quantity;
+    }
 
     private static void TraverseAndAppendText(TreeItem parent, bool[] relationshipLines, ref StringBuilder text)
     {
@@ -192,11 +279,9 @@ public partial class RecipeTab : VBoxContainer
         foreach (var child in parent.GetChildren())
         {
             var indent = BuildTreeIndent(relationshipLines);
-            var name = parent.GetText(0);
-            var quantity = parent.GetMetadata(2).AsGodotArray();
-            var minQuantity = quantity[0].AsUInt32();
-            var maxQuantity = quantity[1].AsUInt32();
-            csv.AppendLine($"{indent}{name},{minQuantity},{maxQuantity},0");
+            var name = child.GetText(0);
+            var meta = ItemMetadata.FromGodotArray(child.GetMetadata(0).AsGodotArray());
+            csv.AppendLine($"{indent}{name},{meta.MinQuantity},{meta.MaxQuantity},0");
 
             var hasMoreSiblings = child.GetIndex() != parent.GetChildCount() - 1;
             var newRelationshipLines = relationshipLines.Append(hasMoreSiblings).ToArray();
@@ -204,16 +289,15 @@ public partial class RecipeTab : VBoxContainer
         }
     }
 
-    private void BuildTree(ulong id, TreeItem treeItem, HashSet<ulong> shownIds, uint recipeIndex, uint minQuantity, uint maxQuantity)
+    private void BuildTree(TreeItem treeItem, ItemMetadata meta)
     {
         foreach (var child in treeItem.GetChildren())
         {
             treeItem.RemoveChild(child);
             child.Free();
         }
-
-        var craftingItem = _data.CraftingItems[id];
-        treeItem.SetMetadata(0, id);
+        treeItem.SetMetadata(0, meta.ToGodotArray());
+        var craftingItem = _data.CraftingItems[meta.Id];
 
         treeItem.SetText(0, craftingItem.Tier > -1 ? $"{craftingItem.Name} (T{craftingItem.Tier})" : craftingItem.Name);
         var tooltipName = craftingItem.Tier > -1 ? $"T{craftingItem.Tier} {craftingItem.GenericName}" : craftingItem.Name;
@@ -241,7 +325,7 @@ public partial class RecipeTab : VBoxContainer
                 }
                 rangeText.Remove(rangeText.Length - 1, 1);
                 treeItem.SetText(1, rangeText.ToString());
-                treeItem.SetRange(1, recipeIndex);
+                treeItem.SetRange(1, meta.RecipeIndex);
                 treeItem.SetEditable(1, true);
             }
             else
@@ -249,32 +333,30 @@ public partial class RecipeTab : VBoxContainer
                 treeItem.SetText(1, "");
             }
         }
-        var recipeMeta = new Godot.Collections.Array()
-        {
-            recipeIndex,
-            new Godot.Collections.Array(shownIds.Select(i => Variant.CreateFrom(i)))
-        };
-        treeItem.SetMetadata(1, recipeMeta);
 
         treeItem.SetTextAlignment(2, HorizontalAlignment.Right);
-        var quantityString = GetQuantityString(minQuantity, maxQuantity);
+        var quantityString = GetQuantityString(meta.MinQuantity, meta.MaxQuantity);
         treeItem.SetText(2, quantityString);
         if (quantityString.Length > 9)
         {
             treeItem.SetTooltipText(2, quantityString);
         }
-        var quantityMeta = new Godot.Collections.Array
-        {
-            minQuantity,
-            maxQuantity
-        };
-        treeItem.SetMetadata(2, quantityMeta);
 
-        if (recipeIndex < craftingItem.Recipes.Count)
+        if (meta.RecipeIndex < craftingItem.Recipes.Count)
         {
+            var recipe = craftingItem.Recipes[(int)meta.RecipeIndex];
+            var shownIds = new HashSet<ulong>(meta.ShownIds);
+            foreach (var consumedItem in recipe.ConsumedItems)
+            {
+                if (!shownIds.Add(consumedItem.Id))
+                {
+                    treeItem.AddButton(0, _errorIcon);
+                    return;
+                }
+            }
+
             // Calculating quantity of items produced by the recipe.
             // If the quantity is fixed and guaranteed, minOutput and maxOutput are the same.
-            var recipe = craftingItem.Recipes[(int)recipeIndex];
             var minOutput = UInt32.MaxValue;
             var maxOutput = 1u;
             var possibilitiesSum = 0.0;
@@ -316,24 +398,24 @@ public partial class RecipeTab : VBoxContainer
 
             foreach (var consumedItem in recipe.ConsumedItems)
             {
-                if (!shownIds.Add(consumedItem.Id))
-                {
-                    treeItem.AddButton(0, _errorIcon);
-                    return;
-                }
-            }
-            foreach (var consumedItem in recipe.ConsumedItems)
-            {
                 if (!_data.CraftingItems.ContainsKey(consumedItem.Id))
                 {
                     continue;
                 }
-                var child = treeItem.CreateChild();
-                child.Collapsed = _allCollapsed;
-                var childMinQuantity = (uint)Math.Ceiling((double)minQuantity / maxOutput) * consumedItem.Quantity;
+                var childItem = treeItem.CreateChild();
+                childItem.Collapsed = _allCollapsed;
+                var childMinQuantity = (uint)Math.Ceiling((double)meta.MinQuantity / maxOutput) * consumedItem.Quantity;
                 // If minOutput is 0 it means that the item is not guaranteed to craft, so we can't know maximum quantity for ingredients and it's therefore set to 0
-                var childMaxQuantity = minOutput > 0 ? (uint)Math.Ceiling((double)maxQuantity / minOutput) * consumedItem.Quantity : 0;
-                BuildTree(consumedItem.Id, child, new(shownIds), 0, childMinQuantity, childMaxQuantity);
+                var childMaxQuantity = minOutput > 0 ? (uint)Math.Ceiling((double)meta.MaxQuantity / minOutput) * consumedItem.Quantity : 0;
+                var childMetadata = new ItemMetadata
+                {
+                    Id = consumedItem.Id,
+                    ShownIds = shownIds,
+                    RecipeIndex = 0,
+                    MinQuantity = childMinQuantity,
+                    MaxQuantity = childMaxQuantity
+                };
+                BuildTree(childItem, childMetadata);
             }
         }
     }
@@ -350,52 +432,41 @@ public partial class RecipeTab : VBoxContainer
     private void OnRecipeChanged(long index)
     {
         var treeItem = _recipeTree.GetRoot();
-        var recipeMeta = treeItem.GetMetadata(1).AsGodotArray();
-        if (recipeMeta[0].AsInt64() == index)
+        var meta = ItemMetadata.FromGodotArray(treeItem.GetMetadata(0).AsGodotArray());
+        if (meta.RecipeIndex == index)
         {
             return;
         }
-
-        var id = treeItem.GetMetadata(0).AsUInt64();
-        var quantityMeta = treeItem.GetMetadata(2).AsGodotArray();
-        BuildTree(id, treeItem, [id], (uint)index, quantityMeta[0].AsUInt32(), quantityMeta[1].AsUInt32());
+        meta.RecipeIndex = (uint)index;
+        BuildTree(treeItem, meta);
     }
 
     private void OnQuantityChanged(double quantity)
     {
         var treeItem = _recipeTree.GetRoot();
-        var quantityMeta = treeItem.GetMetadata(2).AsGodotArray();
-        if (quantityMeta[0].AsDouble() == quantity)
+        var meta = ItemMetadata.FromGodotArray(treeItem.GetMetadata(0).AsGodotArray());
+        if (meta.MinQuantity == quantity)
         {
             return;
         }
-
-        var id = treeItem.GetMetadata(0).AsUInt64();
-        var recipeMeta = treeItem.GetMetadata(1).AsGodotArray();
-        BuildTree(id, treeItem, [id], recipeMeta[0].AsUInt32(), (uint)quantity, (uint)quantity);
+        meta.MinQuantity = (uint)quantity;
+        meta.MaxQuantity = meta.MinQuantity;
+        BuildTree(treeItem, meta);
     }
 
     private void OnTreeItemEdited()
     {
         var treeItem = _recipeTree.GetEdited();
-        var recipeMeta = treeItem.GetMetadata(1).AsGodotArray();
+        var meta = ItemMetadata.FromGodotArray(treeItem.GetMetadata(0).AsGodotArray());
         var newRecipeIndex = (uint)treeItem.GetRange(1);
-        if (recipeMeta[0].AsUInt32() == newRecipeIndex)
+        if (meta.RecipeIndex == newRecipeIndex)
         {
             return;
         }
-
+        meta.RecipeIndex = newRecipeIndex;
         treeItem.ClearButtons();
-        var id = treeItem.GetMetadata(0).AsUInt64();
-        var shownIdsArray = recipeMeta[1].AsGodotArray();
-        var shownIds = new HashSet<ulong>();
-        foreach (var shownId in shownIdsArray)
-        {
-            shownIds.Add(shownId.AsUInt64());
-        }
-        var quantityMeta = treeItem.GetMetadata(2).AsGodotArray();
         var collapsed = treeItem.Collapsed;
-        BuildTree(id, treeItem, shownIds, newRecipeIndex, quantityMeta[0].AsUInt32(), quantityMeta[1].AsUInt32());
+        BuildTree(treeItem, meta);
         treeItem.Collapsed = collapsed;
     }
 
