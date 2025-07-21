@@ -323,15 +323,16 @@ color = Color(0, 0, 0, 0.501961)
 
 [node name="SettingsPopup" type="PopupPanel" parent="."]
 initial_position = 2
-size = Vector2i(360, 376)
+size = Vector2i(360, 436)
 visible = true
 wrap_controls = false
+min_size = Vector2i(360, 0)
 
 [node name="MarginContainer" type="MarginContainer" parent="SettingsPopup"]
 offset_left = 4.0
 offset_top = 4.0
 offset_right = 356.0
-offset_bottom = 368.0
+offset_bottom = 428.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
@@ -407,6 +408,12 @@ text = "CRAFTING"
 [node name="CollapseTreesCheck" type="CheckButton" parent="SettingsPopup/MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Collapse trees by default"
+flat = true
+
+[node name="IgnoreHiddenInTreesExportCheck" type="CheckButton" parent="SettingsPopup/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Ignore hidden items when
+copying trees"
 flat = true
 
 [node name="NonGuaranteedAsBaseCheck" type="CheckButton" parent="SettingsPopup/MarginContainer/VBoxContainer"]

@@ -158,6 +158,10 @@ public partial class RecipeTab : VBoxContainer
 
     private static void TraverseAndAppendText(TreeItem parent, bool[] relationshipLines, ref StringBuilder text)
     {
+        if (Config.IgnoreHiddenInTreesExport && parent.Collapsed)
+        {
+            return;
+        }
         const int MAX_LENGTH = 52;
         foreach (var child in parent.GetChildren())
         {
@@ -179,8 +183,12 @@ public partial class RecipeTab : VBoxContainer
         }
     }
 
-	private static void TraverseAndAppendCSV(TreeItem parent, bool[] relationshipLines, ref StringBuilder csv)
+    private static void TraverseAndAppendCSV(TreeItem parent, bool[] relationshipLines, ref StringBuilder csv)
     {
+        if (Config.IgnoreHiddenInTreesExport && parent.Collapsed)
+        {
+            return;
+        }
         foreach (var child in parent.GetChildren())
         {
             var indent = BuildTreeIndent(relationshipLines);

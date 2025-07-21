@@ -35,6 +35,7 @@ public partial class Main : Control
     private CheckButton _csdCheck;
     private SpinBox _uiScaleSpin;
     private CheckButton _collapseTreesCheck;
+    private CheckButton _ignoreHiddenInTreesExportCheck;
     private CheckButton _nonGuaranteedAsBaseCheck;
 
     public override void _Ready()
@@ -214,6 +215,10 @@ public partial class Main : Control
         _collapseTreesCheck = _settingsPopup.GetNode<CheckButton>("MarginContainer/VBoxContainer/CollapseTreesCheck");
         _collapseTreesCheck.SetPressedNoSignal(Config.CollapseTreesByDefault);
         _collapseTreesCheck.Toggled += (toggled) => Config.CollapseTreesByDefault = toggled;
+
+        _ignoreHiddenInTreesExportCheck = _settingsPopup.GetNode<CheckButton>("MarginContainer/VBoxContainer/IgnoreHiddenInTreesExportCheck");
+        _ignoreHiddenInTreesExportCheck.SetPressedNoSignal(Config.IgnoreHiddenInTreesExport);
+        _ignoreHiddenInTreesExportCheck.Toggled += (toggled) => Config.IgnoreHiddenInTreesExport = toggled;
 
         _nonGuaranteedAsBaseCheck = _settingsPopup.GetNode<CheckButton>("MarginContainer/VBoxContainer/NonGuaranteedAsBaseCheck");
         _nonGuaranteedAsBaseCheck.SetPressedNoSignal(Config.TreatNonGuaranteedItemsAsBase);
