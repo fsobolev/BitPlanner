@@ -1,3 +1,4 @@
+from functools import cmp_to_key
 import json
 
 root = 'BitCraft_GameData/server/region'
@@ -7,6 +8,17 @@ crafting_data = json.load(open('../BitPlanner/crafting_data.json'))
 
 cargo_offset = 0xffffffff
 travelers_data = []
+
+def cmp(a, b):
+    return (a > b) - (a < b)
+
+def compare_tasks(a, b):
+    if a['levels'][0] != b['levels'][0]:
+        return cmp(a['levels'][0], b['levels'][0])
+    elif a['levels'][1] != b['levels'][1]:
+        return cmp(a['levels'][1], b['levels'][1])
+    else:
+        return cmp(list(a['required_items'].keys())[0], list(b['required_items'].keys())[0])
 
 print('Getting NPCs info...')
 for npc in npcs:
@@ -66,6 +78,6 @@ for task in tasks:
     traveler['tasks'].append(output)
 
 for traveler in travelers_data:
-    traveler['tasks'].sort(key=lambda task: task['levels'][0])
+    traveler['tasks'].sort(key=cmp_to_key(compare_tasks))
 
 json.dump(travelers_data, open('../BitPlanner/travelers_data.json', 'w'), indent=2)

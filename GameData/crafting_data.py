@@ -11,36 +11,19 @@ cargos = json.load(open(f'{root}/cargo_desc.json'))
 enemies = json.load(open(f'{root}/enemy_desc.json'))
 
 cargo_offset = 0xffffffff
+ignored_tags = ['DEVELOPER ITEM', 'Crushed Ore', 'Precious', 'Cosmetic Clothes', 'Letter', 'Journal Page', 'Ancient Research']
 recipes_order_overrides = {
-	# Fertilizer: from berries, from flowers, from fish, from waste
-	1100001: [1130004, 1130005, 1110020, 1582847061],
-	2100001: [2130004, 2130005, 2110020, 1974958555],
-	3100001: [3130004, 3130005, 3110020, 2127360112],
-	4100001: [4130004, 4130005, 4110020, 1788612243],
-	5100001: [5130004, 5130005, 5110020, 2083052337],
-	6100001: [6130004, 6130005, 6110020, 1110458355],
-	18012337: [1695618883, 418805707, 981574528, 2059094272],
-	1895003720: [1971526319, 1935440864, 126302392, 1800829536],
-	1329815128: [1608154701, 1359045035, 1831764501, 1357296296],
-	52170614: [51716987, 1879591029, 1588421618],
 	# Study Journal: from carvings, from diagrams
 	1210004: [1210037, 1210038],
 	2210004: [2210037, 2210038],
 	3210004: [3210037, 3210038],
 	4210004: [4210037, 4210038],
 	5210004: [5210037, 5210038],
-	6210004: [6210037, 6210038],
-	# Chemical Catalyst: from embergrain, from wispveave, from starbulb
-	1573699181: [1100005, 1100015, 1100008],
-	283591176: [2100005, 2100015, 2100008],
-	1020188259: [3100005, 3100015, 3100008],
-	98643046: [4100005, 4100015, 4100008],
-	1030159712: [5100005, 5100015, 5100008],
-	389773215: [6100005, 6100015, 6100008],
-	1569513170: [1008417993, 53729166, 2115422084],
-	1359102754: [1024977657, 2129960803, 757946117],
-	1527038072: [2120609742, 1530487215, 1537113956],
-	391105297: [1239830729, 1181587439, 21938971],
+	6210004: [6210037, 6210038]
+}
+recipes_order_overrides_by_tag = {
+	'Fertilizer': ['Berry', 'Flower', 'Lake Fish Filet', 'Oceanfish Filet', 'Raw Meat', 'Food Waste'],
+	'Catalyst': ['Grain Seeds', 'Filament Seeds', 'Vegetable Seeds']
 }
 crafting_data = {}
 
@@ -111,15 +94,19 @@ def get_recipe_priority(target_id, recipe):
 			if item['id'] in recipes_order_overrides[target_id]:
 				return recipes_order_overrides[target_id].index(item['id'])
 	
+	target_tag = crafting_data[target_id]['tag']
+	if target_tag in recipes_order_overrides_by_tag:
+		for item in recipe['consumed_items']:
+			consumed_item_tag = crafting_data[item['id']]['tag']
+			if consumed_item_tag in recipes_order_overrides_by_tag[target_tag]:
+				return recipes_order_overrides_by_tag[target_tag].index(consumed_item_tag)
+	
 	priority_bonus = 0
-	for data in items:
-		if data['id'] == target_id:
-			if 'Tool' in data['tag']:
-				for consumed_item in recipe['consumed_items']:
-					if 'Tool Scrap' in crafting_data[consumed_item['id']]['name']:
-						priority_bonus += 10000
-						break
-			break
+	if 'Tool' in target_tag:
+		for consumed_item in recipe['consumed_items']:
+			if crafting_data[consumed_item['id']]['tag'] == 'Scrap':
+				priority_bonus += 10000
+				break
 	
 	item = recipe['consumed_items'][0]
 	return (item['quantity'] + (1000 if item['id'] > cargo_offset else 0)) \
@@ -134,7 +121,12 @@ for item in items:
 		print(f'FATAL: item id {id} exceeds uint32 range')
 		os.exit(1)
 	
-	if item['tag'] == 'Crushed Ore':
+	ignore_item = False
+	for tag in ignored_tags:
+		if tag in item['tag']:
+			ignore_item = True
+			break
+	if ignore_item:
 		continue
 
 	crafting_data[id] = {
@@ -143,7 +135,8 @@ for item in items:
 		'rarity': item['rarity'][0],
 		'icon': item['icon_asset_name'],
 		'recipes': find_recipes(id),
-		'extraction_skill': find_extraction_skill(id)
+		'extraction_skill': find_extraction_skill(id),
+		'tag': item['tag']
 	}
 
 print('Collecing cargos...')
@@ -159,7 +152,8 @@ for item in cargos:
 		'rarity': item['rarity'][0],
 		'icon': item['icon_asset_name'],
 		'recipes': find_recipes(id, True),
-		'extraction_skill': find_extraction_skill(id, True)
+		'extraction_skill': find_extraction_skill(id, True),
+		'tag': item['tag']
 	}
 
 print('Checking icons...')
