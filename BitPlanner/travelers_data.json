@@ -9,20 +9,9 @@
           30
         ],
         "required_items": {
-          "1985753175": 5
+          "1100007": 200
         },
         "reward": 150,
-        "experience": 1000.0
-      },
-      {
-        "levels": [
-          1,
-          30
-        ],
-        "required_items": {
-          "1130001": 300
-        },
-        "reward": 100,
         "experience": 1000.0
       },
       {
@@ -42,9 +31,9 @@
           30
         ],
         "required_items": {
-          "1100007": 200
+          "1110016": 10
         },
-        "reward": 150,
+        "reward": 50,
         "experience": 1000.0
       },
       {
@@ -53,10 +42,43 @@
           30
         ],
         "required_items": {
-          "1110016": 10
+          "1130001": 300
         },
-        "reward": 50,
+        "reward": 100,
         "experience": 1000.0
+      },
+      {
+        "levels": [
+          1,
+          30
+        ],
+        "required_items": {
+          "1985753175": 5
+        },
+        "reward": 150,
+        "experience": 1000.0
+      },
+      {
+        "levels": [
+          20,
+          40
+        ],
+        "required_items": {
+          "2100007": 200
+        },
+        "reward": 195,
+        "experience": 1400.0
+      },
+      {
+        "levels": [
+          20,
+          40
+        ],
+        "required_items": {
+          "2100010": 30
+        },
+        "reward": 195,
+        "experience": 1400.0
       },
       {
         "levels": [
@@ -86,43 +108,10 @@
           40
         ],
         "required_items": {
-          "2100010": 30
-        },
-        "reward": 195,
-        "experience": 1400.0
-      },
-      {
-        "levels": [
-          20,
-          40
-        ],
-        "required_items": {
           "231882109": 5
         },
         "reward": 195,
         "experience": 1400.0
-      },
-      {
-        "levels": [
-          20,
-          40
-        ],
-        "required_items": {
-          "2100007": 200
-        },
-        "reward": 195,
-        "experience": 1400.0
-      },
-      {
-        "levels": [
-          30,
-          50
-        ],
-        "required_items": {
-          "1241558565": 5
-        },
-        "reward": 255,
-        "experience": 1960.0
       },
       {
         "levels": [
@@ -133,17 +122,6 @@
           "3100007": 200
         },
         "reward": 255,
-        "experience": 1960.0
-      },
-      {
-        "levels": [
-          30,
-          50
-        ],
-        "required_items": {
-          "3130001": 300
-        },
-        "reward": 170,
         "experience": 1960.0
       },
       {
@@ -170,14 +148,25 @@
       },
       {
         "levels": [
-          40,
-          60
+          30,
+          50
         ],
         "required_items": {
-          "60702200": 5
+          "3130001": 300
         },
-        "reward": 330,
-        "experience": 2745.0
+        "reward": 170,
+        "experience": 1960.0
+      },
+      {
+        "levels": [
+          30,
+          50
+        ],
+        "required_items": {
+          "1241558565": 5
+        },
+        "reward": 255,
+        "experience": 1960.0
       },
       {
         "levels": [
@@ -225,25 +214,14 @@
       },
       {
         "levels": [
-          50,
-          70
+          40,
+          60
         ],
         "required_items": {
-          "5100010": 30
+          "60702200": 5
         },
-        "reward": 430,
-        "experience": 3840.0
-      },
-      {
-        "levels": [
-          50,
-          70
-        ],
-        "required_items": {
-          "349664081": 5
-        },
-        "reward": 430,
-        "experience": 3840.0
+        "reward": 330,
+        "experience": 2745.0
       },
       {
         "levels": [
@@ -252,6 +230,17 @@
         ],
         "required_items": {
           "5100007": 200
+        },
+        "reward": 430,
+        "experience": 3840.0
+      },
+      {
+        "levels": [
+          50,
+          70
+        ],
+        "required_items": {
+          "5100010": 30
         },
         "reward": 430,
         "experience": 3840.0
@@ -277,6 +266,39 @@
         },
         "reward": 285,
         "experience": 3840.0
+      },
+      {
+        "levels": [
+          50,
+          70
+        ],
+        "required_items": {
+          "349664081": 5
+        },
+        "reward": 430,
+        "experience": 3840.0
+      },
+      {
+        "levels": [
+          60,
+          80
+        ],
+        "required_items": {
+          "6100007": 200
+        },
+        "reward": 555,
+        "experience": 5380.0
+      },
+      {
+        "levels": [
+          60,
+          80
+        ],
+        "required_items": {
+          "6100010": 30
+        },
+        "reward": 555,
+        "experience": 5380.0
       },
       {
         "levels": [
@@ -313,28 +335,6 @@
       },
       {
         "levels": [
-          60,
-          80
-        ],
-        "required_items": {
-          "6100010": 30
-        },
-        "reward": 555,
-        "experience": 5380.0
-      },
-      {
-        "levels": [
-          60,
-          80
-        ],
-        "required_items": {
-          "6100007": 200
-        },
-        "reward": 555,
-        "experience": 5380.0
-      },
-      {
-        "levels": [
           70,
           90
         ],
@@ -342,28 +342,6 @@
           "297634455": 10
         },
         "reward": 240,
-        "experience": 7530.0
-      },
-      {
-        "levels": [
-          70,
-          90
-        ],
-        "required_items": {
-          "817656467": 30
-        },
-        "reward": 725,
-        "experience": 7530.0
-      },
-      {
-        "levels": [
-          70,
-          90
-        ],
-        "required_items": {
-          "1872328157": 300
-        },
-        "reward": 485,
         "experience": 7530.0
       },
       {
@@ -383,9 +361,31 @@
           90
         ],
         "required_items": {
+          "817656467": 30
+        },
+        "reward": 725,
+        "experience": 7530.0
+      },
+      {
+        "levels": [
+          70,
+          90
+        ],
+        "required_items": {
           "1595786521": 5
         },
         "reward": 725,
+        "experience": 7530.0
+      },
+      {
+        "levels": [
+          70,
+          90
+        ],
+        "required_items": {
+          "1872328157": 300
+        },
+        "reward": 485,
         "experience": 7530.0
       },
       {
@@ -394,10 +394,10 @@
           100
         ],
         "required_items": {
-          "2114450653": 5
+          "540806596": 10
         },
-        "reward": 940,
-        "experience": 10540.0
+        "reward": 315,
+        "experience": 14760.0
       },
       {
         "levels": [
@@ -438,10 +438,10 @@
           100
         ],
         "required_items": {
-          "540806596": 10
+          "2114450653": 5
         },
-        "reward": 315,
-        "experience": 14760.0
+        "reward": 940,
+        "experience": 10540.0
       },
       {
         "levels": [
@@ -449,9 +449,9 @@
           110
         ],
         "required_items": {
-          "1633320160": 5
+          "1147002521": 10
         },
-        "reward": 1225,
+        "reward": 410,
         "experience": 14760.0
       },
       {
@@ -482,7 +482,7 @@
           110
         ],
         "required_items": {
-          "2015361382": 200
+          "1633320160": 5
         },
         "reward": 1225,
         "experience": 14760.0
@@ -493,21 +493,10 @@
           110
         ],
         "required_items": {
-          "1147002521": 10
+          "2015361382": 200
         },
-        "reward": 410,
+        "reward": 1225,
         "experience": 14760.0
-      },
-      {
-        "levels": [
-          100,
-          120
-        ],
-        "required_items": {
-          "2018635990": 200
-        },
-        "reward": 1590,
-        "experience": 20660.0
       },
       {
         "levels": [
@@ -518,6 +507,17 @@
           "37723214": 10
         },
         "reward": 530,
+        "experience": 20660.0
+      },
+      {
+        "levels": [
+          100,
+          120
+        ],
+        "required_items": {
+          "845990900": 30
+        },
+        "reward": 1590,
         "experience": 20660.0
       },
       {
@@ -548,7 +548,7 @@
           120
         ],
         "required_items": {
-          "845990900": 30
+          "2018635990": 200
         },
         "reward": 1590,
         "experience": 20660.0
@@ -565,29 +565,18 @@
           30
         ],
         "required_items": {
+          "4294968495": 1
+        },
+        "reward": 100,
+        "experience": 1000.0
+      },
+      {
+        "levels": [
+          1,
+          30
+        ],
+        "required_items": {
           "4294969695": 1
-        },
-        "reward": 250,
-        "experience": 1000.0
-      },
-      {
-        "levels": [
-          1,
-          30
-        ],
-        "required_items": {
-          "5847074200": 1
-        },
-        "reward": 250,
-        "experience": 1000.0
-      },
-      {
-        "levels": [
-          1,
-          30
-        ],
-        "required_items": {
-          "5265795055": 1
         },
         "reward": 250,
         "experience": 1000.0
@@ -609,9 +598,20 @@
           30
         ],
         "required_items": {
-          "4294968495": 1
+          "5265795055": 1
         },
-        "reward": 100,
+        "reward": 250,
+        "experience": 1000.0
+      },
+      {
+        "levels": [
+          1,
+          30
+        ],
+        "required_items": {
+          "5847074200": 1
+        },
+        "reward": 250,
         "experience": 1000.0
       },
       {
@@ -620,9 +620,9 @@
           40
         ],
         "required_items": {
-          "5592171786": 1
+          "4294968496": 1
         },
-        "reward": 325,
+        "reward": 130,
         "experience": 1400.0
       },
       {
@@ -642,9 +642,9 @@
           40
         ],
         "required_items": {
-          "4294968496": 1
+          "4294974296": 1
         },
-        "reward": 130,
+        "reward": 325,
         "experience": 1400.0
       },
       {
@@ -664,7 +664,7 @@
           40
         ],
         "required_items": {
-          "4294974296": 1
+          "5592171786": 1
         },
         "reward": 325,
         "experience": 1400.0
@@ -675,20 +675,9 @@
           50
         ],
         "required_items": {
-          "5385714360": 1
+          "4294968497": 1
         },
-        "reward": 845,
-        "experience": 1960.0
-      },
-      {
-        "levels": [
-          30,
-          50
-        ],
-        "required_items": {
-          "4310162838": 1
-        },
-        "reward": 845,
+        "reward": 340,
         "experience": 1960.0
       },
       {
@@ -719,9 +708,20 @@
           50
         ],
         "required_items": {
-          "4294968497": 1
+          "4310162838": 1
         },
-        "reward": 340,
+        "reward": 845,
+        "experience": 1960.0
+      },
+      {
+        "levels": [
+          30,
+          50
+        ],
+        "required_items": {
+          "5385714360": 1
+        },
+        "reward": 845,
         "experience": 1960.0
       },
       {
@@ -730,9 +730,9 @@
           60
         ],
         "required_items": {
-          "4636268870": 1
+          "4294968498": 1
         },
-        "reward": 1100,
+        "reward": 440,
         "experience": 2745.0
       },
       {
@@ -752,9 +752,20 @@
           60
         ],
         "required_items": {
-          "4294968498": 1
+          "4294974298": 1
         },
-        "reward": 440,
+        "reward": 1100,
+        "experience": 2745.0
+      },
+      {
+        "levels": [
+          40,
+          60
+        ],
+        "required_items": {
+          "4636268870": 1
+        },
+        "reward": 1100,
         "experience": 2745.0
       },
       {
@@ -767,39 +778,6 @@
         },
         "reward": 1100,
         "experience": 2745.0
-      },
-      {
-        "levels": [
-          40,
-          60
-        ],
-        "required_items": {
-          "4294974298": 1
-        },
-        "reward": 1100,
-        "experience": 2745.0
-      },
-      {
-        "levels": [
-          50,
-          70
-        ],
-        "required_items": {
-          "4294974299": 1
-        },
-        "reward": 2140,
-        "experience": 3840.0
-      },
-      {
-        "levels": [
-          50,
-          70
-        ],
-        "required_items": {
-          "5036829662": 1
-        },
-        "reward": 2140,
-        "experience": 3840.0
       },
       {
         "levels": [
@@ -829,6 +807,28 @@
           70
         ],
         "required_items": {
+          "4294974299": 1
+        },
+        "reward": 2140,
+        "experience": 3840.0
+      },
+      {
+        "levels": [
+          50,
+          70
+        ],
+        "required_items": {
+          "5036829662": 1
+        },
+        "reward": 2140,
+        "experience": 3840.0
+      },
+      {
+        "levels": [
+          50,
+          70
+        ],
+        "required_items": {
           "5375125246": 1
         },
         "reward": 2140,
@@ -840,7 +840,18 @@
           80
         ],
         "required_items": {
-          "6158090969": 1
+          "4294968500": 1
+        },
+        "reward": 1115,
+        "experience": 5380.0
+      },
+      {
+        "levels": [
+          60,
+          80
+        ],
+        "required_items": {
+          "4294969700": 1
         },
         "reward": 2785,
         "experience": 5380.0
@@ -862,7 +873,7 @@
           80
         ],
         "required_items": {
-          "4294969700": 1
+          "6158090969": 1
         },
         "reward": 2785,
         "experience": 5380.0
@@ -880,14 +891,14 @@
       },
       {
         "levels": [
-          60,
-          80
+          70,
+          90
         ],
         "required_items": {
-          "4294968500": 1
+          "4597119557": 1
         },
-        "reward": 1115,
-        "experience": 5380.0
+        "reward": 4825,
+        "experience": 7530.0
       },
       {
         "levels": [
@@ -895,9 +906,9 @@
           90
         ],
         "required_items": {
-          "6086476185": 1
+          "5179259708": 1
         },
-        "reward": 4825,
+        "reward": 1930,
         "experience": 7530.0
       },
       {
@@ -928,18 +939,7 @@
           90
         ],
         "required_items": {
-          "5179259708": 1
-        },
-        "reward": 1930,
-        "experience": 7530.0
-      },
-      {
-        "levels": [
-          70,
-          90
-        ],
-        "required_items": {
-          "4597119557": 1
+          "6086476185": 1
         },
         "reward": 4825,
         "experience": 7530.0
@@ -961,7 +961,7 @@
           100
         ],
         "required_items": {
-          "5010604140": 1
+          "4798162574": 1
         },
         "reward": 6275,
         "experience": 10540.0
@@ -972,9 +972,9 @@
           100
         ],
         "required_items": {
-          "6243537317": 1
+          "5010604140": 1
         },
-        "reward": 2510,
+        "reward": 6275,
         "experience": 10540.0
       },
       {
@@ -994,9 +994,9 @@
           100
         ],
         "required_items": {
-          "4798162574": 1
+          "6243537317": 1
         },
-        "reward": 6275,
+        "reward": 2510,
         "experience": 10540.0
       },
       {
@@ -1038,9 +1038,9 @@
           110
         ],
         "required_items": {
-          "5768471618": 1
+          "5462271304": 1
         },
-        "reward": 4080,
+        "reward": 10195,
         "experience": 14760.0
       },
       {
@@ -1049,9 +1049,9 @@
           110
         ],
         "required_items": {
-          "5462271304": 1
+          "5768471618": 1
         },
-        "reward": 10195,
+        "reward": 4080,
         "experience": 14760.0
       },
       {
@@ -1060,29 +1060,7 @@
           120
         ],
         "required_items": {
-          "6130995785": 1
-        },
-        "reward": 13255,
-        "experience": 20660.0
-      },
-      {
-        "levels": [
-          100,
-          120
-        ],
-        "required_items": {
           "4926060700": 1
-        },
-        "reward": 13255,
-        "experience": 20660.0
-      },
-      {
-        "levels": [
-          100,
-          120
-        ],
-        "required_items": {
-          "6230523760": 1
         },
         "reward": 13255,
         "experience": 20660.0
@@ -1105,6 +1083,28 @@
         ],
         "required_items": {
           "6106233956": 1
+        },
+        "reward": 13255,
+        "experience": 20660.0
+      },
+      {
+        "levels": [
+          100,
+          120
+        ],
+        "required_items": {
+          "6130995785": 1
+        },
+        "reward": 13255,
+        "experience": 20660.0
+      },
+      {
+        "levels": [
+          100,
+          120
+        ],
+        "required_items": {
+          "6230523760": 1
         },
         "reward": 13255,
         "experience": 20660.0
@@ -1132,9 +1132,9 @@
           30
         ],
         "required_items": {
-          "1170007": 10
+          "1170001": 10
         },
-        "reward": 150,
+        "reward": 50,
         "experience": 1000.0
       },
       {
@@ -1154,9 +1154,9 @@
           30
         ],
         "required_items": {
-          "1170001": 10
+          "1170004": 10
         },
-        "reward": 50,
+        "reward": 200,
         "experience": 1000.0
       },
       {
@@ -1165,43 +1165,10 @@
           30
         ],
         "required_items": {
-          "1170004": 10
+          "1170007": 10
         },
-        "reward": 200,
+        "reward": 150,
         "experience": 1000.0
-      },
-      {
-        "levels": [
-          20,
-          40
-        ],
-        "required_items": {
-          "2170004": 10
-        },
-        "reward": 260,
-        "experience": 1400.0
-      },
-      {
-        "levels": [
-          20,
-          40
-        ],
-        "required_items": {
-          "2170007": 10
-        },
-        "reward": 195,
-        "experience": 1400.0
-      },
-      {
-        "levels": [
-          20,
-          40
-        ],
-        "required_items": {
-          "2170002": 10
-        },
-        "reward": 195,
-        "experience": 1400.0
       },
       {
         "levels": [
@@ -1227,13 +1194,46 @@
       },
       {
         "levels": [
+          20,
+          40
+        ],
+        "required_items": {
+          "2170002": 10
+        },
+        "reward": 195,
+        "experience": 1400.0
+      },
+      {
+        "levels": [
+          20,
+          40
+        ],
+        "required_items": {
+          "2170004": 10
+        },
+        "reward": 260,
+        "experience": 1400.0
+      },
+      {
+        "levels": [
+          20,
+          40
+        ],
+        "required_items": {
+          "2170007": 10
+        },
+        "reward": 195,
+        "experience": 1400.0
+      },
+      {
+        "levels": [
           30,
           50
         ],
         "required_items": {
-          "3170002": 10
+          "3170000": 10
         },
-        "reward": 255,
+        "reward": 85,
         "experience": 1960.0
       },
       {
@@ -1253,9 +1253,9 @@
           50
         ],
         "required_items": {
-          "3170000": 10
+          "3170002": 10
         },
-        "reward": 85,
+        "reward": 255,
         "experience": 1960.0
       },
       {
@@ -1286,17 +1286,6 @@
           60
         ],
         "required_items": {
-          "4170002": 10
-        },
-        "reward": 330,
-        "experience": 2745.0
-      },
-      {
-        "levels": [
-          40,
-          60
-        ],
-        "required_items": {
           "4170000": 10
         },
         "reward": 110,
@@ -1311,6 +1300,17 @@
           "4170001": 10
         },
         "reward": 110,
+        "experience": 2745.0
+      },
+      {
+        "levels": [
+          40,
+          60
+        ],
+        "required_items": {
+          "4170002": 10
+        },
+        "reward": 330,
         "experience": 2745.0
       },
       {
@@ -1341,31 +1341,9 @@
           70
         ],
         "required_items": {
-          "5170007": 10
-        },
-        "reward": 430,
-        "experience": 3840.0
-      },
-      {
-        "levels": [
-          50,
-          70
-        ],
-        "required_items": {
           "5170000": 10
         },
         "reward": 145,
-        "experience": 3840.0
-      },
-      {
-        "levels": [
-          50,
-          70
-        ],
-        "required_items": {
-          "5170004": 10
-        },
-        "reward": 570,
         "experience": 3840.0
       },
       {
@@ -1392,11 +1370,55 @@
       },
       {
         "levels": [
+          50,
+          70
+        ],
+        "required_items": {
+          "5170004": 10
+        },
+        "reward": 570,
+        "experience": 3840.0
+      },
+      {
+        "levels": [
+          50,
+          70
+        ],
+        "required_items": {
+          "5170007": 10
+        },
+        "reward": 430,
+        "experience": 3840.0
+      },
+      {
+        "levels": [
           60,
           100
         ],
         "required_items": {
-          "6170007": 10
+          "6170000": 10
+        },
+        "reward": 185,
+        "experience": 5380.0
+      },
+      {
+        "levels": [
+          60,
+          100
+        ],
+        "required_items": {
+          "6170001": 10
+        },
+        "reward": 185,
+        "experience": 5380.0
+      },
+      {
+        "levels": [
+          60,
+          100
+        ],
+        "required_items": {
+          "6170002": 10
         },
         "reward": 555,
         "experience": 5380.0
@@ -1418,31 +1440,9 @@
           100
         ],
         "required_items": {
-          "6170002": 10
+          "6170007": 10
         },
         "reward": 555,
-        "experience": 5380.0
-      },
-      {
-        "levels": [
-          60,
-          100
-        ],
-        "required_items": {
-          "6170001": 10
-        },
-        "reward": 185,
-        "experience": 5380.0
-      },
-      {
-        "levels": [
-          60,
-          100
-        ],
-        "required_items": {
-          "6170000": 10
-        },
-        "reward": 185,
         "experience": 5380.0
       }
     ]
@@ -1454,13 +1454,13 @@
       {
         "levels": [
           1,
-          120
+          5
         ],
         "required_items": {
-          "767727086": 5
+          "767727086": 1
         },
-        "reward": 150,
-        "experience": 1000.0
+        "reward": 50,
+        "experience": 500.0
       },
       {
         "levels": [
@@ -1476,28 +1476,17 @@
       {
         "levels": [
           1,
-          5
-        ],
-        "required_items": {
-          "767727086": 1
-        },
-        "reward": 50,
-        "experience": 500.0
-      },
-      {
-        "levels": [
-          5,
           120
         ],
         "required_items": {
-          "767727086": 10
+          "767727086": 5
         },
-        "reward": 300,
+        "reward": 150,
         "experience": 1000.0
       },
       {
         "levels": [
-          10,
+          5,
           120
         ],
         "required_items": {
@@ -1534,6 +1523,17 @@
           120
         ],
         "required_items": {
+          "767727086": 10
+        },
+        "reward": 300,
+        "experience": 1000.0
+      },
+      {
+        "levels": [
+          10,
+          120
+        ],
+        "required_items": {
           "828731292": 3
         },
         "reward": 300,
@@ -1545,9 +1545,9 @@
           120
         ],
         "required_items": {
-          "711737334": 10
+          "344122023": 1
         },
-        "reward": 425,
+        "reward": 1100,
         "experience": 1960.0
       },
       {
@@ -1567,9 +1567,9 @@
           120
         ],
         "required_items": {
-          "1125718226": 1
+          "711737334": 10
         },
-        "reward": 1100,
+        "reward": 425,
         "experience": 1960.0
       },
       {
@@ -1578,7 +1578,7 @@
           120
         ],
         "required_items": {
-          "344122023": 1
+          "1125718226": 1
         },
         "reward": 1100,
         "experience": 1960.0
@@ -1611,7 +1611,7 @@
           120
         ],
         "required_items": {
-          "225094001": 5
+          "209860372": 5
         },
         "reward": 3250,
         "experience": 2745.0
@@ -1622,7 +1622,7 @@
           120
         ],
         "required_items": {
-          "209860372": 5
+          "225094001": 5
         },
         "reward": 3250,
         "experience": 2745.0
@@ -1672,18 +1672,7 @@
           30
         ],
         "required_items": {
-          "1090002": 10
-        },
-        "reward": 250,
-        "experience": 1000.0
-      },
-      {
-        "levels": [
-          1,
-          30
-        ],
-        "required_items": {
-          "4878073306": 1
+          "1020003": 20
         },
         "reward": 100,
         "experience": 1000.0
@@ -1716,9 +1705,20 @@
           30
         ],
         "required_items": {
-          "1020003": 20
+          "1070004": 10
         },
-        "reward": 100,
+        "reward": 250,
+        "experience": 1000.0
+      },
+      {
+        "levels": [
+          1,
+          30
+        ],
+        "required_items": {
+          "1090002": 10
+        },
+        "reward": 250,
         "experience": 1000.0
       },
       {
@@ -1739,9 +1739,9 @@
           30
         ],
         "required_items": {
-          "1070004": 10
+          "4878073306": 1
         },
-        "reward": 250,
+        "reward": 100,
         "experience": 1000.0
       },
       {
@@ -1750,7 +1750,40 @@
           40
         ],
         "required_items": {
+          "2020003": 20
+        },
+        "reward": 130,
+        "experience": 1400.0
+      },
+      {
+        "levels": [
+          20,
+          40
+        ],
+        "required_items": {
           "2030002": 10
+        },
+        "reward": 325,
+        "experience": 1400.0
+      },
+      {
+        "levels": [
+          20,
+          40
+        ],
+        "required_items": {
+          "2050001": 10
+        },
+        "reward": 325,
+        "experience": 1400.0
+      },
+      {
+        "levels": [
+          20,
+          40
+        ],
+        "required_items": {
+          "2070004": 10
         },
         "reward": 325,
         "experience": 1400.0
@@ -1784,55 +1817,10 @@
           40
         ],
         "required_items": {
-          "2050001": 10
-        },
-        "reward": 325,
-        "experience": 1400.0
-      },
-      {
-        "levels": [
-          20,
-          40
-        ],
-        "required_items": {
           "5791929890": 1
         },
         "reward": 130,
         "experience": 1400.0
-      },
-      {
-        "levels": [
-          20,
-          40
-        ],
-        "required_items": {
-          "2020003": 20
-        },
-        "reward": 130,
-        "experience": 1400.0
-      },
-      {
-        "levels": [
-          20,
-          40
-        ],
-        "required_items": {
-          "2070004": 10
-        },
-        "reward": 325,
-        "experience": 1400.0
-      },
-      {
-        "levels": [
-          30,
-          50
-        ],
-        "required_items": {
-          "3210002": 10,
-          "3210001": 10
-        },
-        "reward": 425,
-        "experience": 1960.0
       },
       {
         "levels": [
@@ -1843,17 +1831,6 @@
           "3020003": 20
         },
         "reward": 340,
-        "experience": 1960.0
-      },
-      {
-        "levels": [
-          30,
-          50
-        ],
-        "required_items": {
-          "6441669913": 1
-        },
-        "reward": 170,
         "experience": 1960.0
       },
       {
@@ -1902,13 +1879,36 @@
       },
       {
         "levels": [
+          30,
+          50
+        ],
+        "required_items": {
+          "3210002": 10,
+          "3210001": 10
+        },
+        "reward": 425,
+        "experience": 1960.0
+      },
+      {
+        "levels": [
+          30,
+          50
+        ],
+        "required_items": {
+          "6441669913": 1
+        },
+        "reward": 170,
+        "experience": 1960.0
+      },
+      {
+        "levels": [
           40,
           60
         ],
         "required_items": {
-          "5321197630": 1
+          "4020003": 20
         },
-        "reward": 220,
+        "reward": 440,
         "experience": 2745.0
       },
       {
@@ -1918,6 +1918,28 @@
         ],
         "required_items": {
           "4030002": 10
+        },
+        "reward": 1100,
+        "experience": 2745.0
+      },
+      {
+        "levels": [
+          40,
+          60
+        ],
+        "required_items": {
+          "4050001": 10
+        },
+        "reward": 1100,
+        "experience": 2745.0
+      },
+      {
+        "levels": [
+          40,
+          60
+        ],
+        "required_items": {
+          "4070004": 10
         },
         "reward": 1100,
         "experience": 2745.0
@@ -1951,43 +1973,10 @@
           60
         ],
         "required_items": {
-          "4070004": 10
+          "5321197630": 1
         },
-        "reward": 1100,
+        "reward": 220,
         "experience": 2745.0
-      },
-      {
-        "levels": [
-          40,
-          60
-        ],
-        "required_items": {
-          "4050001": 10
-        },
-        "reward": 1100,
-        "experience": 2745.0
-      },
-      {
-        "levels": [
-          40,
-          60
-        ],
-        "required_items": {
-          "4020003": 20
-        },
-        "reward": 440,
-        "experience": 2745.0
-      },
-      {
-        "levels": [
-          50,
-          70
-        ],
-        "required_items": {
-          "5030002": 10
-        },
-        "reward": 2140,
-        "experience": 3840.0
       },
       {
         "levels": [
@@ -1998,6 +1987,17 @@
           "5020003": 20
         },
         "reward": 855,
+        "experience": 3840.0
+      },
+      {
+        "levels": [
+          50,
+          70
+        ],
+        "required_items": {
+          "5030002": 10
+        },
+        "reward": 2140,
         "experience": 3840.0
       },
       {
@@ -2028,6 +2028,17 @@
           70
         ],
         "required_items": {
+          "5090002": 10
+        },
+        "reward": 2140,
+        "experience": 3840.0
+      },
+      {
+        "levels": [
+          50,
+          70
+        ],
+        "required_items": {
           "5210002": 10,
           "5210001": 10
         },
@@ -2040,44 +2051,10 @@
           70
         ],
         "required_items": {
-          "5090002": 10
-        },
-        "reward": 2140,
-        "experience": 3840.0
-      },
-      {
-        "levels": [
-          50,
-          70
-        ],
-        "required_items": {
           "4633497068": 1
         },
         "reward": 285,
         "experience": 3840.0
-      },
-      {
-        "levels": [
-          60,
-          80
-        ],
-        "required_items": {
-          "6070004": 10
-        },
-        "reward": 2785,
-        "experience": 5380.0
-      },
-      {
-        "levels": [
-          60,
-          80
-        ],
-        "required_items": {
-          "6210002": 10,
-          "6210001": 10
-        },
-        "reward": 930,
-        "experience": 5380.0
       },
       {
         "levels": [
@@ -2107,6 +2084,28 @@
           80
         ],
         "required_items": {
+          "6050001": 10
+        },
+        "reward": 2785,
+        "experience": 5380.0
+      },
+      {
+        "levels": [
+          60,
+          80
+        ],
+        "required_items": {
+          "6070004": 10
+        },
+        "reward": 2785,
+        "experience": 5380.0
+      },
+      {
+        "levels": [
+          60,
+          80
+        ],
+        "required_items": {
           "6090002": 10
         },
         "reward": 2785,
@@ -2118,9 +2117,10 @@
           80
         ],
         "required_items": {
-          "6050001": 10
+          "6210002": 10,
+          "6210001": 10
         },
-        "reward": 2785,
+        "reward": 930,
         "experience": 5380.0
       },
       {
@@ -2140,32 +2140,21 @@
           90
         ],
         "required_items": {
-          "1899017490": 10
-        },
-        "reward": 4825,
-        "experience": 7530.0
-      },
-      {
-        "levels": [
-          70,
-          90
-        ],
-        "required_items": {
-          "1639308227": 20
-        },
-        "reward": 1930,
-        "experience": 7530.0
-      },
-      {
-        "levels": [
-          70,
-          90
-        ],
-        "required_items": {
           "113276733": 10,
           "365949150": 10
         },
         "reward": 1205,
+        "experience": 7530.0
+      },
+      {
+        "levels": [
+          70,
+          90
+        ],
+        "required_items": {
+          "806992520": 10
+        },
+        "reward": 4825,
         "experience": 7530.0
       },
       {
@@ -2196,7 +2185,18 @@
           90
         ],
         "required_items": {
-          "806992520": 10
+          "1639308227": 20
+        },
+        "reward": 1930,
+        "experience": 7530.0
+      },
+      {
+        "levels": [
+          70,
+          90
+        ],
+        "required_items": {
+          "1899017490": 10
         },
         "reward": 4825,
         "experience": 7530.0
@@ -2211,39 +2211,6 @@
         },
         "reward": 485,
         "experience": 7530.0
-      },
-      {
-        "levels": [
-          80,
-          100
-        ],
-        "required_items": {
-          "5255375123": 1
-        },
-        "reward": 625,
-        "experience": 10540.0
-      },
-      {
-        "levels": [
-          80,
-          100
-        ],
-        "required_items": {
-          "136406464": 10
-        },
-        "reward": 6275,
-        "experience": 10540.0
-      },
-      {
-        "levels": [
-          80,
-          100
-        ],
-        "required_items": {
-          "1221137435": 10
-        },
-        "reward": 6275,
-        "experience": 10540.0
       },
       {
         "levels": [
@@ -2274,6 +2241,28 @@
           100
         ],
         "required_items": {
+          "136406464": 10
+        },
+        "reward": 6275,
+        "experience": 10540.0
+      },
+      {
+        "levels": [
+          80,
+          100
+        ],
+        "required_items": {
+          "1221137435": 10
+        },
+        "reward": 6275,
+        "experience": 10540.0
+      },
+      {
+        "levels": [
+          80,
+          100
+        ],
+        "required_items": {
           "1464752960": 10
         },
         "reward": 6275,
@@ -2292,25 +2281,14 @@
       },
       {
         "levels": [
-          90,
-          110
+          80,
+          100
         ],
         "required_items": {
-          "1580025475": 10
+          "5255375123": 1
         },
-        "reward": 10195,
-        "experience": 14760.0
-      },
-      {
-        "levels": [
-          90,
-          110
-        ],
-        "required_items": {
-          "834413277": 10
-        },
-        "reward": 10195,
-        "experience": 14760.0
+        "reward": 625,
+        "experience": 10540.0
       },
       {
         "levels": [
@@ -2340,9 +2318,9 @@
           110
         ],
         "required_items": {
-          "1987836568": 10
+          "834413277": 10
         },
-        "reward": 2040,
+        "reward": 10195,
         "experience": 14760.0
       },
       {
@@ -2362,10 +2340,43 @@
           110
         ],
         "required_items": {
+          "1580025475": 10
+        },
+        "reward": 10195,
+        "experience": 14760.0
+      },
+      {
+        "levels": [
+          90,
+          110
+        ],
+        "required_items": {
+          "1987836568": 10
+        },
+        "reward": 2040,
+        "experience": 14760.0
+      },
+      {
+        "levels": [
+          90,
+          110
+        ],
+        "required_items": {
           "5385752889": 1
         },
         "reward": 815,
         "experience": 14760.0
+      },
+      {
+        "levels": [
+          100,
+          120
+        ],
+        "required_items": {
+          "35270576": 10
+        },
+        "reward": 13255,
+        "experience": 20660.0
       },
       {
         "levels": [
@@ -2384,7 +2395,18 @@
           120
         ],
         "required_items": {
-          "35270576": 10
+          "254492415": 10
+        },
+        "reward": 2650,
+        "experience": 20660.0
+      },
+      {
+        "levels": [
+          100,
+          120
+        ],
+        "required_items": {
+          "711364475": 10
         },
         "reward": 13255,
         "experience": 20660.0
@@ -2421,28 +2443,6 @@
         },
         "reward": 1060,
         "experience": 20660.0
-      },
-      {
-        "levels": [
-          100,
-          120
-        ],
-        "required_items": {
-          "711364475": 10
-        },
-        "reward": 13255,
-        "experience": 20660.0
-      },
-      {
-        "levels": [
-          100,
-          120
-        ],
-        "required_items": {
-          "254492415": 10
-        },
-        "reward": 2650,
-        "experience": 20660.0
       }
     ]
   },
@@ -2456,20 +2456,9 @@
           30
         ],
         "required_items": {
-          "4294968495": 1
+          "1110010": 5
         },
-        "reward": 100,
-        "experience": 1000.0
-      },
-      {
-        "levels": [
-          1,
-          30
-        ],
-        "required_items": {
-          "1210002": 20
-        },
-        "reward": 100,
+        "reward": 50,
         "experience": 1000.0
       },
       {
@@ -2500,18 +2489,7 @@
           30
         ],
         "required_items": {
-          "4294973295": 1
-        },
-        "reward": 100,
-        "experience": 1000.0
-      },
-      {
-        "levels": [
-          1,
-          120
-        ],
-        "required_items": {
-          "1110015": 10
+          "1210002": 20
         },
         "reward": 100,
         "experience": 1000.0
@@ -2522,9 +2500,20 @@
           30
         ],
         "required_items": {
-          "1110010": 5
+          "4294968495": 1
         },
-        "reward": 50,
+        "reward": 100,
+        "experience": 1000.0
+      },
+      {
+        "levels": [
+          1,
+          30
+        ],
+        "required_items": {
+          "4294973295": 1
+        },
+        "reward": 100,
         "experience": 1000.0
       },
       {
@@ -2540,25 +2529,14 @@
       },
       {
         "levels": [
-          20,
-          40
+          1,
+          120
         ],
         "required_items": {
-          "4294973296": 1
+          "1110015": 10
         },
-        "reward": 130,
-        "experience": 1400.0
-      },
-      {
-        "levels": [
-          20,
-          40
-        ],
-        "required_items": {
-          "2210002": 20
-        },
-        "reward": 130,
-        "experience": 1400.0
+        "reward": 100,
+        "experience": 1000.0
       },
       {
         "levels": [
@@ -2567,17 +2545,6 @@
         ],
         "required_items": {
           "2110010": 5
-        },
-        "reward": 65,
-        "experience": 1400.0
-      },
-      {
-        "levels": [
-          20,
-          40
-        ],
-        "required_items": {
-          "2170006": 10
         },
         "reward": 65,
         "experience": 1400.0
@@ -2599,9 +2566,20 @@
           40
         ],
         "required_items": {
-          "4294974296": 1
+          "2170006": 10
         },
-        "reward": 325,
+        "reward": 65,
+        "experience": 1400.0
+      },
+      {
+        "levels": [
+          20,
+          40
+        ],
+        "required_items": {
+          "2210002": 20
+        },
+        "reward": 130,
         "experience": 1400.0
       },
       {
@@ -2617,14 +2595,25 @@
       },
       {
         "levels": [
-          30,
-          50
+          20,
+          40
         ],
         "required_items": {
-          "4294968497": 1
+          "4294973296": 1
         },
-        "reward": 340,
-        "experience": 1960.0
+        "reward": 130,
+        "experience": 1400.0
+      },
+      {
+        "levels": [
+          20,
+          40
+        ],
+        "required_items": {
+          "4294974296": 1
+        },
+        "reward": 325,
+        "experience": 1400.0
       },
       {
         "levels": [
@@ -2632,7 +2621,7 @@
           50
         ],
         "required_items": {
-          "3170006": 10
+          "3110010": 5
         },
         "reward": 85,
         "experience": 1960.0
@@ -2654,7 +2643,7 @@
           50
         ],
         "required_items": {
-          "3110010": 5
+          "3170006": 10
         },
         "reward": 85,
         "experience": 1960.0
@@ -2676,9 +2665,9 @@
           50
         ],
         "required_items": {
-          "4294974297": 1
+          "4294968497": 1
         },
-        "reward": 845,
+        "reward": 340,
         "experience": 1960.0
       },
       {
@@ -2694,11 +2683,44 @@
       },
       {
         "levels": [
+          30,
+          50
+        ],
+        "required_items": {
+          "4294974297": 1
+        },
+        "reward": 845,
+        "experience": 1960.0
+      },
+      {
+        "levels": [
           40,
           60
         ],
         "required_items": {
           "4110010": 5
+        },
+        "reward": 110,
+        "experience": 2745.0
+      },
+      {
+        "levels": [
+          40,
+          60
+        ],
+        "required_items": {
+          "4110025": 1
+        },
+        "reward": 2195,
+        "experience": 2745.0
+      },
+      {
+        "levels": [
+          40,
+          60
+        ],
+        "required_items": {
+          "4170006": 10
         },
         "reward": 110,
         "experience": 2745.0
@@ -2720,9 +2742,9 @@
           60
         ],
         "required_items": {
-          "4110025": 1
+          "4294968498": 1
         },
-        "reward": 2195,
+        "reward": 440,
         "experience": 2745.0
       },
       {
@@ -2742,17 +2764,6 @@
           60
         ],
         "required_items": {
-          "4294968498": 1
-        },
-        "reward": 440,
-        "experience": 2745.0
-      },
-      {
-        "levels": [
-          40,
-          60
-        ],
-        "required_items": {
           "4294974298": 1
         },
         "reward": 1100,
@@ -2760,14 +2771,36 @@
       },
       {
         "levels": [
-          40,
-          60
+          50,
+          70
         ],
         "required_items": {
-          "4170006": 10
+          "5110010": 5
         },
-        "reward": 110,
-        "experience": 2745.0
+        "reward": 145,
+        "experience": 3840.0
+      },
+      {
+        "levels": [
+          50,
+          70
+        ],
+        "required_items": {
+          "5110025": 1
+        },
+        "reward": 2855,
+        "experience": 3840.0
+      },
+      {
+        "levels": [
+          50,
+          70
+        ],
+        "required_items": {
+          "5170006": 10
+        },
+        "reward": 145,
+        "experience": 3840.0
       },
       {
         "levels": [
@@ -2808,54 +2841,10 @@
           70
         ],
         "required_items": {
-          "5170006": 10
-        },
-        "reward": 145,
-        "experience": 3840.0
-      },
-      {
-        "levels": [
-          50,
-          70
-        ],
-        "required_items": {
           "4294974299": 1
         },
         "reward": 2140,
         "experience": 3840.0
-      },
-      {
-        "levels": [
-          50,
-          70
-        ],
-        "required_items": {
-          "5110025": 1
-        },
-        "reward": 2855,
-        "experience": 3840.0
-      },
-      {
-        "levels": [
-          50,
-          70
-        ],
-        "required_items": {
-          "5110010": 5
-        },
-        "reward": 145,
-        "experience": 3840.0
-      },
-      {
-        "levels": [
-          60,
-          80
-        ],
-        "required_items": {
-          "6210002": 20
-        },
-        "reward": 370,
-        "experience": 5380.0
       },
       {
         "levels": [
@@ -2874,20 +2863,9 @@
           80
         ],
         "required_items": {
-          "4294974300": 1
+          "6110025": 1
         },
-        "reward": 2785,
-        "experience": 5380.0
-      },
-      {
-        "levels": [
-          60,
-          80
-        ],
-        "required_items": {
-          "4294968500": 1
-        },
-        "reward": 1115,
+        "reward": 3715,
         "experience": 5380.0
       },
       {
@@ -2907,6 +2885,28 @@
           80
         ],
         "required_items": {
+          "6210002": 20
+        },
+        "reward": 370,
+        "experience": 5380.0
+      },
+      {
+        "levels": [
+          60,
+          80
+        ],
+        "required_items": {
+          "4294968500": 1
+        },
+        "reward": 1115,
+        "experience": 5380.0
+      },
+      {
+        "levels": [
+          60,
+          80
+        ],
+        "required_items": {
           "4294973300": 1
         },
         "reward": 370,
@@ -2918,9 +2918,9 @@
           80
         ],
         "required_items": {
-          "6110025": 1
+          "4294974300": 1
         },
-        "reward": 3715,
+        "reward": 2785,
         "experience": 5380.0
       },
       {
@@ -2929,31 +2929,9 @@
           90
         ],
         "required_items": {
-          "5179259708": 1
+          "113276733": 20
         },
-        "reward": 1930,
-        "experience": 7530.0
-      },
-      {
-        "levels": [
-          70,
-          90
-        ],
-        "required_items": {
-          "4654781128": 1
-        },
-        "reward": 480,
-        "experience": 7530.0
-      },
-      {
-        "levels": [
-          70,
-          90
-        ],
-        "required_items": {
-          "793439431": 5
-        },
-        "reward": 240,
+        "reward": 485,
         "experience": 7530.0
       },
       {
@@ -2973,9 +2951,9 @@
           90
         ],
         "required_items": {
-          "6086476185": 1
+          "793439431": 5
         },
-        "reward": 4825,
+        "reward": 240,
         "experience": 7530.0
       },
       {
@@ -2984,9 +2962,31 @@
           90
         ],
         "required_items": {
-          "113276733": 20
+          "4654781128": 1
         },
-        "reward": 485,
+        "reward": 480,
+        "experience": 7530.0
+      },
+      {
+        "levels": [
+          70,
+          90
+        ],
+        "required_items": {
+          "5179259708": 1
+        },
+        "reward": 1930,
+        "experience": 7530.0
+      },
+      {
+        "levels": [
+          70,
+          90
+        ],
+        "required_items": {
+          "6086476185": 1
+        },
+        "reward": 4825,
         "experience": 7530.0
       },
       {
@@ -3017,6 +3017,17 @@
           100
         ],
         "required_items": {
+          "1721428913": 1
+        },
+        "reward": 6275,
+        "experience": 10540.0
+      },
+      {
+        "levels": [
+          80,
+          100
+        ],
+        "required_items": {
           "4790552609": 1
         },
         "reward": 630,
@@ -3028,7 +3039,7 @@
           100
         ],
         "required_items": {
-          "1721428913": 1
+          "4798162574": 1
         },
         "reward": 6275,
         "experience": 10540.0
@@ -3046,57 +3057,13 @@
       },
       {
         "levels": [
-          80,
-          100
-        ],
-        "required_items": {
-          "4798162574": 1
-        },
-        "reward": 6275,
-        "experience": 10540.0
-      },
-      {
-        "levels": [
           90,
           110
         ],
         "required_items": {
-          "4685606308": 1
+          "204941440": 1
         },
-        "reward": 820,
-        "experience": 14760.0
-      },
-      {
-        "levels": [
-          90,
-          110
-        ],
-        "required_items": {
-          "5768471618": 1
-        },
-        "reward": 4080,
-        "experience": 14760.0
-      },
-      {
-        "levels": [
-          90,
-          110
-        ],
-        "required_items": {
-          "4687790166": 1
-        },
-        "reward": 10195,
-        "experience": 14760.0
-      },
-      {
-        "levels": [
-          90,
-          110
-        ],
-        "required_items": {
-          "1987836568": 20
-        },
-        "reward": 815,
+        "reward": 8155,
         "experience": 14760.0
       },
       {
@@ -3116,10 +3083,65 @@
           110
         ],
         "required_items": {
-          "204941440": 1
+          "1987836568": 20
         },
-        "reward": 8155,
+        "reward": 815,
         "experience": 14760.0
+      },
+      {
+        "levels": [
+          90,
+          110
+        ],
+        "required_items": {
+          "4685606308": 1
+        },
+        "reward": 820,
+        "experience": 14760.0
+      },
+      {
+        "levels": [
+          90,
+          110
+        ],
+        "required_items": {
+          "4687790166": 1
+        },
+        "reward": 10195,
+        "experience": 14760.0
+      },
+      {
+        "levels": [
+          90,
+          110
+        ],
+        "required_items": {
+          "5768471618": 1
+        },
+        "reward": 4080,
+        "experience": 14760.0
+      },
+      {
+        "levels": [
+          100,
+          120
+        ],
+        "required_items": {
+          "254492415": 20
+        },
+        "reward": 1060,
+        "experience": 20660.0
+      },
+      {
+        "levels": [
+          100,
+          120
+        ],
+        "required_items": {
+          "682879572": 1
+        },
+        "reward": 10605,
+        "experience": 20660.0
       },
       {
         "levels": [
@@ -3149,9 +3171,9 @@
           120
         ],
         "required_items": {
-          "254492415": 20
+          "5880089353": 1
         },
-        "reward": 1060,
+        "reward": 5300,
         "experience": 20660.0
       },
       {
@@ -3163,28 +3185,6 @@
           "6130995785": 1
         },
         "reward": 13255,
-        "experience": 20660.0
-      },
-      {
-        "levels": [
-          100,
-          120
-        ],
-        "required_items": {
-          "682879572": 1
-        },
-        "reward": 10605,
-        "experience": 20660.0
-      },
-      {
-        "levels": [
-          100,
-          120
-        ],
-        "required_items": {
-          "5880089353": 1
-        },
-        "reward": 5300,
         "experience": 20660.0
       }
     ]
