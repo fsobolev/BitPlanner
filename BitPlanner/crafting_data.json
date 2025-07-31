@@ -814,6 +814,76 @@
       {
         "consumed_items": [
           {
+            "id": 4020003,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          3,
+          1
+        ],
+        "output_quantity": 25,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 3020003,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          3,
+          1
+        ],
+        "output_quantity": 20,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 5020003,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          3,
+          1
+        ],
+        "output_quantity": 30,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 6020003,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          3,
+          1
+        ],
+        "output_quantity": 40,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 2020003,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          3,
+          1
+        ],
+        "output_quantity": 15,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
             "id": 1020003,
             "quantity": 1
           }
@@ -823,6 +893,62 @@
           1
         ],
         "output_quantity": 10,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 28056473,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          3,
+          1
+        ],
+        "output_quantity": 60,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1227914325,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          3,
+          1
+        ],
+        "output_quantity": 80,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 117329467,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          3,
+          1
+        ],
+        "output_quantity": 100,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1639308227,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          3,
+          1
+        ],
+        "output_quantity": 50,
         "possibilities": {}
       }
     ],
@@ -25878,6 +26004,34 @@
     "extraction_skill": -1,
     "tag": "Leather Clothing"
   },
+  "114782794": {
+    "name": "Skillful Leathercraft Side Table",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Buildings/DecoLeatherSeriesTable3",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1639308227,
+            "quantity": 4
+          },
+          {
+            "id": 701069699,
+            "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          15,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
+  },
   "115197730": {
     "name": "Aurumite Hammer",
     "tier": 7,
@@ -26547,6 +26701,38 @@
     ],
     "extraction_skill": -1,
     "tag": "Weapon"
+  },
+  "122882739": {
+    "name": "Skillful Leathercraft Chair",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Buildings/DecoLeatherSeriesChair1",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1639308227,
+            "quantity": 4
+          },
+          {
+            "id": 701069699,
+            "quantity": 2
+          },
+          {
+            "id": 806992520,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          15,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
   },
   "123142281": {
     "name": "Magnificient Firesand",
@@ -28189,6 +28375,15 @@
     ],
     "extraction_skill": -1,
     "tag": "Cloth Clothing"
+  },
+  "155717099": {
+    "name": "Skillful Leathercraft Furniture Blueprints",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Items/SkillfulLeathercraftFurnitureRecipes",
+    "recipes": [],
+    "extraction_skill": -1,
+    "tag": "Furniture"
   },
   "155776140": {
     "name": "Rough Woven Shoes",
@@ -35528,6 +35723,42 @@
     "extraction_skill": -1,
     "tag": "Elixir"
   },
+  "287595125": {
+    "name": "Woodcrafter's Outdoor Planterbox Trellis",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Buildings/WoodCraftplanterboxTrellis",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 3020003,
+            "quantity": 6
+          },
+          {
+            "id": 3050002,
+            "quantity": 2
+          },
+          {
+            "id": 3130003,
+            "quantity": 2
+          },
+          {
+            "id": 3130005,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          15,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
+  },
   "287726152": {
     "name": "Deed: Loose Rough Pants - Red",
     "tier": -1,
@@ -35860,6 +36091,34 @@
     "extraction_skill": -1,
     "tag": "Tailor Tool"
   },
+  "290615464": {
+    "name": "Woodcrafter's Outdoor Pergola Bench",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Buildings/WoodCraftpergolaBench",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 3020003,
+            "quantity": 6
+          },
+          {
+            "id": 3050002,
+            "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          15,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
+  },
   "290870823": {
     "name": "Pyrelite Daggers",
     "tier": 2,
@@ -35901,6 +36160,34 @@
     ],
     "extraction_skill": -1,
     "tag": "Weapon"
+  },
+  "291061456": {
+    "name": "Woodcrafter's Outdoor Birdhouse",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Buildings/WoodCraftOutdoorbirdHouse",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 3020003,
+            "quantity": 4
+          },
+          {
+            "id": 3050002,
+            "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          15,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
   },
   "291129083": {
     "name": "Rathium Plated Boots",
@@ -36995,7 +37282,7 @@
   },
   "309254990": {
     "name": "Talented Woodcraft Furniture Blueprints",
-    "tier": -1,
+    "tier": 3,
     "rarity": 1,
     "icon": "Other/Items/TalentedWoodcraftFurnitureRecipe",
     "recipes": [],
@@ -37762,6 +38049,38 @@
     ],
     "extraction_skill": -1,
     "tag": "Cloth Clothing"
+  },
+  "326227898": {
+    "name": "Woodcrafter's Outdoor Potted Plant",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Buildings/WoodCraftOutdoorPottedPlant",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 881820852,
+            "quantity": 3
+          },
+          {
+            "id": 3130003,
+            "quantity": 1
+          },
+          {
+            "id": 3130005,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          15,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
   },
   "327010413": {
     "name": "Luminite Plated Armor",
@@ -40634,20 +40953,6 @@
       {
         "consumed_items": [
           {
-            "id": 1622627516,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 150,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 2131376186,
             "quantity": 1
           }
@@ -40662,7 +40967,7 @@
       {
         "consumed_items": [
           {
-            "id": 1331356237,
+            "id": 1622627516,
             "quantity": 1
           }
         ],
@@ -40670,7 +40975,7 @@
           6,
           1
         ],
-        "output_quantity": 50,
+        "output_quantity": 150,
         "possibilities": {}
       },
       {
@@ -40685,6 +40990,20 @@
           1
         ],
         "output_quantity": 15,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1331356237,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 50,
         "possibilities": {}
       },
       {
@@ -41362,7 +41681,7 @@
       {
         "consumed_items": [
           {
-            "id": 851522677,
+            "id": 783907612,
             "quantity": 1
           }
         ],
@@ -41376,7 +41695,7 @@
       {
         "consumed_items": [
           {
-            "id": 783907612,
+            "id": 851522677,
             "quantity": 1
           }
         ],
@@ -54155,6 +54474,38 @@
     "extraction_skill": -1,
     "tag": "Weapon"
   },
+  "590999382": {
+    "name": "Skillful Leathercraft Shelf",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Buildings/DecoLeatherSeriesShelf2",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1639308227,
+            "quantity": 6
+          },
+          {
+            "id": 806992520,
+            "quantity": 1
+          },
+          {
+            "id": 701069699,
+            "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          15,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
+  },
   "592653745": {
     "name": "Flawless Leather Shirt",
     "tier": 10,
@@ -62337,6 +62688,34 @@
     "extraction_skill": -1,
     "tag": "Jewelry"
   },
+  "722840866": {
+    "name": "Skillful Leathercraft White Carpet",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Buildings/DecoLeatherSeriesRug1",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1610800379,
+            "quantity": 1
+          },
+          {
+            "id": 806992520,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          15,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
+  },
   "724409328": {
     "name": "Luminite Axe",
     "tier": 5,
@@ -65772,20 +66151,6 @@
       {
         "consumed_items": [
           {
-            "id": 1564313443,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 150,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 79211068,
             "quantity": 1
           }
@@ -65800,7 +66165,7 @@
       {
         "consumed_items": [
           {
-            "id": 639413153,
+            "id": 1564313443,
             "quantity": 1
           }
         ],
@@ -65815,6 +66180,20 @@
         "consumed_items": [
           {
             "id": 396103904,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 150,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 639413153,
             "quantity": 1
           }
         ],
@@ -66080,20 +66459,6 @@
       {
         "consumed_items": [
           {
-            "id": 1733486247,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 50,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 1385921286,
             "quantity": 1
           }
@@ -66108,7 +66473,21 @@
       {
         "consumed_items": [
           {
-            "id": 1394009161,
+            "id": 1733486247,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 50,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 115197730,
             "quantity": 1
           }
         ],
@@ -66122,7 +66501,7 @@
       {
         "consumed_items": [
           {
-            "id": 115197730,
+            "id": 1394009161,
             "quantity": 1
           }
         ],
@@ -66290,7 +66669,7 @@
       {
         "consumed_items": [
           {
-            "id": 1694898363,
+            "id": 1826278986,
             "quantity": 1
           }
         ],
@@ -66304,7 +66683,7 @@
       {
         "consumed_items": [
           {
-            "id": 1826278986,
+            "id": 1694898363,
             "quantity": 1
           }
         ],
@@ -68066,6 +68445,34 @@
     ],
     "extraction_skill": -1,
     "tag": "Refined Cloth"
+  },
+  "806934927": {
+    "name": "Woodcrafter's Outdoor Fountain",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Buildings/WoodCraftOutdoorFountain",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 4294969697,
+            "quantity": 2
+          },
+          {
+            "id": 3030002,
+            "quantity": 5
+          }
+        ],
+        "level_requirements": [
+          15,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
   },
   "806992520": {
     "name": "Ornate Leather",
@@ -74336,6 +74743,42 @@
     "extraction_skill": -1,
     "tag": "Metal Armor"
   },
+  "911876186": {
+    "name": "Woodcrafter's Outdoor Planterbox",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Buildings/WoodCraftfence_planterBox",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 3020003,
+            "quantity": 4
+          },
+          {
+            "id": 3050002,
+            "quantity": 2
+          },
+          {
+            "id": 3130003,
+            "quantity": 3
+          },
+          {
+            "id": 3130005,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          15,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
+  },
   "912146870": {
     "name": "Peerless Leather Shirt",
     "tier": 6,
@@ -74502,6 +74945,38 @@
     "extraction_skill": -1,
     "tag": "Leather Clothing"
   },
+  "914503082": {
+    "name": "Woodcrafter's Outdoor Garden Plot",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Buildings/WoodCraftGardenRocks",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 3030001,
+            "quantity": 10
+          },
+          {
+            "id": 3130003,
+            "quantity": 1
+          },
+          {
+            "id": 3130005,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          15,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
+  },
   "914704047": {
     "name": "Deed: Pet Lusul (Orange and White)",
     "tier": -1,
@@ -74627,7 +75102,7 @@
       {
         "consumed_items": [
           {
-            "id": 1033133550,
+            "id": 2014662030,
             "quantity": 1
           }
         ],
@@ -74641,7 +75116,7 @@
       {
         "consumed_items": [
           {
-            "id": 2014662030,
+            "id": 1033133550,
             "quantity": 1
           }
         ],
@@ -74725,7 +75200,7 @@
       {
         "consumed_items": [
           {
-            "id": 1029227885,
+            "id": 168526448,
             "quantity": 1
           }
         ],
@@ -74739,7 +75214,7 @@
       {
         "consumed_items": [
           {
-            "id": 168526448,
+            "id": 1029227885,
             "quantity": 1
           }
         ],
@@ -75538,6 +76013,38 @@
     ],
     "extraction_skill": -1,
     "tag": "Brick"
+  },
+  "931659593": {
+    "name": "Skillful Leathercraft Bookshelf",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Buildings/DecoLeatherSeriesShelf1",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1639308227,
+            "quantity": 5
+          },
+          {
+            "id": 113276733,
+            "quantity": 5
+          },
+          {
+            "id": 365949150,
+            "quantity": 5
+          }
+        ],
+        "level_requirements": [
+          15,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
   },
   "932828993": {
     "name": "Flawless Woven Shorts",
@@ -76373,7 +76880,7 @@
       {
         "consumed_items": [
           {
-            "id": 1960640170,
+            "id": 2113809370,
             "quantity": 1
           }
         ],
@@ -76387,7 +76894,7 @@
       {
         "consumed_items": [
           {
-            "id": 2113809370,
+            "id": 1960640170,
             "quantity": 1
           }
         ],
@@ -76695,7 +77202,7 @@
       {
         "consumed_items": [
           {
-            "id": 657331360,
+            "id": 265703470,
             "quantity": 1
           }
         ],
@@ -76709,7 +77216,7 @@
       {
         "consumed_items": [
           {
-            "id": 265703470,
+            "id": 657331360,
             "quantity": 1
           }
         ],
@@ -76863,7 +77370,7 @@
       {
         "consumed_items": [
           {
-            "id": 309776773,
+            "id": 365922886,
             "quantity": 1
           }
         ],
@@ -76877,7 +77384,7 @@
       {
         "consumed_items": [
           {
-            "id": 365922886,
+            "id": 309776773,
             "quantity": 1
           }
         ],
@@ -77031,7 +77538,7 @@
       {
         "consumed_items": [
           {
-            "id": 217088790,
+            "id": 1908038292,
             "quantity": 1
           }
         ],
@@ -77045,7 +77552,7 @@
       {
         "consumed_items": [
           {
-            "id": 1908038292,
+            "id": 217088790,
             "quantity": 1
           }
         ],
@@ -77157,7 +77664,7 @@
       {
         "consumed_items": [
           {
-            "id": 1491113278,
+            "id": 270820549,
             "quantity": 1
           }
         ],
@@ -77171,7 +77678,7 @@
       {
         "consumed_items": [
           {
-            "id": 270820549,
+            "id": 1491113278,
             "quantity": 1
           }
         ],
@@ -83931,20 +84438,6 @@
       {
         "consumed_items": [
           {
-            "id": 88367633,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 50,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 90706334,
             "quantity": 1
           }
@@ -83959,7 +84452,35 @@
       {
         "consumed_items": [
           {
+            "id": 88367633,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 50,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
             "id": 280763117,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 15,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1742152709,
             "quantity": 1
           }
         ],
@@ -83982,20 +84503,6 @@
           1
         ],
         "output_quantity": 50,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 1742152709,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 15,
         "possibilities": {}
       },
       {
@@ -84183,20 +84690,6 @@
       {
         "consumed_items": [
           {
-            "id": 1043616593,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 3,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 482209661,
             "quantity": 1
           }
@@ -84211,7 +84704,7 @@
       {
         "consumed_items": [
           {
-            "id": 1460999060,
+            "id": 1043616593,
             "quantity": 1
           }
         ],
@@ -84226,6 +84719,20 @@
         "consumed_items": [
           {
             "id": 623683709,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 3,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1460999060,
             "quantity": 1
           }
         ],
@@ -84309,20 +84816,6 @@
       {
         "consumed_items": [
           {
-            "id": 1858500155,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 1,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 1342482833,
             "quantity": 1
           }
@@ -84337,7 +84830,35 @@
       {
         "consumed_items": [
           {
+            "id": 1858500155,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
             "id": 489724302,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 268156651,
             "quantity": 1
           }
         ],
@@ -84366,20 +84887,6 @@
         "consumed_items": [
           {
             "id": 1115966209,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 1,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 268156651,
             "quantity": 1
           }
         ],
@@ -86222,20 +86729,6 @@
       {
         "consumed_items": [
           {
-            "id": 703313133,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 15,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 429722226,
             "quantity": 1
           }
@@ -86245,6 +86738,20 @@
           1
         ],
         "output_quantity": 50,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 703313133,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 15,
         "possibilities": {}
       },
       {
@@ -86306,20 +86813,6 @@
       {
         "consumed_items": [
           {
-            "id": 1431558369,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 150,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 1762935714,
             "quantity": 1
           }
@@ -86335,6 +86828,20 @@
         "consumed_items": [
           {
             "id": 1907385327,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 150,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1431558369,
             "quantity": 1
           }
         ],
@@ -86418,7 +86925,7 @@
       {
         "consumed_items": [
           {
-            "id": 1908450289,
+            "id": 865807039,
             "quantity": 1
           }
         ],
@@ -86446,7 +86953,7 @@
       {
         "consumed_items": [
           {
-            "id": 865807039,
+            "id": 1908450289,
             "quantity": 1
           }
         ],
@@ -86460,7 +86967,7 @@
       {
         "consumed_items": [
           {
-            "id": 1943544311,
+            "id": 1732522724,
             "quantity": 1
           }
         ],
@@ -86474,7 +86981,7 @@
       {
         "consumed_items": [
           {
-            "id": 1732522724,
+            "id": 1943544311,
             "quantity": 1
           }
         ],
@@ -86670,20 +87177,6 @@
       {
         "consumed_items": [
           {
-            "id": 1553438138,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 3,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 1013839268,
             "quantity": 1
           }
@@ -86698,7 +87191,35 @@
       {
         "consumed_items": [
           {
+            "id": 1553438138,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 3,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
             "id": 2065176870,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 3,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1176307099,
             "quantity": 1
           }
         ],
@@ -86727,20 +87248,6 @@
         "consumed_items": [
           {
             "id": 611828737,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 3,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 1176307099,
             "quantity": 1
           }
         ],
@@ -86838,7 +87345,7 @@
       {
         "consumed_items": [
           {
-            "id": 1297008737,
+            "id": 1732455557,
             "quantity": 1
           }
         ],
@@ -86852,7 +87359,7 @@
       {
         "consumed_items": [
           {
-            "id": 1732455557,
+            "id": 1297008737,
             "quantity": 1
           }
         ],
@@ -90087,7 +90594,7 @@
       {
         "consumed_items": [
           {
-            "id": 710780423,
+            "id": 1324193108,
             "quantity": 1
           }
         ],
@@ -90101,7 +90608,7 @@
       {
         "consumed_items": [
           {
-            "id": 1324193108,
+            "id": 710780423,
             "quantity": 1
           }
         ],
@@ -90185,7 +90692,7 @@
       {
         "consumed_items": [
           {
-            "id": 989354911,
+            "id": 247849960,
             "quantity": 1
           }
         ],
@@ -90199,7 +90706,7 @@
       {
         "consumed_items": [
           {
-            "id": 247849960,
+            "id": 989354911,
             "quantity": 1
           }
         ],
@@ -90479,7 +90986,7 @@
       {
         "consumed_items": [
           {
-            "id": 2124079079,
+            "id": 1930789220,
             "quantity": 1
           }
         ],
@@ -90493,7 +91000,7 @@
       {
         "consumed_items": [
           {
-            "id": 1930789220,
+            "id": 2124079079,
             "quantity": 1
           }
         ],
@@ -93073,6 +93580,38 @@
     "extraction_skill": -1,
     "tag": "Weapon"
   },
+  "1179171808": {
+    "name": "Skillful Leathercraft Item Storage",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Buildings/DecoLeatherSeriesDresser2",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1639308227,
+            "quantity": 4
+          },
+          {
+            "id": 625147590,
+            "quantity": 1
+          },
+          {
+            "id": 701069699,
+            "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          15,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
+  },
   "1181587439": {
     "name": "Flawless Wispweave Seeds",
     "tier": 10,
@@ -94459,6 +94998,38 @@
     ],
     "extraction_skill": -1,
     "tag": "Glass"
+  },
+  "1202563479": {
+    "name": "Skillful Leathercraft Cargo Bin",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Buildings/DecoLeatherSeriesDresser1",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1639308227,
+            "quantity": 4
+          },
+          {
+            "id": 625147590,
+            "quantity": 1
+          },
+          {
+            "id": 701069699,
+            "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          15,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
   },
   "1203201028": {
     "name": "Umbracite Chisel",
@@ -100484,6 +101055,38 @@
     "recipes": [],
     "extraction_skill": -1,
     "tag": "Quest Knowledge"
+  },
+  "1312645360": {
+    "name": "Skillful Leathercraft Desk",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Buildings/DecoLeatherSeriesTable1",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1639308227,
+            "quantity": 4
+          },
+          {
+            "id": 701069699,
+            "quantity": 2
+          },
+          {
+            "id": 806992520,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          15,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
   },
   "1312738626": {
     "name": "Zesty Deluxe Ground Meat and Mashed Bulbs",
@@ -108075,6 +108678,38 @@
     "extraction_skill": -1,
     "tag": "Metal Armor"
   },
+  "1435515386": {
+    "name": "Skillful Leathercraft Room Divider",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Buildings/DecoLeatherSeriesRoomDivider1",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1639308227,
+            "quantity": 5
+          },
+          {
+            "id": 806992520,
+            "quantity": 1
+          },
+          {
+            "id": 701069699,
+            "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          15,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
+  },
   "1436869379": {
     "name": "Elenvar Plated Armor",
     "tier": 4,
@@ -108860,6 +109495,34 @@
     ],
     "extraction_skill": -1,
     "tag": "Metal Armor"
+  },
+  "1451615914": {
+    "name": "Skillful Leathercraft Rectangular Carpet",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Buildings/DecoLeatherSeriesRug2",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1610800379,
+            "quantity": 1
+          },
+          {
+            "id": 806992520,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          15,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
   },
   "1453129584": {
     "name": "Deed: Rough Long Skirt - Light Orange",
@@ -117240,20 +117903,6 @@
       {
         "consumed_items": [
           {
-            "id": 1802344432,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 50,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 1064089120,
             "quantity": 1
           }
@@ -117268,7 +117917,21 @@
       {
         "consumed_items": [
           {
-            "id": 453408860,
+            "id": 1802344432,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 50,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1338046652,
             "quantity": 1
           }
         ],
@@ -117282,7 +117945,7 @@
       {
         "consumed_items": [
           {
-            "id": 1338046652,
+            "id": 453408860,
             "quantity": 1
           }
         ],
@@ -117310,20 +117973,6 @@
       {
         "consumed_items": [
           {
-            "id": 852901239,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 500,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 428362059,
             "quantity": 1
           }
@@ -117338,7 +117987,21 @@
       {
         "consumed_items": [
           {
-            "id": 683322490,
+            "id": 852901239,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 500,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1044047269,
             "quantity": 1
           }
         ],
@@ -117352,7 +118015,7 @@
       {
         "consumed_items": [
           {
-            "id": 1044047269,
+            "id": 683322490,
             "quantity": 1
           }
         ],
@@ -117436,7 +118099,7 @@
       {
         "consumed_items": [
           {
-            "id": 296986020,
+            "id": 1064817069,
             "quantity": 1
           }
         ],
@@ -117464,7 +118127,7 @@
       {
         "consumed_items": [
           {
-            "id": 1064817069,
+            "id": 296986020,
             "quantity": 1
           }
         ],
@@ -117478,7 +118141,7 @@
       {
         "consumed_items": [
           {
-            "id": 1134503739,
+            "id": 914845320,
             "quantity": 1
           }
         ],
@@ -117492,7 +118155,7 @@
       {
         "consumed_items": [
           {
-            "id": 914845320,
+            "id": 1134503739,
             "quantity": 1
           }
         ],
@@ -117548,7 +118211,7 @@
       {
         "consumed_items": [
           {
-            "id": 2031310807,
+            "id": 1494271405,
             "quantity": 1
           }
         ],
@@ -117556,7 +118219,7 @@
           6,
           1
         ],
-        "output_quantity": 15,
+        "output_quantity": 50,
         "possibilities": {}
       },
       {
@@ -117576,7 +118239,7 @@
       {
         "consumed_items": [
           {
-            "id": 1494271405,
+            "id": 2031310807,
             "quantity": 1
           }
         ],
@@ -117584,7 +118247,7 @@
           6,
           1
         ],
-        "output_quantity": 50,
+        "output_quantity": 15,
         "possibilities": {}
       },
       {
@@ -117618,7 +118281,7 @@
       {
         "consumed_items": [
           {
-            "id": 1644054609,
+            "id": 1870880007,
             "quantity": 1
           }
         ],
@@ -117646,6 +118309,20 @@
       {
         "consumed_items": [
           {
+            "id": 1644054609,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 50,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
             "id": 1911572067,
             "quantity": 1
           }
@@ -117660,21 +118337,7 @@
       {
         "consumed_items": [
           {
-            "id": 1870880007,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 50,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 292695634,
+            "id": 1545844636,
             "quantity": 1
           }
         ],
@@ -117688,7 +118351,7 @@
       {
         "consumed_items": [
           {
-            "id": 1545844636,
+            "id": 292695634,
             "quantity": 1
           }
         ],
@@ -117884,7 +118547,7 @@
       {
         "consumed_items": [
           {
-            "id": 346277395,
+            "id": 1125175444,
             "quantity": 1
           }
         ],
@@ -117892,7 +118555,7 @@
           6,
           1
         ],
-        "output_quantity": 50,
+        "output_quantity": 15,
         "possibilities": {}
       },
       {
@@ -117912,7 +118575,7 @@
       {
         "consumed_items": [
           {
-            "id": 1125175444,
+            "id": 346277395,
             "quantity": 1
           }
         ],
@@ -117920,7 +118583,7 @@
           6,
           1
         ],
-        "output_quantity": 15,
+        "output_quantity": 50,
         "possibilities": {}
       },
       {
@@ -118052,20 +118715,6 @@
       {
         "consumed_items": [
           {
-            "id": 1437399042,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 15,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 725605566,
             "quantity": 1
           }
@@ -118080,7 +118729,7 @@
       {
         "consumed_items": [
           {
-            "id": 1586177413,
+            "id": 1437399042,
             "quantity": 1
           }
         ],
@@ -118103,6 +118752,20 @@
           1
         ],
         "output_quantity": 50,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1586177413,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 15,
         "possibilities": {}
       },
       {
@@ -118136,20 +118799,6 @@
       {
         "consumed_items": [
           {
-            "id": 1795603932,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 15,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 793975188,
             "quantity": 1
           }
@@ -118159,6 +118808,20 @@
           1
         ],
         "output_quantity": 50,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1795603932,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 15,
         "possibilities": {}
       },
       {
@@ -118206,6 +118869,20 @@
       {
         "consumed_items": [
           {
+            "id": 849875928,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 50,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
             "id": 1173969147,
             "quantity": 1
           }
@@ -118220,7 +118897,7 @@
       {
         "consumed_items": [
           {
-            "id": 849875928,
+            "id": 1260359977,
             "quantity": 1
           }
         ],
@@ -118228,7 +118905,7 @@
           6,
           1
         ],
-        "output_quantity": 50,
+        "output_quantity": 15,
         "possibilities": {}
       },
       {
@@ -118249,20 +118926,6 @@
         "consumed_items": [
           {
             "id": 855018787,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 15,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 1260359977,
             "quantity": 1
           }
         ],
@@ -118402,7 +119065,7 @@
       {
         "consumed_items": [
           {
-            "id": 2041434177,
+            "id": 1101928704,
             "quantity": 1
           }
         ],
@@ -118416,7 +119079,7 @@
       {
         "consumed_items": [
           {
-            "id": 1101928704,
+            "id": 2041434177,
             "quantity": 1
           }
         ],
@@ -118570,7 +119233,7 @@
       {
         "consumed_items": [
           {
-            "id": 2086853157,
+            "id": 1507168971,
             "quantity": 1
           }
         ],
@@ -118598,7 +119261,7 @@
       {
         "consumed_items": [
           {
-            "id": 1507168971,
+            "id": 2086853157,
             "quantity": 1
           }
         ],
@@ -118780,20 +119443,6 @@
       {
         "consumed_items": [
           {
-            "id": 2090523697,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 1,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 1264098940,
             "quantity": 1
           }
@@ -118808,7 +119457,21 @@
       {
         "consumed_items": [
           {
-            "id": 714197853,
+            "id": 2090523697,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 799622109,
             "quantity": 1
           }
         ],
@@ -118836,7 +119499,7 @@
       {
         "consumed_items": [
           {
-            "id": 799622109,
+            "id": 714197853,
             "quantity": 1
           }
         ],
@@ -118934,7 +119597,7 @@
       {
         "consumed_items": [
           {
-            "id": 688829506,
+            "id": 1297341889,
             "quantity": 1
           }
         ],
@@ -118948,7 +119611,7 @@
       {
         "consumed_items": [
           {
-            "id": 1297341889,
+            "id": 688829506,
             "quantity": 1
           }
         ],
@@ -124181,6 +124844,15 @@
     "extraction_skill": -1,
     "tag": "Leather Clothing"
   },
+  "1665142490": {
+    "name": "Player House Deed 7",
+    "tier": -1,
+    "rarity": 1,
+    "icon": "Items/SchematicGeneric",
+    "recipes": [],
+    "extraction_skill": -1,
+    "tag": "House Deed"
+  },
   "1665387210": {
     "name": "Astralite Claymore",
     "tier": 10,
@@ -128905,6 +129577,34 @@
     ],
     "extraction_skill": -1,
     "tag": "Leather Clothing"
+  },
+  "1735397745": {
+    "name": "Woodcrafter's Outdoor Large Pergola",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Buildings/WoodCraftpergolaLarge",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 3020003,
+            "quantity": 10
+          },
+          {
+            "id": 3050002,
+            "quantity": 4
+          }
+        ],
+        "level_requirements": [
+          15,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
   },
   "1737200431": {
     "name": "Peerless Woven Belt",
@@ -133694,6 +134394,38 @@
     "extraction_skill": -1,
     "tag": "Deed"
   },
+  "1820547998": {
+    "name": "Skillful Leathercraft Lounge Chair",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Buildings/DecoLeatherSeriesChair2",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1639308227,
+            "quantity": 6
+          },
+          {
+            "id": 701069699,
+            "quantity": 3
+          },
+          {
+            "id": 806992520,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          15,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
+  },
   "1821633585": {
     "name": "Pristine Woven Shorts",
     "tier": 8,
@@ -134633,6 +135365,30 @@
     ],
     "extraction_skill": -1,
     "tag": "Refined Cloth"
+  },
+  "1834785305": {
+    "name": "Woodcrafter's Outdoor Fence Post",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Buildings/WoodcraftfencePost",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 3020003,
+            "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          15,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
   },
   "1834794887": {
     "name": "Fine Leather Gloves",
@@ -136437,6 +137193,38 @@
     ],
     "extraction_skill": -1,
     "tag": "Cloth Clothing"
+  },
+  "1853213411": {
+    "name": "Woodcrafter's Outdoor Lantern Post",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Buildings/WoodCraftlanternpost",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 3020003,
+            "quantity": 5
+          },
+          {
+            "id": 3050001,
+            "quantity": 1
+          },
+          {
+            "id": 3090004,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          15,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
   },
   "1853574967": {
     "name": "Deed: Fingerless Cloth Gloves - Hazel",
@@ -140093,6 +140881,34 @@
     "extraction_skill": -1,
     "tag": "Food Recipe"
   },
+  "1907287635": {
+    "name": "Woodcrafter's Outdoor Bench",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Buildings/WoodCraftOutdoorBench",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 3020003,
+            "quantity": 4
+          },
+          {
+            "id": 3050002,
+            "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          15,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
+  },
   "1907385327": {
     "name": "Astralite Hammer",
     "tier": 10,
@@ -142217,6 +143033,38 @@
     "extraction_skill": -1,
     "tag": "Deed"
   },
+  "1939524148": {
+    "name": "Skillful Leathercraft Potted Bush",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Buildings/DecoLeatherSeriesPot1",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 813610254,
+            "quantity": 2
+          },
+          {
+            "id": 657835389,
+            "quantity": 4
+          },
+          {
+            "id": 418805707,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          15,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
+  },
   "1940429372": {
     "name": "Aurumite Plated Legguards",
     "tier": 7,
@@ -143634,6 +144482,15 @@
     "recipes": [],
     "extraction_skill": -1,
     "tag": "Scrap"
+  },
+  "1959683433": {
+    "name": "Woodcrafter's Outdoor Potted Shed",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Buildings/WoodCraftStructure_1",
+    "recipes": [],
+    "extraction_skill": -1,
+    "tag": "Furniture"
   },
   "1959817225": {
     "name": "Sturdy Textile",
@@ -146162,6 +147019,42 @@
     "extraction_skill": 14,
     "tag": "Sand"
   },
+  "1991827117": {
+    "name": "Woodcrafter's Outdoor Planter Boxes",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Buildings/WoodCraftOutdoorPlanterBoxes",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 3020003,
+            "quantity": 5
+          },
+          {
+            "id": 3050002,
+            "quantity": 2
+          },
+          {
+            "id": 3130003,
+            "quantity": 3
+          },
+          {
+            "id": 3130005,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          15,
+          30
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
+  },
   "1992186330": {
     "name": "Deed: Well Made Long Shorts - Green",
     "tier": -1,
@@ -147043,6 +147936,15 @@
     "recipes": [],
     "extraction_skill": -1,
     "tag": "Skill Training"
+  },
+  "2012716534": {
+    "name": "Outdoor Woodcraft Furniture Blueprints",
+    "tier": 3,
+    "rarity": 1,
+    "icon": "Other/Items/OutdoorWoodcraftFurnitureRecipes",
+    "recipes": [],
+    "extraction_skill": -1,
+    "tag": "Furniture Recipe"
   },
   "2014662030": {
     "name": "Pyrelite Saw",
@@ -155852,6 +156754,38 @@
     ],
     "extraction_skill": -1,
     "tag": "Food Recipe"
+  },
+  "2141064421": {
+    "name": "Skillful Leathercraft Table",
+    "tier": 7,
+    "rarity": 1,
+    "icon": "Other/Buildings/DecoLeatherSeriesTable2",
+    "recipes": [
+      {
+        "consumed_items": [
+          {
+            "id": 1639308227,
+            "quantity": 6
+          },
+          {
+            "id": 806992520,
+            "quantity": 1
+          },
+          {
+            "id": 701069699,
+            "quantity": 2
+          }
+        ],
+        "level_requirements": [
+          15,
+          70
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      }
+    ],
+    "extraction_skill": -1,
+    "tag": "Furniture"
   },
   "2141068773": {
     "name": "Rathium Axe",
