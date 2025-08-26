@@ -1,7 +1,7 @@
 from functools import cmp_to_key
 import json
 
-root = 'BitCraft_GameData/server/region'
+root = 'BitCraft_GameData/static'
 npcs = json.load(open(f'{root}/npc_desc.json'))
 tasks = json.load(open(f'{root}/traveler_task_desc.json'))
 crafting_data = json.load(open('../BitPlanner/crafting_data.json'))

@@ -2,7 +2,7 @@ import copy
 import json
 import os.path
 
-root = 'BitCraft_GameData/server/region'
+root = 'BitCraft_GameData/static'
 crafting_recipes = json.load(open(f'{root}/crafting_recipe_desc.json'))
 extraction_recipes = json.load(open(f'{root}/extraction_recipe_desc.json'))
 items = json.load(open(f'{root}/item_desc.json'))
