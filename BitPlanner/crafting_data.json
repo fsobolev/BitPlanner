@@ -814,20 +814,6 @@
       {
         "consumed_items": [
           {
-            "id": 3020003,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          3,
-          1
-        ],
-        "output_quantity": 20,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 4020003,
             "quantity": 1
           }
@@ -837,6 +823,20 @@
           1
         ],
         "output_quantity": 25,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 3020003,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          3,
+          1
+        ],
+        "output_quantity": 20,
         "possibilities": {}
       },
       {
@@ -41226,20 +41226,6 @@
       {
         "consumed_items": [
           {
-            "id": 926760374,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 50,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 70255625,
             "quantity": 1
           }
@@ -41249,6 +41235,20 @@
           1
         ],
         "output_quantity": 15,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 926760374,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 50,
         "possibilities": {}
       },
       {
@@ -41380,20 +41380,6 @@
       {
         "consumed_items": [
           {
-            "id": 1683252275,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 15,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 1490739440,
             "quantity": 1
           }
@@ -41422,7 +41408,7 @@
       {
         "consumed_items": [
           {
-            "id": 1088502865,
+            "id": 1683252275,
             "quantity": 1
           }
         ],
@@ -41437,6 +41423,20 @@
         "consumed_items": [
           {
             "id": 905125849,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 15,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1088502865,
             "quantity": 1
           }
         ],
@@ -41548,7 +41548,7 @@
       {
         "consumed_items": [
           {
-            "id": 838551025,
+            "id": 662990131,
             "quantity": 1
           }
         ],
@@ -41562,7 +41562,7 @@
       {
         "consumed_items": [
           {
-            "id": 662990131,
+            "id": 838551025,
             "quantity": 1
           }
         ],
@@ -66368,7 +66368,7 @@
       {
         "consumed_items": [
           {
-            "id": 808171232,
+            "id": 1373705240,
             "quantity": 1
           }
         ],
@@ -66382,7 +66382,7 @@
       {
         "consumed_items": [
           {
-            "id": 1373705240,
+            "id": 808171232,
             "quantity": 1
           }
         ],
@@ -66410,7 +66410,7 @@
       {
         "consumed_items": [
           {
-            "id": 79211068,
+            "id": 1564313443,
             "quantity": 1
           }
         ],
@@ -66424,7 +66424,7 @@
       {
         "consumed_items": [
           {
-            "id": 1564313443,
+            "id": 79211068,
             "quantity": 1
           }
         ],
@@ -66760,7 +66760,7 @@
       {
         "consumed_items": [
           {
-            "id": 1394009161,
+            "id": 115197730,
             "quantity": 1
           }
         ],
@@ -66774,7 +66774,7 @@
       {
         "consumed_items": [
           {
-            "id": 115197730,
+            "id": 1394009161,
             "quantity": 1
           }
         ],
@@ -66928,7 +66928,7 @@
       {
         "consumed_items": [
           {
-            "id": 1694898363,
+            "id": 1826278986,
             "quantity": 1
           }
         ],
@@ -66942,7 +66942,7 @@
       {
         "consumed_items": [
           {
-            "id": 1826278986,
+            "id": 1694898363,
             "quantity": 1
           }
         ],
@@ -67054,7 +67054,7 @@
       {
         "consumed_items": [
           {
-            "id": 1119657353,
+            "id": 570309917,
             "quantity": 1
           }
         ],
@@ -67068,7 +67068,7 @@
       {
         "consumed_items": [
           {
-            "id": 570309917,
+            "id": 1119657353,
             "quantity": 1
           }
         ],
@@ -67222,7 +67222,7 @@
       {
         "consumed_items": [
           {
-            "id": 728445804,
+            "id": 240995661,
             "quantity": 1
           }
         ],
@@ -67236,7 +67236,7 @@
       {
         "consumed_items": [
           {
-            "id": 240995661,
+            "id": 728445804,
             "quantity": 1
           }
         ],
@@ -67264,7 +67264,7 @@
       {
         "consumed_items": [
           {
-            "id": 1700689396,
+            "id": 856252687,
             "quantity": 1
           }
         ],
@@ -67278,7 +67278,7 @@
       {
         "consumed_items": [
           {
-            "id": 856252687,
+            "id": 1700689396,
             "quantity": 1
           }
         ],
@@ -75370,7 +75370,7 @@
       {
         "consumed_items": [
           {
-            "id": 2014662030,
+            "id": 1033133550,
             "quantity": 1
           }
         ],
@@ -75384,7 +75384,7 @@
       {
         "consumed_items": [
           {
-            "id": 1033133550,
+            "id": 2014662030,
             "quantity": 1
           }
         ],
@@ -75440,7 +75440,7 @@
       {
         "consumed_items": [
           {
-            "id": 925940642,
+            "id": 1782266252,
             "quantity": 1
           }
         ],
@@ -75454,7 +75454,7 @@
       {
         "consumed_items": [
           {
-            "id": 1782266252,
+            "id": 925940642,
             "quantity": 1
           }
         ],
@@ -77148,7 +77148,7 @@
       {
         "consumed_items": [
           {
-            "id": 1960640170,
+            "id": 2113809370,
             "quantity": 1
           }
         ],
@@ -77162,7 +77162,7 @@
       {
         "consumed_items": [
           {
-            "id": 2113809370,
+            "id": 1960640170,
             "quantity": 1
           }
         ],
@@ -77246,7 +77246,7 @@
       {
         "consumed_items": [
           {
-            "id": 1591602523,
+            "id": 1146806026,
             "quantity": 1
           }
         ],
@@ -77260,7 +77260,7 @@
       {
         "consumed_items": [
           {
-            "id": 1146806026,
+            "id": 1591602523,
             "quantity": 1
           }
         ],
@@ -77316,7 +77316,7 @@
       {
         "consumed_items": [
           {
-            "id": 282882254,
+            "id": 1565007683,
             "quantity": 1
           }
         ],
@@ -77330,7 +77330,7 @@
       {
         "consumed_items": [
           {
-            "id": 1565007683,
+            "id": 282882254,
             "quantity": 1
           }
         ],
@@ -77428,7 +77428,7 @@
       {
         "consumed_items": [
           {
-            "id": 458161936,
+            "id": 1352289490,
             "quantity": 1
           }
         ],
@@ -77442,7 +77442,7 @@
       {
         "consumed_items": [
           {
-            "id": 1352289490,
+            "id": 458161936,
             "quantity": 1
           }
         ],
@@ -77512,20 +77512,6 @@
       {
         "consumed_items": [
           {
-            "id": 1857570617,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 50,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 1564315145,
             "quantity": 1
           }
@@ -77535,6 +77521,20 @@
           1
         ],
         "output_quantity": 15,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1857570617,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 50,
         "possibilities": {}
       },
       {
@@ -77638,7 +77638,7 @@
       {
         "consumed_items": [
           {
-            "id": 365922886,
+            "id": 309776773,
             "quantity": 1
           }
         ],
@@ -77652,7 +77652,7 @@
       {
         "consumed_items": [
           {
-            "id": 309776773,
+            "id": 365922886,
             "quantity": 1
           }
         ],
@@ -77736,7 +77736,7 @@
       {
         "consumed_items": [
           {
-            "id": 1727145041,
+            "id": 255042680,
             "quantity": 1
           }
         ],
@@ -77750,7 +77750,7 @@
       {
         "consumed_items": [
           {
-            "id": 255042680,
+            "id": 1727145041,
             "quantity": 1
           }
         ],
@@ -77806,7 +77806,7 @@
       {
         "consumed_items": [
           {
-            "id": 217088790,
+            "id": 1908038292,
             "quantity": 1
           }
         ],
@@ -77820,7 +77820,7 @@
       {
         "consumed_items": [
           {
-            "id": 1908038292,
+            "id": 217088790,
             "quantity": 1
           }
         ],
@@ -77932,7 +77932,7 @@
       {
         "consumed_items": [
           {
-            "id": 270820549,
+            "id": 1491113278,
             "quantity": 1
           }
         ],
@@ -77946,7 +77946,7 @@
       {
         "consumed_items": [
           {
-            "id": 1491113278,
+            "id": 270820549,
             "quantity": 1
           }
         ],
@@ -78002,7 +78002,7 @@
       {
         "consumed_items": [
           {
-            "id": 1828085396,
+            "id": 354891578,
             "quantity": 1
           }
         ],
@@ -78016,7 +78016,7 @@
       {
         "consumed_items": [
           {
-            "id": 354891578,
+            "id": 1828085396,
             "quantity": 1
           }
         ],
@@ -84730,7 +84730,7 @@
       {
         "consumed_items": [
           {
-            "id": 1803029676,
+            "id": 1146337476,
             "quantity": 1
           }
         ],
@@ -84744,7 +84744,7 @@
       {
         "consumed_items": [
           {
-            "id": 1146337476,
+            "id": 1803029676,
             "quantity": 1
           }
         ],
@@ -84968,7 +84968,7 @@
       {
         "consumed_items": [
           {
-            "id": 508390063,
+            "id": 383402761,
             "quantity": 1
           }
         ],
@@ -84982,7 +84982,7 @@
       {
         "consumed_items": [
           {
-            "id": 383402761,
+            "id": 508390063,
             "quantity": 1
           }
         ],
@@ -87147,20 +87147,6 @@
       {
         "consumed_items": [
           {
-            "id": 1431558369,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 150,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 1907385327,
             "quantity": 1
           }
@@ -87176,6 +87162,20 @@
         "consumed_items": [
           {
             "id": 1762935714,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 150,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1431558369,
             "quantity": 1
           }
         ],
@@ -87259,7 +87259,7 @@
       {
         "consumed_items": [
           {
-            "id": 865807039,
+            "id": 1908450289,
             "quantity": 1
           }
         ],
@@ -87273,7 +87273,7 @@
       {
         "consumed_items": [
           {
-            "id": 1908450289,
+            "id": 865807039,
             "quantity": 1
           }
         ],
@@ -87511,20 +87511,6 @@
       {
         "consumed_items": [
           {
-            "id": 1553438138,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 3,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 1013839268,
             "quantity": 1
           }
@@ -87539,7 +87525,7 @@
       {
         "consumed_items": [
           {
-            "id": 2065176870,
+            "id": 1553438138,
             "quantity": 1
           }
         ],
@@ -87553,7 +87539,7 @@
       {
         "consumed_items": [
           {
-            "id": 611828737,
+            "id": 2065176870,
             "quantity": 1
           }
         ],
@@ -87582,6 +87568,20 @@
         "consumed_items": [
           {
             "id": 1176307099,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 3,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 611828737,
             "quantity": 1
           }
         ],
@@ -87721,7 +87721,7 @@
       {
         "consumed_items": [
           {
-            "id": 495177528,
+            "id": 133998348,
             "quantity": 1
           }
         ],
@@ -87735,7 +87735,7 @@
       {
         "consumed_items": [
           {
-            "id": 133998348,
+            "id": 495177528,
             "quantity": 1
           }
         ],
@@ -90960,20 +90960,6 @@
       {
         "consumed_items": [
           {
-            "id": 1324193108,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 15,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 710780423,
             "quantity": 1
           }
@@ -90988,7 +90974,7 @@
       {
         "consumed_items": [
           {
-            "id": 223672560,
+            "id": 1324193108,
             "quantity": 1
           }
         ],
@@ -91003,6 +90989,20 @@
         "consumed_items": [
           {
             "id": 685138200,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 15,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 223672560,
             "quantity": 1
           }
         ],
@@ -91058,7 +91058,7 @@
       {
         "consumed_items": [
           {
-            "id": 989354911,
+            "id": 247849960,
             "quantity": 1
           }
         ],
@@ -91072,7 +91072,7 @@
       {
         "consumed_items": [
           {
-            "id": 247849960,
+            "id": 989354911,
             "quantity": 1
           }
         ],
@@ -118346,7 +118346,7 @@
       {
         "consumed_items": [
           {
-            "id": 1013131252,
+            "id": 1203201028,
             "quantity": 1
           }
         ],
@@ -118360,7 +118360,7 @@
       {
         "consumed_items": [
           {
-            "id": 1203201028,
+            "id": 1013131252,
             "quantity": 1
           }
         ],
@@ -118542,20 +118542,6 @@
       {
         "consumed_items": [
           {
-            "id": 22776119,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 150,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 142248662,
             "quantity": 1
           }
@@ -118570,7 +118556,7 @@
       {
         "consumed_items": [
           {
-            "id": 1802344432,
+            "id": 22776119,
             "quantity": 1
           }
         ],
@@ -118578,7 +118564,7 @@
           6,
           1
         ],
-        "output_quantity": 50,
+        "output_quantity": 150,
         "possibilities": {}
       },
       {
@@ -118598,6 +118584,34 @@
       {
         "consumed_items": [
           {
+            "id": 1802344432,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 50,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1338046652,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 500,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
             "id": 453408860,
             "quantity": 1
           }
@@ -118612,7 +118626,7 @@
       {
         "consumed_items": [
           {
-            "id": 1338046652,
+            "id": 428362059,
             "quantity": 1
           }
         ],
@@ -118654,21 +118668,7 @@
       {
         "consumed_items": [
           {
-            "id": 428362059,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 500,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 1044047269,
+            "id": 683322490,
             "quantity": 1
           }
         ],
@@ -118682,7 +118682,7 @@
       {
         "consumed_items": [
           {
-            "id": 683322490,
+            "id": 1044047269,
             "quantity": 1
           }
         ],
@@ -118766,6 +118766,20 @@
       {
         "consumed_items": [
           {
+            "id": 1064817069,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 500,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
             "id": 555395604,
             "quantity": 1
           }
@@ -118794,35 +118808,7 @@
       {
         "consumed_items": [
           {
-            "id": 1064817069,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 500,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 1901286144,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 50,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 914845320,
             "quantity": 1
           }
         ],
@@ -118850,7 +118836,7 @@
       {
         "consumed_items": [
           {
-            "id": 1849205716,
+            "id": 914845320,
             "quantity": 1
           }
         ],
@@ -118858,7 +118844,7 @@
           6,
           1
         ],
-        "output_quantity": 500,
+        "output_quantity": 50,
         "possibilities": {}
       },
       {
@@ -118873,6 +118859,34 @@
           1
         ],
         "output_quantity": 500,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1849205716,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 500,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 2031310807,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 15,
         "possibilities": {}
       },
       {
@@ -118901,20 +118915,6 @@
           1
         ],
         "output_quantity": 50,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 2031310807,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 15,
         "possibilities": {}
       },
       {
@@ -118962,6 +118962,20 @@
       {
         "consumed_items": [
           {
+            "id": 1644054609,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 50,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
             "id": 543576414,
             "quantity": 1
           }
@@ -118977,20 +118991,6 @@
         "consumed_items": [
           {
             "id": 1911572067,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 50,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 1644054609,
             "quantity": 1
           }
         ],
@@ -119214,20 +119214,6 @@
       {
         "consumed_items": [
           {
-            "id": 346277395,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 50,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 1341694099,
             "quantity": 1
           }
@@ -119251,6 +119237,20 @@
           1
         ],
         "output_quantity": 15,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 346277395,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 50,
         "possibilities": {}
       },
       {
@@ -119466,20 +119466,6 @@
       {
         "consumed_items": [
           {
-            "id": 1591687260,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 15,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 793975188,
             "quantity": 1
           }
@@ -119495,6 +119481,20 @@
         "consumed_items": [
           {
             "id": 1795603932,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 15,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1591687260,
             "quantity": 1
           }
         ],
@@ -119536,20 +119536,6 @@
       {
         "consumed_items": [
           {
-            "id": 1173969147,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 15,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
             "id": 849875928,
             "quantity": 1
           }
@@ -119564,7 +119550,7 @@
       {
         "consumed_items": [
           {
-            "id": 1260359977,
+            "id": 1173969147,
             "quantity": 1
           }
         ],
@@ -119579,6 +119565,20 @@
         "consumed_items": [
           {
             "id": 855018787,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 15,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
+            "id": 1260359977,
             "quantity": 1
           }
         ],
@@ -119802,7 +119802,7 @@
       {
         "consumed_items": [
           {
-            "id": 1851820806,
+            "id": 842284155,
             "quantity": 1
           }
         ],
@@ -119816,7 +119816,7 @@
       {
         "consumed_items": [
           {
-            "id": 842284155,
+            "id": 1851820806,
             "quantity": 1
           }
         ],
@@ -119872,7 +119872,7 @@
       {
         "consumed_items": [
           {
-            "id": 2147367716,
+            "id": 1699265042,
             "quantity": 1
           }
         ],
@@ -119886,7 +119886,7 @@
       {
         "consumed_items": [
           {
-            "id": 1699265042,
+            "id": 2147367716,
             "quantity": 1
           }
         ],
@@ -120110,6 +120110,20 @@
       {
         "consumed_items": [
           {
+            "id": 2090523697,
+            "quantity": 1
+          }
+        ],
+        "level_requirements": [
+          6,
+          1
+        ],
+        "output_quantity": 1,
+        "possibilities": {}
+      },
+      {
+        "consumed_items": [
+          {
             "id": 1264098940,
             "quantity": 1
           }
@@ -120124,7 +120138,7 @@
       {
         "consumed_items": [
           {
-            "id": 2090523697,
+            "id": 799622109,
             "quantity": 1
           }
         ],
@@ -120153,20 +120167,6 @@
         "consumed_items": [
           {
             "id": 714197853,
-            "quantity": 1
-          }
-        ],
-        "level_requirements": [
-          6,
-          1
-        ],
-        "output_quantity": 1,
-        "possibilities": {}
-      },
-      {
-        "consumed_items": [
-          {
-            "id": 799622109,
             "quantity": 1
           }
         ],
