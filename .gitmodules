@@ -1,3 +1,4 @@
 [submodule "GameData/BitCraft_GameData"]
 	path = GameData/BitCraft_GameData
 	url = https://github.com/BitCraftToolBox/BitCraft_GameData.git
+	branch = sats-json
