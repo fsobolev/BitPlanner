@@ -1600,6 +1600,17 @@
           120
         ],
         "required_items": {
+          "1163107303": 1
+        },
+        "reward": 2500,
+        "experience": 5380.0
+      },
+      {
+        "levels": [
+          30,
+          120
+        ],
+        "required_items": {
           "1665899831": 10
         },
         "reward": 550,
